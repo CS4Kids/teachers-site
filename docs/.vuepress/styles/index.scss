@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300&display=swap');
+
+:root {
+    --font-family: 'Fredoka', sans-serif;
+    --c-bg: #EDF2F4;
+    --c-text: #2B2D42;
+    --c-bg-navbar: #2B2D42;
+    --c-bg-sidebar: #8D99AE;
+    --c-border: var(--c-text);
+    --c-text-accent: #D90429;
+    .navbar-item a:hover {
+        color: var(--c-text-accent);
+    }
+    .navbar, .site-name, .toggle-dark-button, a:hover {
+        color: var(--c-bg);
+    }
+    --c-brand: var(--c-text-accent);
+    --c-bg-arrow: var(--c-text-accent);
+}
+
+html.dark {
+    --c-bg: #2B2D42;
+    --c-text: #EDF2F4;
+    --c-text-accent: #EDF2F4;
+    --c-bg-navbar: #D90429;
+    --c-bg-sidebar: var(--c-bg);
+    --c-border: var(--c-text);
+    .navbar, .site-name, .toggle-dark-button, a:hover {
+        color: var(--c-text);
+    }
+    .navbar-item a:hover {
+        color: var(--c-text-accent);
+    }
+}
