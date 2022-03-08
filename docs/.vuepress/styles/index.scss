@@ -5,8 +5,8 @@
     --c-bg: #EDF2F4;
     --c-text: #2B2D42;
     --c-bg-navbar: #2B2D42;
-    --c-bg-sidebar: #8D99AE;
-    --c-border: var(--c-text);
+    --c-bg-sidebar: #EDF2F4;
+    --c-border: #dee3e4;
     --c-text-accent: #D90429;
     .navbar-item a:hover {
         color: var(--c-text-accent);
@@ -24,7 +24,7 @@ html.dark {
     --c-text-accent: #EDF2F4;
     --c-bg-navbar: #D90429;
     --c-bg-sidebar: var(--c-bg);
-    --c-border: var(--c-text);
+    --c-border: #3e4157;
     .navbar, .site-name, .toggle-dark-button, a:hover {
         color: var(--c-text);
     }
