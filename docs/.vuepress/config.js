@@ -1,7 +1,7 @@
 module.exports = {
     base: "/",
     head: [["link", { rel: "icon", href: "/favicon.ico" }]],
-    title: "CS4Kids",
+    title: "Computer Science for Kids",
     description:
       "Computer Science for Kids, lesson plans",
       plugins: [
@@ -34,6 +34,10 @@ module.exports = {
         {
           text: 'About',
           link: '/about/',
+        },
+        {
+          text: 'Textbook',
+          link: 'https://amazon.com',
         },
         
       ],
