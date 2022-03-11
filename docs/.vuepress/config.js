@@ -81,9 +81,7 @@ module.exports = {
         ],
         
         '/': [
-          '',        /* / */
-          'contact', /* /contact.html */
-          'about'    /* /about.html */
+         
         ]
       },
       navbar: [
