@@ -1,1 +1,1 @@
-# Welcome, teachers!
+# Welcome, explorers!

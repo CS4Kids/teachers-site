@@ -16,6 +16,9 @@
     }
     --c-brand: var(--c-text-accent);
     --c-bg-arrow: var(--c-text-accent);
+    a.router-link-active {  
+        color: var(--c-text-accent);
+    }
 }
 
 html.dark {
@@ -31,13 +34,14 @@ html.dark {
     .navbar-item a:hover {
         color: var(--c-text-accent);
     }
+    
 }
 
-h1, .sidebar-heading, .navbar {
+h1, .navbar {
     font-family: 'Dokdo', cursive;
 }
 //hard overrides here
-h1, .navbar site-name, .sidebar-item.sidebar-heading {
+h1, .navbar site-name {
     font-size: 2.5em !important;
 }
 
