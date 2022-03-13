@@ -1,7 +1,10 @@
+const { path } = require('@vuepress/utils')
+
 module.exports = {
     base: "/",
     head: [["link", { rel: "icon", href: "/favicon.ico" }]],
     title: "Computer Science for Kids",
+    theme: path.resolve(__dirname, './theme'),
     description:
       "Computer Science for Kids, lesson plans",
       plugins: [
@@ -16,7 +19,6 @@ module.exports = {
           { 
             preset: 'sass' 
           },
-          
         ], 
       ],
     themeConfig: {
@@ -69,7 +71,12 @@ module.exports = {
                 { text: 'Chapter 17', link: 'ch17',children: ['lesson plan','further resources'], },
                 { text: 'Chapter 18', link: 'ch18',children: ['lesson plan','further resources'], },
                 { text: 'Chapter 19', link: 'ch19',children: ['lesson plan','further resources'], },
-                { text: 'Chapter 20', link: 'ch20',children: ['lesson plan','further resources'], },
+                ],
+              },
+              {
+                text: '5: Building for Sustainability',
+                collapsible: true,
+                children: [ { text: 'Chapter 20', link: 'ch20',children: ['lesson plan','further resources'], },
                 { text: 'Chapter 21', link: 'ch21',children: ['lesson plan','further resources'], },
                 { text: 'Chapter 22', link: 'ch22',children: ['lesson plan','further resources'], },
                 { text: 'Chapter 23', link: 'ch23',children: ['lesson plan','further resources'], },
@@ -96,12 +103,16 @@ module.exports = {
           link: '/about/',
         },
         {
-          text: 'Textbook',
-          link: 'https://amazon.com',
+          text: 'For Parents',
+          link: '/parents/',
         },
         {
           text: 'For Teachers',
           link: '/teachers/',
+        },
+        {
+          text: 'Textbook',
+          link: 'https://amazon.com',
         },
         
       ],
