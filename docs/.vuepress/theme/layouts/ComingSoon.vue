@@ -31,7 +31,7 @@ h1 {
 }
 .splash {
   text-align: center;
-  font-family: 'Dokdo', cursive;
+  /*font-family: 'Dokdo', cursive;*/
   font-size: 2em;
 }
 </style>
