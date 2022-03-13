@@ -21,7 +21,7 @@ export default {
 </script>
 
 <style scoped>
-.grid { 
+/*.grid { 
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
   grid-gap: 20px;
@@ -43,5 +43,5 @@ export default {
   color: white;
   padding: 10px;
   width: 100%;
-  }
+  }*/
 </style>
