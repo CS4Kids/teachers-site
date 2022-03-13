@@ -15,7 +15,7 @@ export default {
 }
 </script>
 
-<style>
+<!--<style>
 .header-anchor {
   display: none;
 }
@@ -25,4 +25,4 @@ export default {
   margin: 0 auto;
   margin-top: 50%;
 }
-</style>
+</style>-->
