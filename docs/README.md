@@ -6,7 +6,4 @@ contributors: false
 layout: ComingSoonLayout
 ---
 
-# A textbook
-
-<p class="splash">Coming soon!</p>
-
+<h1 class="splash">A Textbook: Coming Soon</h1>
