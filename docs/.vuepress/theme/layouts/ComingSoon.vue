@@ -16,7 +16,7 @@ export default {
 </script>
 
 <style scoped>
-/*html, body {
+html, body {
   background: black;
   color: white;
 }
@@ -32,5 +32,5 @@ h1 {
 .splash {
   text-align: center;
   font-size: 2em;
-}*/
+}
 </style>
