@@ -1,5 +1,4 @@
 ---
-sidebar: false
 navbar: false
 lastUpdated: false
 contributors: false
