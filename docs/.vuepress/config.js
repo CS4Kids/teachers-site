@@ -40,7 +40,7 @@ module.exports = {
                 text: '2: The Glowing Moss',
                 children: [ { text: 'Chapter 4', link: 'ch4'},
                 { text: 'Chapter 5', link: 'ch5'},
-                { text: 'Chapter 6', link: 'ch5'},
+                { text: 'Chapter 6', link: 'ch6npm'},
                 ],
               },
               {
