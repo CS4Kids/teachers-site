@@ -26,7 +26,6 @@
           <input
             id="grid-first-name"
             type="text"
-            placeholder="Jane"
             :rules="rules"
             v-model="firstName"
             name="firstName"
@@ -40,7 +39,6 @@
           <input
             id="grid-last-name"
             type="text"
-            placeholder="Doe"
             :rules="rules"
             v-model="lastName"
             name="lastName"
@@ -53,7 +51,6 @@
           <input
             id="grid-email"
             type="email"
-            placeholder="my@email.com"
             :rules="rules"
             v-model="email"
             name="email"
@@ -68,7 +65,6 @@
             rows="10"
             id="grid-message"
             type="text"
-            placeholder="My message to you"
             :rules="rules"
             v-model="message"
             name="message"
