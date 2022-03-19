@@ -22,7 +22,7 @@
     
     
         <div>
-          <label  for="grid-first-name"
+          <label for="grid-first-name"
             >First Name</label
           >
           <input
@@ -37,7 +37,7 @@
         </div>
         
         <div>
-          <label>Last Name</label
+          <label for="grid-last-name">Last Name</label
           >
           <input
             id="grid-last-name"
@@ -51,7 +51,7 @@
         </div>
       
         <div>
-          <label>Email</label
+          <label for="grid-email">Email</label
           >
           <input
             id="grid-email"
