@@ -1,0 +1,157 @@
+<template>
+  <Layout class="container">
+
+   
+    <template #page>
+    
+    <h1>Contact Us</h1>
+
+    <div v-if="submitted">
+      <p>Thank you for your email, I will get back to you as soon as I can.</p>
+    </div>
+
+    <form
+      id="contact"
+      @submit.prevent="handleSubmit"
+      netlify
+      name="contact-me"
+      method="post"
+      data-netlify="true"
+      data-netlify-honeypot="bot-field"
+    >
+    
+      
+      <div>
+        
+        <div>
+          <label  for="grid-first-name"
+            >First Name</label
+          >
+          <input
+            id="grid-first-name"
+            type="text"
+            placeholder="Jane"
+            :rules="rules"
+            v-model="firstName"
+            name="firstName"
+            required
+          />
+        </div>
+        <div>
+          <label>Last Name</label
+          >
+          <input
+            id="grid-last-name"
+            type="text"
+            placeholder="Doe"
+            :rules="rules"
+            v-model="lastName"
+            name="lastName"
+            required
+          />
+        </div>
+      </div>
+      <div>
+        <div>
+          <label>Email</label
+          >
+          <input
+            id="grid-password"
+            type="email"
+            placeholder="my@email.com"
+            :rules="rules"
+            v-model="email"
+            name="email"
+            required
+          />
+        </div>
+      </div>
+      <div>
+        <div>
+          <label for="grid-message"
+            >Message</label
+          >
+          <textarea
+            cols="50"
+            rows="10"
+            id="grid-message"
+            type="text"
+            placeholder="My message to you"
+            :rules="rules"
+            v-model="message"
+            name="message"
+            required
+          ></textarea>
+        </div>
+      </div>
+
+      <div>
+        <div>
+          <button
+            type="submit"
+            :disabled="!valid"
+          >
+            Submit
+          </button>
+        </div>
+      </div>
+    </form>
+    </template>
+  </Layout>
+</template>
+
+<script>
+import Layout from '@vuepress/theme-default/lib/client/layouts/Layout.vue'
+
+export default {
+  name: "ContactLayout",
+  components: {
+    Layout,
+  },
+  data() {
+    return {
+      firstName: "",
+      lastName: "",
+      message: "",
+      email: "",
+      submitted: false,
+      valid: true,
+      rules: [
+        (firstName) => !!firstName,
+        (lastName) => !!lastName,
+        (message) => !!message,
+        (email) => !!email,
+        (v) => !!v || "This field is required",
+      ],
+    };
+  },
+  methods: {
+    encode(data) {
+      return Object.keys(data)
+        .map(
+          (key) => `${encodeURIComponent(key)}=${encodeURIComponent(data[key])}`
+        )
+        .join("&");
+    },
+    handleSubmit() {
+      fetch("/", {
+        method: "POST",
+        headers: { "Content-Type": "application/x-www-form-urlencoded" },
+        body: this.encode({
+          "form-name": "contact-me",
+          firstName: this.firstName,
+          lastName: this.lastName,
+          email: this.email,
+          message: this.message,
+        }),
+      })
+        .then(() => {
+          this.submitted = true;
+        })
+        .catch(() => {
+          alert("Sorry, there seems to have been an error.");
+        });
+    },
+  },
+};
+</script>

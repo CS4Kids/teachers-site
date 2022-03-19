@@ -5,8 +5,9 @@ module.exports = {
   extends: '@vuepress/theme-default',
   layouts: {
     Layout: path.resolve(__dirname, 'layouts/Layout.vue'),
-    KidsLayout: path.resolve(__dirname, 'layouts/Kids.vue'),
+    KidsLayout: path.resolve(__dirname, 'layouts/KidsLayout.vue'),
+    ContactLayout: path.resolve(__dirname, 'layouts/ContactLayout.vue'),
     AuthLayout: path.resolve(__dirname, 'layouts/AuthLayout.vue'),
-    ComingSoonLayout: path.resolve(__dirname, 'layouts/ComingSoon.vue'),
+    ComingSoonLayout: path.resolve(__dirname, 'layouts/ComingSoonLayout.vue'),
   },
 }
