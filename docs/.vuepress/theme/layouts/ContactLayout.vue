@@ -20,9 +20,7 @@
       data-netlify-honeypot="bot-field"
     >
     
-      
-      <div>
-        
+    
         <div>
           <label  for="grid-first-name"
             >First Name</label
@@ -50,8 +48,7 @@
             required
           />
         </div>
-      </div>
-      <div>
+      
         <div>
           <label>Email</label
           >
@@ -65,8 +62,7 @@
             required
           />
         </div>
-      </div>
-      <div>
+      
         <div>
           <label for="grid-message"
             >Message</label
@@ -83,9 +79,7 @@
             required
           ></textarea>
         </div>
-      </div>
-
-      <div>
+      
         <div>
           <button
             type="submit"
@@ -94,7 +88,7 @@
             Submit
           </button>
         </div>
-      </div>
+      
     </form>
     </template>
   </Layout>
