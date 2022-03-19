@@ -22,9 +22,7 @@
     
     
         <div>
-          <label for="grid-first-name"
-            >First Name</label
-          >
+          <label for="grid-first-name">First Name</label>
           <input
             id="grid-first-name"
             type="text"
@@ -37,8 +35,7 @@
         </div>
         
         <div>
-          <label for="grid-last-name">Last Name</label
-          >
+          <label for="grid-last-name">Last Name</label>
           <input
             id="grid-last-name"
             type="text"
@@ -51,8 +48,7 @@
         </div>
       
         <div>
-          <label for="grid-email">Email</label
-          >
+          <label for="grid-email">Email</label>
           <input
             id="grid-email"
             type="email"
@@ -65,9 +61,7 @@
         </div>
       
         <div>
-          <label for="grid-message"
-            >Message</label
-          >
+          <label for="grid-message">Message</label>
           <textarea
             cols="50"
             rows="10"
