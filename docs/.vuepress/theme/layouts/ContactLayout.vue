@@ -126,13 +126,13 @@ export default {
       fetch("/", {
         method: "POST",
         headers: { "Content-Type": "application/x-www-form-urlencoded" },
-        body: this.encode({
+        body: {
           "form-name": "contact-me",
           firstName: this.firstName,
           lastName: this.lastName,
           email: this.email,
           message: this.message,
-        }),
+        },
       })
         .then(() => {
           this.submitted = true;
