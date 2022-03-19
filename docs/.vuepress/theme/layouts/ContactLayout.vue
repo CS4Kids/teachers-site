@@ -22,7 +22,7 @@
     
     
         <div>
-          <label for="grid-first-name">First Name</label>
+          <label>First Name
           <input
             id="grid-first-name"
             type="text"
@@ -32,10 +32,11 @@
             name="firstName"
             required
           />
+          </label>
         </div>
         
         <div>
-          <label for="grid-last-name">Last Name</label>
+          <label>Last Name
           <input
             id="grid-last-name"
             type="text"
@@ -44,11 +45,11 @@
             v-model="lastName"
             name="lastName"
             required
-          />
+          /></label>
         </div>
       
         <div>
-          <label for="grid-email">Email</label>
+          <label>Email
           <input
             id="grid-email"
             type="email"
@@ -57,11 +58,11 @@
             v-model="email"
             name="email"
             required
-          />
+          /></label>
         </div>
       
         <div>
-          <label for="grid-message">Message</label>
+          <label>Message
           <textarea
             cols="50"
             rows="10"
@@ -72,7 +73,7 @@
             v-model="message"
             name="message"
             required
-          ></textarea>
+          ></textarea></label>
         </div>
       
         <div>
@@ -126,13 +127,13 @@ export default {
       fetch("/", {
         method: "POST",
         headers: { "Content-Type": "application/x-www-form-urlencoded" },
-        body: {
+        body: this.encode({
           "form-name": "contact-me",
           firstName: this.firstName,
           lastName: this.lastName,
           email: this.email,
           message: this.message,
-        },
+        }),
       })
         .then(() => {
           this.submitted = true;
