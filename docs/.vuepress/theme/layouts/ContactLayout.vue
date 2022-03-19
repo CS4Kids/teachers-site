@@ -35,6 +35,7 @@
             required
           />
         </div>
+        
         <div>
           <label>Last Name</label
           >
@@ -53,7 +54,7 @@
           <label>Email</label
           >
           <input
-            id="grid-password"
+            id="grid-email"
             type="email"
             placeholder="my@email.com"
             :rules="rules"
