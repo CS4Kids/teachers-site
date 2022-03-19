@@ -2,4 +2,3 @@ node_modules
 .temp
 .cache
 docs/.vuepress/dist/*
-docs/.vuepress/auth/auth_config.js
