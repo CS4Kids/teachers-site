@@ -2,7 +2,7 @@ const { path } = require('@vuepress/utils')
 
 module.exports = {
     base: "/",
-    head: [["link", { rel: "icon", href: "/favicon.ico" }]],
+    head: [["link", { rel: "icon", href: "/favicon.ico" }],["script", {src : "https://cdn.auth0.com/js/auth0-spa-js/1.13/auth0-spa-js.production.js"}]],
     title: "Computer Science for Kids",
     theme: path.resolve(__dirname, './theme'),
     description:
@@ -15,13 +15,11 @@ module.exports = {
             indexName: 'jenlooper',
             
           },
-          '@vuepress/plugin-palette',
-          { 
-            preset: 'sass' 
-          },
+          
         ], 
       ],
     themeConfig: {
+      darkMode: false,
       lastUpdated: "Last Updated",
       sidebar: {
         '/teachers/': [

@@ -1,4 +1,5 @@
 <template>
+<Particles/>
   <Layout>
     <template>
     </template>
@@ -7,10 +8,10 @@
 
 <script>
 import Layout from '@vuepress/theme-default/lib/client/layouts/Layout.vue'
-
+import Particles from "../components/Particles.vue";
 export default {
   components: {
-    Layout,
+    Layout, Particles
   },
 }
 </script>

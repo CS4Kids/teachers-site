@@ -6,6 +6,7 @@ module.exports = {
   layouts: {
     Layout: path.resolve(__dirname, 'layouts/Layout.vue'),
     KidsLayout: path.resolve(__dirname, 'layouts/Kids.vue'),
+    AuthLayout: path.resolve(__dirname, 'layouts/AuthLayout.vue'),
     ComingSoonLayout: path.resolve(__dirname, 'layouts/ComingSoon.vue'),
   },
 }
