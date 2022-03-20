@@ -19,7 +19,6 @@ module.exports = {
         ], 
       ],
     themeConfig: {
-      darkMode: false,
       lastUpdated: "Last Updated",
       sidebar: {
         '/teachers/': [
@@ -27,6 +26,7 @@ module.exports = {
             children: [
               {
                 text: '1: The Missing Fireflies',
+                collapsible: true,
                 children: [
                   { text: 'Chapter 1', link: 'ch1'},
                   { text: 'Chapter 2', link: 'ch2'},  
@@ -36,6 +36,7 @@ module.exports = {
               },
               {
                 text: '2: The Glowing Moss',
+                collapsible: true,
                 children: [ { text: 'Chapter 4', link: 'ch4'},
                 { text: 'Chapter 5', link: 'ch5'},
                 { text: 'Chapter 6', link: 'ch6npm'},
@@ -43,6 +44,7 @@ module.exports = {
               },
               {
                 text: '3: Geode Quest',
+                collapsible: true,
                 children: [ { text: 'Chapter 7', link: 'ch7'},
                 { text: 'Chapter 8', link: 'ch8'},
                 { text: 'Chapter 9', link: 'ch9'},
@@ -50,6 +52,7 @@ module.exports = {
               },
               {
                 text: '4: The Petrified Forest',
+                collapsible: true,
                 children: [ { text: 'Chapter 10', link: 'ch10'},
                 { text: 'Chapter 11', link: 'ch11'},
                 { text: 'Chapter 12', link: 'ch12'},
@@ -60,6 +63,7 @@ module.exports = {
               },
               {
                 text: '5: Assembling the Defenders',
+                collapsible: true,
                 children: [ { text: 'Chapter 16', link: 'ch16'},
                 { text: 'Chapter 17', link: 'ch17'},
                 { text: 'Chapter 18', link: 'ch18'},
@@ -68,6 +72,7 @@ module.exports = {
               },
               {
                 text: '5: Building for Sustainability',
+                collapsible: true,
                 children: [ { text: 'Chapter 20', link: 'ch20'},
                 { text: 'Chapter 21', link: 'ch21'},
                 { text: 'Chapter 22', link: 'ch22'},

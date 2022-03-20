@@ -17,6 +17,10 @@ export default {
   components: {
     Layout,
   },
+  mounted() {
+    const htmlEl = window?.document.querySelector('html')
+    htmlEl?.classList.toggle('dark', true)
+  }
 }
 </script>
 

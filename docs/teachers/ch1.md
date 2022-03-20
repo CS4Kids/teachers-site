@@ -51,20 +51,20 @@ Formative | Summative
 Research how decisions are made by engineers to build hardware and software solutions appropriate for the task at hand and for the environment where they will be embedded. Sketch out a design for an optimal trap for fireflies. | Write a summary of the trap's goals and outcome, and outline three ways that the trap would be designed to withstand outdoor conditions.
 
 ## Quiz Answers
->
-> Micro:Bit devices must be run on actual hardware
-> - True
-> - <span class="highlight">False</span>
->
-> The base color of the LED light on your Micro:Bit is
-> - <span class="highlight">Red</span>
-> - Blue
-> - White
->
-> Conditions in blocks allow your code to 
-> - <span class="highlight">help you make decisions</span>
-> - help you create lists
-> - run faster 
+
+Micro:Bit devices must be run on actual hardware
+ - True
+ - <span class="highlight">False</span>
+
+ The base color of the LED light on your Micro:Bit is
+ - <span class="highlight">Red</span>
+ - Blue
+ - White
+
+ Conditions in blocks allow your code to 
+ - <span class="highlight">help you make decisions</span>
+ - help you create lists
+ - run faster 
 
 ## More Resources/Materials
 

@@ -13,17 +13,9 @@ export default {
   components: {
     Layout, Particles
   },
+  mounted() {
+    const htmlEl = window?.document.querySelector('html')
+    htmlEl?.classList.toggle('dark', true)
+  }
 }
 </script>
-
-<!--<style>
-.header-anchor {
-  display: none;
-}
-
-.splash {
-  text-align: center;
-  margin: 0 auto;
-  margin-top: 50%;
-}
-</style>-->

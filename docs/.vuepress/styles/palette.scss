@@ -2,27 +2,18 @@
 
 :root {
     --font-family: 'Fredoka', sans-serif;
-    /*--c-bg: #EDF2F4;
+    --c-bg: #EDF2F4;
     --c-text: #2B2D42;
     --c-bg-navbar: #2B2D42;
     --c-bg-sidebar: #EDF2F4;
     --c-border: #dee3e4;
-    --c-text-accent: #D90429;*/
-    --c-bg: #2B2D42;
-    --c-text: #EDF2F4;
-    --c-text-accent: #EDF2F4;
-    --c-bg-navbar: #D90429;
-    --c-bg-sidebar: var(--c-bg);
-    --c-border: #3e4157;
-
+    --c-text-accent: #D90429;
     .navbar, .site-name, .toggle-dark-button, a:hover {
-        color: var(--c-text);
+        color: var(--c-bg);
     }
     .navbar-item a:hover {
         color: var(--c-text-accent);
     }
-
-
     --c-brand: var(--c-text-accent);
     --c-bg-arrow: var(--c-text-accent);
     a.router-link-active {  
@@ -31,6 +22,23 @@
 }
 
 
+/*dark mode*/
+
+html.dark {
+  --c-bg: #2B2D42;
+  --c-text: #EDF2F4;
+  --c-text-accent: #EDF2F4;
+  --c-bg-navbar: #D90429;
+  --c-bg-sidebar: var(--c-bg);
+  --c-border: #3e4157;
+  .navbar, .site-name, .toggle-dark-button, a:hover {
+      color: var(--c-text);
+  }
+  .navbar-item a:hover {
+      color: var(--c-text-accent);
+  }
+  
+}
 
 h1, .navbar {
     font-family: 'Dokdo', cursive;
@@ -38,6 +46,14 @@ h1, .navbar {
 //hard overrides here
 h1, .navbar site-name {
     font-size: 2.5em !important;
+}
+
+p, th, td, li { 
+    font-size: 1.2em !important;
+}
+
+.sidebar-item, .sidebar-item-children ul li {
+    font-size: 1em !important;
 }
 
 .navbar-items a, .site-name {
