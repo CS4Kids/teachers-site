@@ -44,7 +44,7 @@ Designing a 'trap' concept brings to mind the many ways that scientists tag anim
 
 ## Assessment
 
-In this chapter, the students are tasked with thinking about a hardware system and choosing the appropriate components to accomplish the goals of the system.
+In this chapter, the students are tasked with thinking about a hardware system and choosing the appropriate components to accomplish the goals of the system while considering its eventual use and context.
 
 Formative | Summative
 ---|---
