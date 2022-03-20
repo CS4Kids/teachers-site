@@ -30,21 +30,7 @@
     }
 }
 
-/*html.dark {
-    --c-bg: #2B2D42;
-    --c-text: #EDF2F4;
-    --c-text-accent: #EDF2F4;
-    --c-bg-navbar: #D90429;
-    --c-bg-sidebar: var(--c-bg);
-    --c-border: #3e4157;
-    .navbar, .site-name, .toggle-dark-button, a:hover {
-        color: var(--c-text);
-    }
-    .navbar-item a:hover {
-        color: var(--c-text-accent);
-    }
-    
-}*/
+
 
 h1, .navbar {
     font-family: 'Dokdo', cursive;
@@ -81,9 +67,6 @@ h1, .navbar site-name {
     color: var(--c-bg);
   }
   
-  
-  
-  
   #contact input[type="text"],
   #contact input[type="email"],
   #contact textarea {
@@ -110,32 +93,43 @@ h1, .navbar site-name {
     resize: none;
   }
   
-  #contact button[type="submit"] {
-    cursor: pointer;
-    border: none;
-    background: #4CAF50;
-    color: #FFF;
-    margin: 0 0 5px;
+  button {
+    background: gray;
+    border: 0;
+    color: white;
     padding: 10px;
     border-radius: 4px;
-
+    
   }
-  
-  #contact button[type="submit"]:hover {
-    background: #43A047;
-    -webkit-transition: background 0.3s ease-in-out;
-    -moz-transition: background 0.3s ease-in-out;
-    transition: background-color 0.3s ease-in-out;
-  }
-  
-  #contact button[type="submit"]:active {
-    box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.5);
-  }
-  
-  
   
   #contact input:focus,
   #contact textarea:focus {
     outline: 0;
     border: 1px solid #aaa;
   }
+
+  /*grid for cards*/
+  
+.grid { 
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  grid-gap: 20px;
+  align-items: stretch;
+  }
+.grid > article {
+  border-radius: 4px;
+  background-color: black;
+  z-index: 10;
+}
+.grid > article img {
+  max-width: 100%;
+}
+.text {
+  padding: 0 20px 20px;
+}
+.text > button {
+  width: 100%
+}
+#footer {
+  display:none;
+}
