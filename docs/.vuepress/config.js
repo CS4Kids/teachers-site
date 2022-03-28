@@ -67,16 +67,14 @@ module.exports = {
                 children: [ { text: 'Chapter 16', link: 'ch16'},
                 { text: 'Chapter 17', link: 'ch17'},
                 { text: 'Chapter 18', link: 'ch18'},
-                { text: 'Chapter 19', link: 'ch19'},
+        
                 ],
               },
               {
                 text: '5: Building for Sustainability',
                 collapsible: true,
-                children: [ { text: 'Chapter 20', link: 'ch20'},
-                { text: 'Chapter 21', link: 'ch21'},
-                { text: 'Chapter 22', link: 'ch22'},
-                { text: 'Chapter 23', link: 'ch23'},
+                children: [ { text: 'Chapter 19', link: 'ch19'},
+                { text: 'Chapter 20', link: 'ch20'},
                 ],
               },
               
