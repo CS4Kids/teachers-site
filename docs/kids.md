@@ -12,7 +12,7 @@ layout: KidsLayout
         <div class="text">
           <h3>The Firefly Trapper</h3>
           <p>Create a way to capture fireflies</p>
-          <button>Discover</button>
+          <a class="button" href="./assets/ch1-worksheet.pdf">Download Worksheet</a>
         </div>
       </article>
       <article>
