@@ -31,52 +31,49 @@ module.exports = {
                   { text: 'Chapter 1', link: 'ch1'},
                   { text: 'Chapter 2', link: 'ch2'},  
                   { text: 'Chapter 3', link: 'ch3'},
-                   
+                  { text: 'Chapter 4', link: 'ch4'},
                 ],
               },
               {
                 text: '2: The Glowing Moss',
                 collapsible: true,
-                children: [ { text: 'Chapter 4', link: 'ch4'},
-                { text: 'Chapter 5', link: 'ch5'},
-                { text: 'Chapter 6', link: 'ch6npm'},
+                children: [ 
+                  { text: 'Chapter 5', link: 'ch5'},
+                  { text: 'Chapter 6', link: 'ch6'},
+                  { text: 'Chapter 7', link: 'ch7'},
+                  { text: 'Chapter 8', link: 'ch8'},
                 ],
               },
               {
                 text: '3: Geode Quest',
                 collapsible: true,
-                children: [ { text: 'Chapter 7', link: 'ch7'},
-                { text: 'Chapter 8', link: 'ch8'},
-                { text: 'Chapter 9', link: 'ch9'},
+                children: [ 
+                  { text: 'Chapter 9', link: 'ch9'},
+                  { text: 'Chapter 10', link: 'ch10'},
+                  { text: 'Chapter 11', link: 'ch11'},
+                  { text: 'Chapter 12', link: 'ch12'},
                 ],
               },
               {
                 text: '4: The Petrified Forest',
                 collapsible: true,
-                children: [ { text: 'Chapter 10', link: 'ch10'},
-                { text: 'Chapter 11', link: 'ch11'},
-                { text: 'Chapter 12', link: 'ch12'},
-                { text: 'Chapter 13', link: 'ch13'},
-                { text: 'Chapter 14', link: 'ch14'},
-                { text: 'Chapter 15', link: 'ch15'},
+                children: [ 
+                  { text: 'Chapter 13', link: 'ch13'},
+                  { text: 'Chapter 14', link: 'ch14'},
+                  { text: 'Chapter 15', link: 'ch15'},
+                  { text: 'Chapter 16', link: 'ch16'},
                 ],
               },
               {
-                text: '5: Assembling the Defenders',
+                text: '5: Legends of the Field Mice',
                 collapsible: true,
-                children: [ { text: 'Chapter 16', link: 'ch16'},
-                { text: 'Chapter 17', link: 'ch17'},
-                { text: 'Chapter 18', link: 'ch18'},
-        
-                ],
-              },
-              {
-                text: '5: Building for Sustainability',
-                collapsible: true,
-                children: [ { text: 'Chapter 19', link: 'ch19'},
-                { text: 'Chapter 20', link: 'ch20'},
-                ],
-              },
+                children: [ 
+                  { text: 'Chapter 17', link: 'ch17'},
+                  { text: 'Chapter 18', link: 'ch18'},
+                  { text: 'Chapter 19', link: 'ch19'},
+                  { text: 'Chapter 20', link: 'ch20'},
+                ]
+              }
               
             ],
           },
