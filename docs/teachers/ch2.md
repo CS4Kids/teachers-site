@@ -36,6 +36,6 @@ The '||' operator in JavaScript signifies
 
 ## Solution Code: 
 
-The full solution codebase can be found [in the Microbit web site](https://makecode.microbit.org/_cxdAc3JHyUwp) and on [GitHub](https://github.com/CS4Kids/CS4Kids-Firefly-Refuge)
+The full solution codebase can be found [in the micro:bit web site](https://makecode.microbit.org/_cxdAc3JHyUwp) and on [GitHub](https://github.com/CS4Kids/CS4Kids-Firefly-Refuge)
 
 ## Assignment and Rubric

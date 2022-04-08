@@ -75,6 +75,6 @@ Micro:Bit devices must be run on actual hardware
 
 ## Solution Code
 
-The full solution codebase can be found [in the Microbit web site](https://makecode.microbit.org/_3sjgH4gxeLYH) and on [GitHub](https://github.com/CS4Kids/CS4Kids-firefly-trapper)
+The full solution codebase can be found [in the micro:bit web site](https://makecode.microbit.org/_3sjgH4gxeLYH) and on [GitHub](https://github.com/CS4Kids/CS4Kids-firefly-trapper)
 
 ## Assignment and Rubric
