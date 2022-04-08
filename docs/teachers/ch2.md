@@ -33,5 +33,9 @@ The '||' operator in JavaScript signifies
  - various types of sensors
 
 ## More Resources/Materials
-## Solution Code: https://makecode.microbit.org/_cxdAc3JHyUwp
+
+## Solution Code: 
+
+The full solution codebase can be found [in the Microbit web site](https://makecode.microbit.org/_cxdAc3JHyUwp) and on [GitHub](https://github.com/CS4Kids/CS4Kids-Firefly-Refuge)
+
 ## Assignment and Rubric
