@@ -13,10 +13,10 @@ This work is licensed under a Creative Commons Attribution-NonCommercial-ShareAl
 
 The CSTA outlines Practices common for the industry:
 
-P1. Fostering an Inclusive Computing Culture
-P2. Collaborating Around Computing
-P3. Recognizing and Defining Computational Problems
-P4. Developing and Using Abstractions
-P5. Creating Computational Artifacts
-P6. Testing and Refining Computational Artifacts 
-P7. Communicating About Computing
+- P1. Fostering an Inclusive Computing Culture
+- P2. Collaborating Around Computing
+- P3. Recognizing and Defining Computational Problems
+- P4. Developing and Using Abstractions
+- P5. Creating Computational Artifacts
+- P6. Testing and Refining Computational Artifacts 
+- P7. Communicating About Computing
