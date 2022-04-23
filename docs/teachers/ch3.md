@@ -19,16 +19,16 @@ Since a computing device may interact with interconnected devices within a syste
 
 Indentation is meaningful in JavaScript
 - true
-- <span class="highlight">false</a>
+- <span class="highlight">false</span>
 
 To send messages between only some devices, use a:
-- <span class="highlight">gated group</a>
+- <span class="highlight">gated group</span>
 - wire
 - encoded signal
 
 To discover and fix code problems and errors, use:
 - a manual
-- <span class="highlight">debugging tools</a>
+- <span class="highlight">debugging tools</span>
 - a radio signal
 
 ## More Resources/Materials
@@ -39,3 +39,4 @@ The full solution codebase can be found [in the micro:bit web site](https://make
 
 ## Assignment and Rubric
 
+Todo
