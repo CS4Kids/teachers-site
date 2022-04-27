@@ -7,13 +7,14 @@ module.exports = {
     theme: path.resolve(__dirname, './theme'),
     description:
       "Computer Science for Kids, lesson plans",
-      plugins: [
+      
+    plugins: [
         [
           '@vuepress/docsearch',
           {
-            apiKey: '9b7a092b1c2ced928fcb302010fd432d',
-            indexName: 'jenlooper',
-            
+            apiKey: '31059fbf1460d9eb3d374ba01171251d',
+            indexName: 'netlify_987e0ee0-53f6-4341-8a60-a41a45490b77_main_all',
+            appId: 'XA3NW25D4I'
           },
           
         ], 
