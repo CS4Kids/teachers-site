@@ -1,4 +1,5 @@
 const { path } = require('@vuepress/utils')
+const { defaultTheme } = require('@vuepress/theme-default')
 
 module.exports = {
     base: "/",
@@ -19,7 +20,7 @@ module.exports = {
           
         ], 
       ],*/
-    themeConfig: {
+      theme: defaultTheme({
       lastUpdated: "Last Updated",
       
       sidebar: {
@@ -114,6 +115,7 @@ module.exports = {
       
       
     },
+      )
   };
   
   
