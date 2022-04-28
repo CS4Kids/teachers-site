@@ -1,6 +1,6 @@
 ---
+navbar: true
 sidebar: false
-layout: KidsLayout
 ---
 
 # Welcome, Explorers!

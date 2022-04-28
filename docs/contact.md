@@ -1,7 +1,6 @@
 ---
 navbar: true
-sidenav: false
-layout: ContactLayout
+sidebar: false
 ---
 
 # Contact

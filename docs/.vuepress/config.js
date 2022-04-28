@@ -4,11 +4,11 @@ module.exports = {
     base: "/",
     head: [["link", { rel: "icon", href: "/favicon.ico" }],["script", {src : "https://cdn.auth0.com/js/auth0-spa-js/1.13/auth0-spa-js.production.js"}]],
     title: "Computer Science for Kids",
-    theme: path.resolve(__dirname, './theme'),
+    //theme: path.resolve(__dirname, './theme'),
     description:
       "Computer Science for Kids, lesson plans",
-      
-    plugins: [
+    
+    /*plugins: [
         [
           '@vuepress/docsearch',
           {
@@ -18,9 +18,10 @@ module.exports = {
           },
           
         ], 
-      ],
+      ],*/
     themeConfig: {
       lastUpdated: "Last Updated",
+      
       sidebar: {
         '/teachers/': [
           {

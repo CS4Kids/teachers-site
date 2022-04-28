@@ -1,6 +1,5 @@
 ---
 sidebar: false
-layout: Layout
 ---
 
 # About
