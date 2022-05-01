@@ -8,41 +8,39 @@ sidebar: false
 
 <main class="grid">
       <article>
-        <div>first</div>
         <div class="text">
-          <h3>The Firefly Trapper</h3>
+          <h3>1: The Firefly Trapper</h3>
+          <img class="homeImage" alt="firefly trapper simulation" :src="$withBase('./assets/ch1.png')"/>
           <p>Create a way to capture fireflies</p>
           <a class="button" href="./assets/ch1-worksheet.pdf">Download Worksheet</a>
         </div>
       </article>
       <article>
-        <div>second</div>
         <div class="text">
-          <h3>The Firefly Refuge</h3>
+         <h3>2: The Firefly Refuge</h3>
+         <img class="homeImage" alt="firefly refuge simulation" :src="$withBase('./assets/ch2.png')"/>
           <p>Redesign the trap into a home</p>
           <button>Discover</button>
         </div>
       </article>
       <article>
-        <div>third</div>
         <div class="text">
-          <h3>The Messenger</h3>
+          <h3>3: The Messenger</h3>
+          <img class="homeImage"  alt="firefly messenger simulation" :src="$withBase('./assets/ch3.png')"/>
           <p>Build a system that sends notifications</p>
           <button>Discover</button>
         </div>
       </article>
       <article>
-        <div>fourth</div>
         <div class="text">
-          <h3>The Glowing Moss</h3>
+          <h3>4: The Glowing Moss</h3>
           <p>Protect this rare species from thieves!</p>
           <button>Discover</button>
         </div>
       </article>
       <article>
-        <div>fifth</div>
         <div class="text">
-          <h3>Securing the Moss</h3>
+          <h3>5: Securing the Moss</h3>
           <p>Making a secure environment</p>
           <button>Discover</button>
         </div>

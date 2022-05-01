@@ -8,13 +8,15 @@
     --c-bg-sidebar: #EDF2F4;
     --c-border: #dee3e4;
     --c-text-accent: #D90429;
+    --c-brand: #D90429;
+    --content-width: 100%;
     .navbar, .site-name, .toggle-dark-button, a:hover {
         color: var(--c-bg);
     }
     .navbar-item a:hover {
         color: var(--c-text-accent);
     }
-    --c-brand: var(--c-text-accent);
+    
     --c-bg-arrow: var(--c-text-accent);
     a.router-link-active {  
         color: var(--c-text-accent);
@@ -39,6 +41,15 @@ html.dark {
   }
   
 }
+
+//scrollbar
+/* Works on Firefox */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: var(--c-text-accent) var(--c-text-accent);
+}
+
+
 
 h1, .navbar {
     font-family: 'Dokdo', cursive;
@@ -128,8 +139,8 @@ p, th, td, li {
   
 .grid { 
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-  grid-gap: 20px;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  grid-gap: 10px;
   align-items: stretch;
   }
 .grid > article {
@@ -156,3 +167,4 @@ p, th, td, li {
   background-color: yellow;
   color:black;
 }
+
