@@ -1,10 +1,10 @@
 ---
 navbar: true
 sidebar: false
+layout: KidsLayout
 ---
 
 # Welcome, Explorers!
-
 
 <main class="grid">
       <article>

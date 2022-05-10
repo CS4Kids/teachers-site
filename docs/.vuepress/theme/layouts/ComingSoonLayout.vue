@@ -17,4 +17,12 @@ import Particles from '../components/Particles.vue';
 .my-footer {
   text-align: center;
 }
+html {
+  background-color: #3e4157;
+}
+.theme-container.no-navbar .theme-default-content:not(.custom) > h1 {
+  margin-top: 0px;
+  padding-top: 1.5rem;
+}
 </style>
+
