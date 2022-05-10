@@ -1,7 +1,8 @@
 ---
 navbar: true
 sidenav: true
-lastUpdated: false
+lastUpdated: true
 contributors: false
 ---
 
+# Teachers

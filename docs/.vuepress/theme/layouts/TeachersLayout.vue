@@ -1,5 +1,6 @@
 <template style="lightMode">
   <Layout>
+    <template #sidenav></template>
     <template #page></template>
   </Layout>
 </template>

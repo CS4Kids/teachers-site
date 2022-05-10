@@ -1,7 +1,8 @@
 ---
 navbar: true
 sidebar: false
+layout: ContactLayout
 ---
 
-# Contact
+# Contact Us
 

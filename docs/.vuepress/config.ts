@@ -1,11 +1,10 @@
-const { path } = require('@vuepress/utils')
-const { defaultTheme } = require('@vuepress/theme-default')
+import { defineUserConfig } from 'vuepress'
+import { cs4kidsTheme } from './theme'
 
-module.exports = {
+export default defineUserConfig({
     base: "/",
     head: [["link", { rel: "icon", href: "/favicon.ico" }],["script", {src : "https://cdn.auth0.com/js/auth0-spa-js/1.13/auth0-spa-js.production.js"}]],
     title: "Computer Science for Kids",
-    //theme: path.resolve(__dirname, './theme'),
     description:
       "Computer Science for Kids, lesson plans",
     
@@ -20,8 +19,8 @@ module.exports = {
           
         ], 
       ],*/
-      theme: defaultTheme({
-      lastUpdated: "Last Updated",
+      theme: cs4kidsTheme({
+      lastUpdated: true,
       
       sidebar: {
         '/teachers/': [
@@ -116,6 +115,6 @@ module.exports = {
       
     },
       )
-  };
+  });
   
   

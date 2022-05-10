@@ -1,21 +1,20 @@
+<script setup>
+import ParentLayout from '@vuepress/theme-default/lib/client/layouts/Layout.vue'
+import Particles from '../components/Particles.vue';
+</script>
+
 <template>
-<Particles/>
-  <Layout>
-    <template>
+  <ParentLayout>
+    <template #page-bottom>
+      <div class="my-footer">Coming soon!</div>
     </template>
-  </Layout>
+  </ParentLayout>
+  <!--particles from https://codepen.io/Mertl/details/GexapP -->
+  <Particles/>
 </template>
 
-<script>
-import Layout from '@vuepress/theme-default/lib/client/layouts/Layout.vue'
-import Particles from "../components/Particles.vue";
-export default {
-  components: {
-    Layout, Particles
-  },
-  mounted() {
-    const htmlEl = window?.document.querySelector('html')
-    htmlEl?.classList.toggle('dark', true)
-  }
+<style lang="css">
+.my-footer {
+  text-align: center;
 }
-</script>
+</style>
