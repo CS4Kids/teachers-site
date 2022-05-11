@@ -1,6 +1,6 @@
 ---
 navbar: false
-sidebar: false
+sidebar: true
 lastUpdated: false
 contributors: false
 layout: ComingSoonLayout

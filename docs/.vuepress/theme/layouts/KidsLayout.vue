@@ -7,8 +7,8 @@ htmlEl?.classList.toggle('dark', true)
 
 <template>
  <ParentLayout>
-    <template #page-bottom>
-      <div class="my-footer">&copy; Jen Looper 2022</div>
+     <template #page-bottom>
+      <div class="page-footer">&copy; Jen Looper 2022</div>
     </template>
   </ParentLayout>
 </template>

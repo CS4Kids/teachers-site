@@ -1,16 +1,19 @@
-<template style="lightMode">
-  <Layout>
-    <template #sidenav></template>
+<template>
+  <ParentLayout>
+    <template #sidebar>hello</template>
     <template #page></template>
-  </Layout>
+    <template #page-bottom>
+      <div class="page-footer">&copy; Jen Looper 2022</div>
+    </template>
+  </ParentLayout>
 </template>
 
 <script>
-import Layout from '@vuepress/theme-default/lib/client/layouts/Layout.vue'
+import ParentLayout from '@vuepress/theme-default/lib/client/layouts/Layout.vue'
 
 export default {
   components: {
-    Layout,
+    ParentLayout,
   },
 }
 </script>

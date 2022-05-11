@@ -1,7 +1,5 @@
 <template>
-  <Layout class="container">
-
-   
+  <ParentLayout class="container">
     <template #page>
     
     <h1>Contact Us</h1>
@@ -82,17 +80,21 @@
         </div>
       
     </form>
-    </template>
-  </Layout>
+    </template> 
+
+  </ParentLayout>
+      
 </template>
 
+
+
 <script>
-import Layout from '@vuepress/theme-default/lib/client/layouts/Layout.vue'
+import ParentLayout from '@vuepress/theme-default/lib/client/layouts/Layout.vue'
 
 export default {
   name: "ContactLayout",
   components: {
-    Layout,
+    ParentLayout
   },
   data() {
     return {

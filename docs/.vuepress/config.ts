@@ -25,14 +25,13 @@ export default defineUserConfig({
       ],*/
       theme: cs4kidsTheme({
       lastUpdated: true,
-      
       sidebar: {
         '/teachers/': [
           {
             children: [
               {
                 text: '1: The Missing Fireflies',
-                collapsible: false,
+                collapsable: false,
                 children: [
                   { text: 'Chapter 1', link: 'ch1'},
                   { text: 'Chapter 2', link: 'ch2'},  
@@ -42,7 +41,7 @@ export default defineUserConfig({
               },
               {
                 text: '2: The Glowing Moss',
-                collapsible: false,
+                collapsable: false,
                 children: [ 
                   { text: 'Chapter 5', link: 'ch5'},
                   { text: 'Chapter 6', link: 'ch6'},
@@ -52,7 +51,7 @@ export default defineUserConfig({
               },
               {
                 text: '3: Geode Quest',
-                collapsible: false,
+                collapsable: false,
                 children: [ 
                   { text: 'Chapter 9', link: 'ch9'},
                   { text: 'Chapter 10', link: 'ch10'},
@@ -62,7 +61,7 @@ export default defineUserConfig({
               },
               {
                 text: '4: The Petrified Forest',
-                collapsible: false,
+                collapsable: false,
                 children: [ 
                   { text: 'Chapter 13', link: 'ch13'},
                   { text: 'Chapter 14', link: 'ch14'},
@@ -72,7 +71,7 @@ export default defineUserConfig({
               },
               {
                 text: '5: Legends of the Field Mice',
-                collapsible: false,
+                collapsable: false,
                 children: [ 
                   { text: 'Chapter 17', link: 'ch17'},
                   { text: 'Chapter 18', link: 'ch18'},

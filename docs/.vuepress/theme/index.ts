@@ -17,5 +17,6 @@ export const cs4kidsTheme = (options: DefaultThemeOptions): Theme => {
       TeachersLayout: path.resolve(__dirname, 'layouts/TeachersLayout.vue'), 
       ComingSoonLayout: path.resolve(__dirname, 'layouts/ComingSoonLayout.vue'),
       },
+     
   }
 }

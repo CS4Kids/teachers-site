@@ -16,11 +16,21 @@
     .navbar-item a:hover {
         color: var(--c-text-accent);
     }
-    
     --c-bg-arrow: var(--c-text-accent);
     a.router-link-active {  
         color: var(--c-text-accent);
     }
+    .page-footer {
+      text-align: center;
+      color: var(--c-bg);
+      padding: 1rem;
+      background-color: #2B2D42;
+    }
+    * {
+      scrollbar-width: thin;
+      scrollbar-color: var(--c-text-accent) var(--c-text-accent);
+    }
+    
 }
 
 
@@ -40,17 +50,22 @@ html.dark {
   .navbar-item a:hover {
       color: var(--c-text-accent);
   }
-  
+  .page-footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #D90429;
+  }
+  * {
+    scrollbar-width: thin;
+    scrollbar-color: var(--c-text-accent) var(--c-text-accent);
+  }
 }
 
-//scrollbar
-/* Works on Firefox */
-* {
-  scrollbar-width: thin;
-  scrollbar-color: var(--c-text-accent) var(--c-text-accent);
+
+//push the page footer to the bottom
+.page {
+  padding-bottom: 0px;
 }
-
-
 
 h1, .navbar {
     font-family: 'Dokdo', cursive;

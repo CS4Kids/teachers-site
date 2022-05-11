@@ -8,7 +8,7 @@ htmlEl?.classList.toggle('dark', true)
 <template>
   <ParentLayout>
     <template #page-bottom>
-      <div class="my-footer">Coming soon!</div>
+      <div class="page-footer">&copy; Jen Looper 2022</div>
     </template>
   </ParentLayout>
   <!--particles from https://codepen.io/Mertl/details/GexapP -->
@@ -16,12 +16,6 @@ htmlEl?.classList.toggle('dark', true)
 </template>
 
 <style lang="css">
-.my-footer {
-  text-align: center;
-}
-html {
-  background-color: #3e4157;
-}
 .theme-container.no-navbar .theme-default-content:not(.custom) > h1 {
   margin-top: 0px;
   padding-top: 1.5rem;
