@@ -3,7 +3,11 @@ import { cs4kidsTheme } from './theme'
 
 export default defineUserConfig({
     base: "/",
-    head: [["link", { rel: "icon", href: "/favicon.ico" }],["script", {src : "https://cdn.auth0.com/js/auth0-spa-js/1.13/auth0-spa-js.production.js"}]],
+    head: [
+      ["link", { rel: "icon", href: "/favicon.ico" }],
+      ["script", {src : "https://cdn.auth0.com/js/auth0-spa-js/1.13/auth0-spa-js.production.js"}],
+      ['link', { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css2?family=Dokdo&family=Fredoka:wght@400&display=swap' }],
+    ],
     title: "Computer Science for Kids",
     description:
       "Computer Science for Kids, lesson plans",
