@@ -7,8 +7,8 @@ htmlEl?.classList.toggle('dark', true)
 
 <template>
   <ParentLayout>
-    <template #page-bottom>
-      <div class="page-footer">&copy; Jen Looper 2022</div>
+    <template #page-top>
+      <div class="page-footer"><h1>Coming Soon</h1></div>
     </template>
   </ParentLayout>
   <!--particles from https://codepen.io/Mertl/details/GexapP -->
@@ -18,7 +18,7 @@ htmlEl?.classList.toggle('dark', true)
 <style lang="css">
 .theme-container.no-navbar .theme-default-content:not(.custom) > h1 {
   margin-top: 0px;
-  padding-top: 1.5rem;
+  padding-top: .5rem;
 }
 </style>
 

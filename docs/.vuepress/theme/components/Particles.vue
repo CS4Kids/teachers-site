@@ -101,3 +101,10 @@ export default {
     }
 }
 </script>
+
+<style>
+#canvas{
+  position: absolute;
+  top: 0;
+}
+</style>

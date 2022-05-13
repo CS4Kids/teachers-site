@@ -6,7 +6,12 @@ contributors: false
 layout: ComingSoonLayout
 ---
 
-<h1 class="splash">A Textbook: Coming Soon</h1>
+
+
+<p align="center"><img alt="title" src="assets/title.png"/></p>
 
 <canvas id="canvas"></canvas>
+
+
+
 
