@@ -91,11 +91,18 @@ p, th, td, li {
 .header-anchor {
     display: none;
 }
-  
+
+.splashLg {
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 50%;
+  font-size: 5rem !important;
+}
 .splash {
     text-align: center;
     margin: 0 auto;
     margin-top: 50%;
+    font-size: 2rem !important;
 }
 
 /*forms*/

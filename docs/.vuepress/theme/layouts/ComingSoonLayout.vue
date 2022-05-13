@@ -6,19 +6,19 @@ htmlEl?.classList.toggle('dark', true)
 </script>
 
 <template>
+ 
   <ParentLayout>
-    <template #page-top>
-      <div class="page-footer"><h1>Coming Soon</h1></div>
+ 
+    <template #navbar>
+      <div class="page-footer"><h3>Coming Soon: A New Textbook</h3></div>
     </template>
+    
+    <template #page-bottom>
+      <footer class="page-footer footer">&copy; Jen Looper 2022</footer>
+    </template>
+   
   </ParentLayout>
   <!--particles from https://codepen.io/Mertl/details/GexapP -->
-  <Particles/>
+   <Particles/>
 </template>
-
-<style lang="css">
-.theme-container.no-navbar .theme-default-content:not(.custom) > h1 {
-  margin-top: 0px;
-  padding-top: .5rem;
-}
-</style>
 

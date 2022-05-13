@@ -8,7 +8,9 @@ layout: ComingSoonLayout
 
 
 
-<p align="center"><img alt="title" :src="$withBase('./assets/title.png')"/></p>
+<h1 align="center" class="splashLg">Computer Science for Kids</h1>
+
+<p align="center" class="splash">a storytelling approach</p>
 
 <canvas id="canvas"></canvas>
 
