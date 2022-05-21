@@ -9,16 +9,16 @@
     </div>
 
     <form
-      id="contact"
+      id="form-passcode"
       @submit.prevent="handleSubmit"
       method="post"
     >
     
     
         <div>
-          <label>Passcode
+          <label>Enter your passcode:
           <input
-            id="passcode"
+            id="grid-passcode"
             type="password"
             :rules="rules"
             v-model="passcode"
@@ -82,6 +82,11 @@ export default {
 
 <style>
 input {
-    color: black
+        width: 100%;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        background: #FFF;
+        margin: 10px 0 10px;
+        padding: 10px;
     }
 </style>
