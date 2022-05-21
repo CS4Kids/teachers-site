@@ -18,8 +18,8 @@
         <div>
           <label>Passcode
           <input
-            id="grid-passcode"
-            type="text"
+            id="passcode"
+            type="password"
             :rules="rules"
             v-model="passcode"
             name="passcode"
