@@ -4,42 +4,28 @@
     
     <h1>Passcode Test</h1>
 
-    <div v-if="submitted">
-      <p>Passcode Accepted!</p>
-    </div>
+   
 
-    <form
-      id="form-passcode"
-      @submit.prevent="handleSubmit"
-      method="post"
-    >
-    
-    
-        <div>
-          <label>Enter your passcode:
-          <input
-            id="grid-passcode"
-            type="password"
-            :rules="rules"
-            v-model="passcode"
-            name="passcode"
-            required
-          />
-          </label>
-        </div>
-        
-        
-      
-        <div>
-          <button
-            type="submit"
-            :disabled="!valid"
-          >
-            Submit
-          </button>
-        </div>
-      
-    </form>
+    <form id="app" @submit="checkForm" method="post">
+  
+        <p v-if="errors.length">
+          <b>Please correct the following error(s):</b>
+          <ul>
+            <li v-for="error in errors">{{ error }}</li>
+          </ul>
+        </p>
+
+        <p>
+          <label for="name">Passcode: </label>
+          <input class="passcode-input" type="text" name="name" id="name" v-model="name">
+        </p>
+
+        <p>
+          <input type="submit" value="Submit">  
+        </p>
+
+      </form>
+
     </template> 
 
   </ParentLayout>
@@ -50,6 +36,7 @@
 
 <script>
 import ParentLayout from '@vuepress/theme-default/lib/client/layouts/Layout.vue'
+const apiUrl = '/.netlify/functions/passcode?name=';
 
 export default {
   name: "PasscodeLayout",
@@ -58,30 +45,36 @@ export default {
   },
   data() {
     return {
-      passcode: "",
-      submitted: false,
-      valid: true,
-      rules: [
-        (passcode) => !!passcode,
-        (v) => !!v || "This field is required",
-      ],
+      errors:[],
+      name:''
     };
   },
   methods: {
-    encode(data) {
-      return Object.keys(data)
-        .map(
-          (key) => `${encodeURIComponent(key)}=${encodeURIComponent(data[key])}`
-        )
-        .join("&");
-    },
+    checkForm:function(e) {
+      e.preventDefault();
+      this.errors = [];
+      if(this.name === '') {
+        this.errors.push("Product name is required.");
+      } else {
+        fetch(apiUrl+encodeURIComponent(this.name))
+        .then(async res => {
+          if(res.status === 204) {
+            alert('Ok!')
+          } else if(res.status === 400) {
+            let errorResponse = await res.json();
+            this.errors.push(errorResponse.error);
+          }
+        });
+      }
+    }
    
   },
+  
 };
 </script>
 
 <style>
-input {
+.passcode-input {
         width: 100%;
         border: 1px solid #ccc;
         border-radius: 4px;
