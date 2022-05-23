@@ -57,7 +57,7 @@ export default {
         this.errors.push("Please enter a passcode");
       } else {
         const res = await fetch(apiUrl+encodeURIComponent(this.queryPasscode))
-        this.response = res
+        this.response = await res.text();
       }
     }
    
