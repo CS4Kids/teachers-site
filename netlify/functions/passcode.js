@@ -5,16 +5,14 @@ exports.handler = async (event, context) => {
 
     if (PASSCODE == queryPasscode) {
       return {
-        statusCode: 200,
-        statusText: "Passcode correct!",
-       body: JSON.stringify({ message: "Passcode correct!" }),
+        status: 200,
+       body: "Passcode correct!",
       };
     }   
     else {
       return { 
-        statusCode: 200,
-        statusText: "Passcode invalid",
-        body: JSON.stringify({ message: "Passcode invalid" }),
+        status: 406,
+        body: "Passcode invalid",
 
       }
       }

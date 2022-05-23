@@ -4,10 +4,10 @@
     
     <h1>Passcode Test</h1>
 
-   
+    {{response}}
 
     <form id="app" @submit="checkForm" method="post">
-  
+ 
         <p v-if="errors.length">
           <ul>
             <li v-for="error in errors">{{ error }}</li>
@@ -45,23 +45,23 @@ export default {
   data() {
     return {
       errors:[],
-      queryPasscode:''
+      queryPasscode:'',
+      response: ''
     };
   },
   methods: {
-    checkForm:function(e) {
+    async checkForm(e) {
       e.preventDefault();
       this.errors = [];
       if(this.queryPasscode === '') {
-        this.errors.push("Please enter a passcodeß");
+        this.errors.push("Please enter a passcode");
       } else {
-        fetch(apiUrl+encodeURIComponent(this.queryPasscode))
-        .then(async res => {
-            console.log(res)
-            this.errors.push(res); 
-        });
+        const res = await fetch(apiUrl+encodeURIComponent(this.queryPasscode))
+        this.response = res
       }
     }
+   
+              
    
   },
   
