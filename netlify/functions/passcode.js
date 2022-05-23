@@ -11,7 +11,7 @@ exports.handler = async (event, context) => {
     }   
     else {
       return { 
-        statusCode: 406,
+        statusCode: 200,
         body: "Passcode invalid",
 
       }
