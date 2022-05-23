@@ -5,11 +5,13 @@ exports.handler = async (event, context) => {
 
     if (PASSCODE == queryPasscode) {
       return {
+        statusCode: 200,
         body: "Passcode correct!",
       };
     }   
     else {
       return { 
+        statusCode: 200,
         body: 'Passcode invalid'}
       }
     }
