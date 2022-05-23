@@ -13,6 +13,3 @@ exports.handler = async (event, context) => {
         body: 'Passcode invalid'}
       }
     }
-
-    
-}
