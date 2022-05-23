@@ -2,3 +2,6 @@ node_modules
 .temp
 .cache
 dist
+# Local Netlify folder
+.netlify
+.env
