@@ -1,8 +1,18 @@
-const { PASSCODE } = process.env;
-
 exports.handler = async (event, context) => {
-  return {
-    statusCode: 200,
-    body: PASSCODE,
-  };
-};
+  
+    const { PASSCODE } = process.env;
+    const queryPasscode = event.queryStringParameters.queryPasscode;
+
+    if (PASSCODE == queryPasscode) {
+      return {
+        body: "Passcode correct!",
+      };
+    }   
+    else {
+      return { 
+        body: 'Passcode invalid'}
+      }
+    }
+
+    
+}

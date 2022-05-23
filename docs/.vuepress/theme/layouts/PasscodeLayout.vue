@@ -9,7 +9,6 @@
     <form id="app" @submit="checkForm" method="post">
   
         <p v-if="errors.length">
-          <b>Please correct the following error(s):</b>
           <ul>
             <li v-for="error in errors">{{ error }}</li>
           </ul>
@@ -17,7 +16,7 @@
 
         <p>
           <label for="name">Passcode: </label>
-          <input class="passcode-input" type="text" name="name" id="name" v-model="name">
+          <input class="passcode-input" type="text" name="queryPasscode" id="queryPasscode" v-model="queryPasscode">
         </p>
 
         <p>
@@ -36,7 +35,7 @@
 
 <script>
 import ParentLayout from '@vuepress/theme-default/lib/client/layouts/Layout.vue'
-const apiUrl = '/.netlify/functions/passcode?name=';
+const apiUrl = '/.netlify/functions/passcode?queryPasscode=';
 
 export default {
   name: "PasscodeLayout",
@@ -46,24 +45,20 @@ export default {
   data() {
     return {
       errors:[],
-      name:''
+      queryPasscode:''
     };
   },
   methods: {
     checkForm:function(e) {
       e.preventDefault();
       this.errors = [];
-      if(this.name === '') {
+      if(this.queryPasscode === '') {
         this.errors.push("Product name is required.");
       } else {
-        fetch(apiUrl+encodeURIComponent(this.name))
+        fetch(apiUrl+encodeURIComponent(this.queryPasscode))
         .then(async res => {
-          if(res.status === 204) {
-            alert('Ok!')
-          } else if(res.status === 400) {
-            let errorResponse = await res.json();
-            this.errors.push(errorResponse.error);
-          }
+            let response = await res.json();
+            this.errors.push(response.body); 
         });
       }
     }
