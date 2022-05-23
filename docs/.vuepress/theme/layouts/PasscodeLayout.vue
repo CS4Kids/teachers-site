@@ -4,19 +4,17 @@
     
     <h1>Passcode Test</h1>
 
-    {{response}}
-
     <form id="app" @submit="checkForm" method="post">
  
-        <p v-if="errors.length">
+        <p v-if="messages.length">
           <ul>
-            <li v-for="error in errors">{{ error }}</li>
+            <li class="message" v-for="message in messages">{{ message }}</li>
           </ul>
         </p>
 
         <p>
           <label for="name">Passcode: </label>
-          <input class="passcode-input" type="text" name="queryPasscode" id="queryPasscode" v-model="queryPasscode">
+          <input class="passcode-input" maxlength="10" type="password" name="queryPasscode" id="queryPasscode" v-model="queryPasscode">
         </p>
 
         <p>
@@ -44,20 +42,20 @@ export default {
   },
   data() {
     return {
-      errors:[],
+      messages:[],
       queryPasscode:'',
-      response: ''
     };
   },
   methods: {
     async checkForm(e) {
       e.preventDefault();
-      this.errors = [];
+      this.messages = [];
       if(this.queryPasscode === '') {
-        this.errors.push("Please enter a passcode");
+        this.messages.push("Please enter a passcode");
       } else {
         const res = await fetch(apiUrl+encodeURIComponent(this.queryPasscode))
-        this.response = await res.text();
+        let response = await res.text();
+        this.messages.push(response);
       }
     }
    
@@ -77,4 +75,7 @@ export default {
         margin: 10px 0 10px;
         padding: 10px;
     }
+.message {
+  color: red;
+}
 </style>
