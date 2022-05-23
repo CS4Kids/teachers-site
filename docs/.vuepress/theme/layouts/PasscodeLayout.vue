@@ -53,14 +53,12 @@ export default {
       e.preventDefault();
       this.errors = [];
       if(this.queryPasscode === '') {
-        this.errors.push("Product name is required.");
+        this.errors.push("Please enter a passcodeß");
       } else {
         fetch(apiUrl+encodeURIComponent(this.queryPasscode))
         .then(async res => {
-          
-            let response = await res.json();
-            console.log(response)
-            this.errors.push(response.body); 
+            console.log(res)
+            this.errors.push(response); 
         });
       }
     }
