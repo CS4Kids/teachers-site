@@ -58,7 +58,7 @@ export default {
         fetch(apiUrl+encodeURIComponent(this.queryPasscode))
         .then(async res => {
             console.log(res)
-            this.errors.push(response); 
+            this.errors.push(res); 
         });
       }
     }
