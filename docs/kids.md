@@ -48,7 +48,6 @@ layout: KidsLayout
       <article>
         <div class="text">
           <h3>...more coming soon!</h3>
-          
         </div>
       </article>
     </main>
