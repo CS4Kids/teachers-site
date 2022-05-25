@@ -1,6 +1,3 @@
-<script setup>
-import ParentLayout from '@vuepress/theme-default/lib/client/layouts/Layout.vue'
-</script>
 
 <template>
   <ParentLayout>
@@ -9,3 +6,13 @@ import ParentLayout from '@vuepress/theme-default/lib/client/layouts/Layout.vue'
     </template>
   </ParentLayout>
 </template>
+
+
+<script>
+import ParentLayout from '@vuepress/theme-default/lib/client/layouts/Layout.vue'
+export default { 
+  components: {
+    ParentLayout
+  },
+}
+</script>

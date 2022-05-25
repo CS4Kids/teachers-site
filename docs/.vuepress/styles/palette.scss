@@ -30,7 +30,9 @@
       scrollbar-width: thin;
       scrollbar-color: var(--c-text-accent) var(--c-text-accent);
     }
-    
+    .grid > article {
+      background-color: white;
+    }
 }
 
 
@@ -58,6 +60,9 @@ html.dark {
   * {
     scrollbar-width: thin;
     scrollbar-color: var(--c-text-accent) var(--c-text-accent);
+  }
+  .grid > article {
+    background-color: black;
   }
 }
 
@@ -168,7 +173,6 @@ p, th, td, li {
   }
 .grid > article {
   border-radius: 4px;
-  background-color: black;
   z-index: 10;
 }
 .grid > article img {
