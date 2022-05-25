@@ -6,7 +6,7 @@ layout: KidsLayout
 
 # Welcome, Explorers!
 
-<!--<main class="grid">
+<main class="grid">
       <article>
         <div class="text">
           <h3>1: The Firefly Trapper</h3>
@@ -52,4 +52,3 @@ layout: KidsLayout
         </div>
       </article>
     </main>
--->
