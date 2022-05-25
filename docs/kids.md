@@ -6,7 +6,7 @@ layout: KidsLayout
 
 # Welcome, Explorers!
 
-<main class="grid">
+<!--<main class="grid">
       <article>
         <div class="text">
           <h3>1: The Firefly Trapper</h3>
@@ -46,11 +46,10 @@ layout: KidsLayout
         </div>
       </article>
       <article>
-        <!--<img src="/pix/samples/16l.jpg" alt="Sample photo">-->
         <div class="text">
           <h3>...more coming soon!</h3>
-          <!--<p>More projects are coming online soon!</p>
-          <button>Discover</button>-->
+          
         </div>
       </article>
     </main>
+-->
