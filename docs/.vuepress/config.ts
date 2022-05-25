@@ -1,6 +1,6 @@
 import { defineUserConfig } from 'vuepress'
 import { cs4kidsTheme } from './theme'
-
+import { path } from '@vuepress/utils'
 export default defineUserConfig({
     base: "/",
     head: [
@@ -11,7 +11,7 @@ export default defineUserConfig({
     title: "Computer Science for Kids",
     description:
       "Computer Science for Kids, lesson plans",
-    
+    templateBuild: path.resolve(__dirname, './buildTemplate/build.html'),
     /*plugins: [
         [
           '@vuepress/docsearch',
