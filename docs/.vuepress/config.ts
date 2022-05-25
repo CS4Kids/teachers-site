@@ -108,6 +108,10 @@ export default defineUserConfig({
           link: '/teachers/',
         },
         {
+          text: 'Forum',
+          link: 'https://cs4kids.disqus.com/'
+        },
+        {
           text: 'Textbook',
           link: 'https://amazon.com',
         },
