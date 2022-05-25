@@ -109,7 +109,7 @@ export default defineUserConfig({
         },
         {
           text: 'Forum',
-          link: 'https://cs4kids.disqus.com/'
+          link: 'https://github.com/CS4Kids/website/discussions'
         },
         {
           text: 'Textbook',
