@@ -73,33 +73,33 @@ contributors: false
         </div>
       </article>
     </div>
-    <h2>The Petrified Forest</h2>
+    <h2>Geode Quest</h2>
     <div class="grid">
       <article>
         <div class="text">
-          <h3>9: xxx</h3>
-          <p>Test your system</p>
+          <h3>9: Searching for Geodes</h3>
+          <p>Discover ways to quantify a dataset of rocks</p>
           <button>Discover</button>
         </div>
       </article>
       <article>
         <div class="text">
-          <h3>10: xxx</h3>
-          <p>Test your system</p>
+          <h3>10: The Rockhunt</h3>
+          <p>Sort your data and learn its secrets</p>
           <button>Discover</button>
         </div>
       </article>
       <article>
         <div class="text">
-          <h3>11: xxx</h3>
-          <p>Test your system</p>
+          <h3>11: The Stone Library</h3>
+          <p>Build a library for your stone collection</p>
           <button>Discover</button>
         </div>
       </article>
       <article>
         <div class="text">
-          <h3>12: xxx</h3>
-          <p>Test your system</p>
+          <h3>12: Hide Or Seek</h3>
+          <p>What data should remain private and what public?</p>
           <button>Discover</button>
         </div>
       </article>
