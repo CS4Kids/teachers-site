@@ -1,6 +1,8 @@
 ---
 sidebar: false
 layout: Layout
+lastUpdated: true
+contributors: false
 ---
 
 # About

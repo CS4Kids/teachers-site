@@ -31,9 +31,7 @@
       scrollbar-width: thin;
       scrollbar-color: var(--c-text-accent) var(--c-text-accent);
     }
-    .grid > article {
-      background-color: white;
-    }
+   
 }
 
 
@@ -45,6 +43,7 @@ html.dark {
   --c-text: #EDF2F4;
   --c-text-accent: #EDF2F4;
   --c-bg-navbar: #D90429;
+  --c-brand: #D90429;
   --c-bg-sidebar: var(--c-bg);
   --c-border: #3e4157;
   .navbar, .site-name, .toggle-dark-button, a:hover {
@@ -56,15 +55,13 @@ html.dark {
   .page-footer {
     text-align: center;
     padding: 1rem;
-    background-color: #D90429;
+    background-color: var(--c-brand);
   }
   * {
     scrollbar-width: thin;
     scrollbar-color: var(--c-text-accent) var(--c-text-accent);
   }
-  .grid > article {
-    background-color: black;
-  }
+ 
 }
 
 
@@ -72,13 +69,12 @@ html.dark {
 .page {
   padding-bottom: 0px;
 }
+.page-meta {
+  padding-top: 10rem;
+}
 
 h1, .navbar {
     font-family: 'Dokdo', cursive;
-}
-//hard overrides here
-h1, .navbar site-name {
-    font-size: 2.5em !important;
 }
 
 p, th, td, li { 
@@ -94,10 +90,10 @@ p, th, td, li {
     font-size: 2em !important;
 }
 
-.header-anchor {
+.external-link-icon {
     display: none;
 }
-
+/*homepage*/
 .splashLg {
   text-align: center;
   margin: 0 auto;
@@ -112,15 +108,15 @@ p, th, td, li {
 }
 
 /*forms*/
+input, textarea {
+  color: black;
+}
 .container {
     max-width: 400px;
     padding-top: 100px;
     width: 100%;
     margin: 0 auto;
     position: relative;
-  }
-  #contact h1 {
-    color: var(--c-bg);
   }
   
   #contact input[type="text"],
@@ -134,47 +130,39 @@ p, th, td, li {
     padding: 10px;
   }
   
-  #contact input[type="text"]:hover,
-  #contact input[type="email"]:hover,
-  #contact textarea:hover {
-    -webkit-transition: border-color 0.3s ease-in-out;
-    -moz-transition: border-color 0.3s ease-in-out;
-    transition: border-color 0.3s ease-in-out;
-    border: 1px solid #aaa;
-  }
-  
   #contact textarea {
     height: 100px;
     max-width: 100%;
     resize: none;
   }
   
-  .button {
-    background: gray;
+  button {
     border: 0;
     color: white;
     padding: 10px;
     border-radius: 4px;
-    
+    background-color: var(--c-brand);
   }
-  
-  #contact input:focus,
-  #contact textarea:focus {
-    outline: 0;
-    border: 1px solid #aaa;
-  }
-
   /*grid for cards*/
-  
+
+h2 {
+  padding-bottom: 3rem;
+  border: none;
+}
 .grid { 
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
   grid-gap: 10px;
   align-items: stretch;
+  
   }
 .grid > article {
   border-radius: 4px;
   z-index: 10;
+  background: var(--c-bg);
+  border-radius: 5px;
+  box-shadow:
+    5px 0 50px var(--c-brand),
 }
 .grid > article img {
   max-width: 100%;
@@ -197,8 +185,6 @@ p, th, td, li {
 }
 
 //error page
-
-
 
 .error {
   text-align: center;
@@ -316,5 +302,5 @@ p, th, td, li {
   color: black;
 }
 .message {
-color: red;
+  color: red;
 }

@@ -2,11 +2,14 @@
 navbar: true
 sidebar: false
 layout: KidsLayout
+lastUpdated: true
+contributors: false
 ---
 
 # Welcome, Explorers!
 
-<main class="grid">
+<h2>The Missing Fireflies</h2>
+      <div class="grid">
       <article>
         <div class="text">
           <h3>1: The Firefly Trapper</h3>
@@ -25,29 +28,79 @@ layout: KidsLayout
       </article>
       <article>
         <div class="text">
-          <h3>3: The Messenger</h3>
+          <h3>3: The Fireflies' Message</h3>
           <img class="homeImage"  alt="firefly messenger simulation" :src="$withBase('./assets/ch3.png')"/>
-          <p>Build a system that sends notifications</p>
+          <p>Build a system that can communicate messages</p>
           <button>Discover</button>
         </div>
       </article>
       <article>
         <div class="text">
-          <h3>4: The Glowing Moss</h3>
+          <h3>4: A Home For All</h3>
+          <p>Build a system that is suitable for new populations</p>
+          <button>Discover</button>
+        </div>
+      </article>
+      </div>
+      <h2>The Glowing Moss</h2>
+      <div class="grid">
+      <article>
+        <div class="text">
+          <h3>5: Goblin's Gold</h3>
           <p>Protect this rare species from thieves!</p>
           <button>Discover</button>
         </div>
       </article>
       <article>
         <div class="text">
-          <h3>5: Securing the Moss</h3>
-          <p>Making a secure environment</p>
+          <h3>6: Securing the Moss</h3>
+          <p>Making a secure environment to protect the moss</p>
           <button>Discover</button>
         </div>
       </article>
       <article>
         <div class="text">
-          <h3>...more coming soon!</h3>
+          <h3>7: The Whisper Network</h3>
+          <p>Encode and decode encrypted messages</p>
+          <button>Discover</button>
         </div>
       </article>
-    </main>
+      <article>
+        <div class="text">
+          <h3>8: A Well-Tested Solution</h3>
+          <p>Test your system</p>
+          <button>Discover</button>
+        </div>
+      </article>
+    </div>
+    <h2>The Petrified Forest</h2>
+    <div class="grid">
+      <article>
+        <div class="text">
+          <h3>9: xxx</h3>
+          <p>Test your system</p>
+          <button>Discover</button>
+        </div>
+      </article>
+      <article>
+        <div class="text">
+          <h3>10: xxx</h3>
+          <p>Test your system</p>
+          <button>Discover</button>
+        </div>
+      </article>
+      <article>
+        <div class="text">
+          <h3>11: xxx</h3>
+          <p>Test your system</p>
+          <button>Discover</button>
+        </div>
+      </article>
+      <article>
+        <div class="text">
+          <h3>12: xxx</h3>
+          <p>Test your system</p>
+          <button>Discover</button>
+        </div>
+      </article>
+    </div>

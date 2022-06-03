@@ -98,14 +98,14 @@ export default defineUserConfig({
         {
           text: 'About',
           link: '/about/',
-        },
-        {
-          text: 'For Parents',
-          link: '/parents/',
-        },
+        },      
         {
           text: 'For Teachers',
           link: '/teachers/',
+        },
+        {
+          text: 'Quests',
+          link: '/kids/',
         },
         {
           text: 'Forum',

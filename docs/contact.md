@@ -1,9 +1,9 @@
 ---
-navbar: true
 sidebar: false
 lastUpdated: true
-contributors: true
+contributors: false
 layout: ContactLayout
 ---
 
 # Contact Us
+

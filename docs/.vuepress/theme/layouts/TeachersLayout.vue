@@ -1,6 +1,5 @@
 <template>
   <ParentLayout>
-    <template #sidebar>hello</template>
     <template #page></template>
     <template #page-bottom>
       <div class="page-footer">&copy; Jen Looper 2022</div>

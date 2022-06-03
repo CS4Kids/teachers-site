@@ -1,13 +1,14 @@
 <template>
-  <ParentLayout class="container">
+  <ParentLayout>
+    
     <template #page>
     
-    <h1>Contact Us</h1>
+    <div class="container">
 
     <div v-if="submitted">
       <p>Thank you for your email, I will get back to you as soon as I can.</p>
     </div>
-
+   
     <form
       id="contact"
       @submit.prevent="handleSubmit"
@@ -58,16 +59,17 @@
       
         <div>
           <label>Message
-          <textarea
-            cols="50"
-            rows="10"
-            id="grid-message"
-            type="text"
-            :rules="rules"
-            v-model="message"
-            name="message"
-            required
-          ></textarea></label>
+            <textarea
+              cols="50"
+              rows="10"
+              id="grid-message"
+              type="text"
+              :rules="rules"
+              v-model="message"
+              name="message"
+              required
+            ></textarea>
+          </label>
         </div>
       
         <div>
@@ -80,10 +82,15 @@
         </div>
       
     </form>
+    </div>
+    
+    </template>     
+    
+    <template #page-bottom>
+      <footer class="page-footer footer">&copy; Jen Looper 2022</footer>
     </template> 
-
+  
   </ParentLayout>
-      
 </template>
 
 
