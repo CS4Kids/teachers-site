@@ -9,7 +9,7 @@ layout: ComingSoonLayout
 <h1 align="center" class="splashLg">Computer Science for Kids</h1>
 <p align="center" class="splash">a storytelling approach</p>
 
-<!--
+
 <div class="book">
     <div class="gap"></div>
         <div class="pages">
@@ -36,7 +36,7 @@ layout: ComingSoonLayout
             </div>
           </div>
         </div>
-        -->
+        
 <canvas id="canvas"></canvas>
 
 
