@@ -11,7 +11,7 @@
 
   </ParentLayout>
   <!--particles from https://codepen.io/Mertl/details/GexapP -->
-   <Particles/>
+  <Particles/>
 </template>
 
 <script>
