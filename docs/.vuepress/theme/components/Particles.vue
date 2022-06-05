@@ -1,6 +1,10 @@
+<template>
+<canvas id="canvas"></canvas>
+</template>
+
 <script>
 export default {
-    created() {
+    mounted() {
         let c = init("canvas"),
         w = (canvas.width = window.innerWidth),
         h = (canvas.height = window.innerHeight);
