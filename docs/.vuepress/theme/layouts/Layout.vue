@@ -2,7 +2,7 @@
 <template>
   <ParentLayout>
     <template #page-bottom>
-      <div class="page-bar">&copy; Jen Looper 2022</div>
+      <div class="footer">&copy; Jen Looper 2022</div>
     </template>
   </ParentLayout>
 </template>

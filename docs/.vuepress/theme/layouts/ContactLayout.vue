@@ -87,7 +87,7 @@
     </template>     
     
     <template #page-bottom>
-      <footer class="page-bar footer">&copy; Jen Looper 2022</footer>
+      <footer class="footer">&copy; Jen Looper 2022</footer>
     </template> 
   
   </ParentLayout>
