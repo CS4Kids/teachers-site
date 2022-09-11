@@ -54,17 +54,6 @@ Designing a 'trap' concept brings to mind the many ways that scientists tag anim
 
 - **Variable**: In programming, a variable is a value that can be changed. For example, a variable named 'x' can be changed to a different value. Variables are used to store values in memory.
 
-
-
-- **The Cloud**: A 'cloud' is a network of computers and devices that are connected to each other. We access the cloud every day when we check a service like Gmail. It can be differentiated from 'on premises' servers which reside on location.
-
-- **LED**: An LED is a "light emitting diode" that emits light when current runs through it. The 'hello world', or most basic program of a hardware project is often flashing an LED. Learn more [here](https://thinglearn.jenlooper.com/curriculum/led.html).
-
-
-
-
-- **Pins**: A pin is a physical connection between an electronic component and a breadboard.
-
 ---
 
 ### Assessment
@@ -89,9 +78,9 @@ Micro:Bit devices must be run on actual hardware
  - White
 
  Conditions in blocks allow your code to 
-  - run faster 
-  - help you create lists
-  - <span class="highlight">help you make decisions</span>
+  - Run faster 
+  - Help you create lists
+  - <span class="highlight">Help you make decisions</span>
 
 ---
 

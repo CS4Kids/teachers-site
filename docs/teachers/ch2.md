@@ -49,7 +49,7 @@ The Boolean data type can have one of two values:
 
 The full solution codebase can be found [in the micro:bit web site](https://makecode.microbit.org/_cxdAc3JHyUwp) and on [GitHub](https://github.com/CS4Kids/CS4Kids-Firefly-Refuge)
 
-### Assignment and Rubric
+### Assignment and Rubric: Feed Me!
 
 > Your firefly shelter is able to sense light and temperature levels in an environment, but one thing it does not provide is nourishment, which was recommended by the Guide. Have you ever wanted to build a “smart” or “connected” feeder for your pet? Now’s your chance! If you can, build a real device that can open and close a pet feeding device based on a button press or on a motion sensor. If you don’t have access to real devices, sketch a paper prototype of how you would build a pet feeder with a servo arm to open a door and dispense food. 
 
