@@ -14,7 +14,7 @@ export const cs4kidsTheme = (options: DefaultThemeOptions): Theme => {
       KidsLayout: path.resolve(__dirname, 'layouts/KidsLayout.vue'),
       ContactLayout: path.resolve(__dirname, 'layouts/ContactLayout.vue'),
       AuthLayout: path.resolve(__dirname, 'layouts/AuthLayout.vue'),
-      TeachersLayout: path.resolve(__dirname, 'layouts/TeachersLayout.vue'), 
+      TeachersLayout: path.resolve(__dirname, 'layouts/AuthLayout.vue'), 
       ComingSoonLayout: path.resolve(__dirname, 'layouts/ComingSoonLayout.vue'),
       PasscodeLayout: path.resolve(__dirname, 'layouts/PasscodeLayout.vue'),
       },
