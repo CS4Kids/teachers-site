@@ -10,6 +10,9 @@
     --c-text-accent: #D90429;
     --c-brand: #D90429;
     --content-width: 100%;
+    --c-bg-arrow: var(--c-text-accent);
+    --c-brand-light: var(--c-text);
+
     --bookAngle: 45deg;
     .navbar, .site-name, .toggle-dark-button, a:hover {
         color: var(--c-bg);
@@ -20,7 +23,7 @@
     .toggle-color-mode-button .icon {
       color: var(--c-bg);
     }
-    --c-bg-arrow: var(--c-text-accent);
+   
     a.router-link-active {  
         color: var(--c-text-accent);
     }
@@ -32,6 +35,10 @@
     * {
       scrollbar-width: thin;
       scrollbar-color: var(--c-text-accent) var(--c-text-accent);
+    }
+
+    a:hover {
+      color: var(--c-text);
     }
 
     
@@ -49,6 +56,7 @@ html.dark {
   --c-brand: #D90429;
   --c-bg-sidebar: var(--c-bg);
   --c-border: #3e4157;
+  --c-brand-light: var(--c-text);
   .navbar, .site-name, .toggle-dark-button, a:hover {
       color: var(--c-text);
   }
@@ -194,6 +202,12 @@ h2 {
 .highlight {
   background-color: yellow;
   color:black;
+}
+
+/* keep all links underlined in the main page for usability*/
+
+main a {
+  text-decoration: underline;
 }
 
 

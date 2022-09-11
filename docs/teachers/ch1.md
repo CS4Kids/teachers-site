@@ -116,5 +116,5 @@ The full solution codebase can be found [in the micro:bit web site](https://make
 
 Exemplary | Adequate | Needs Improvement 
 ---|---|---
-The student creates a creative prototype using the workshop that includes a design for hardware, software, and at least one other sensor | The student creates a prototype that lacks creativity or one of the required elements | The student creates only a basic prototype that lacks sophistication
+The student creates a creative prototype that includes a design for hardware, software, and at least one other sensor | The student creates a prototype that lacks creativity or one of the required elements | The student creates only a basic prototype that lacks sophistication
 

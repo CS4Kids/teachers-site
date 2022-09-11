@@ -29,19 +29,19 @@ Servo
 ### Quiz Answers
 
 A servo is used to 
- - Switch a switch on or off
- - <span class="highlight">Open and close a door or latch</span>
  - Control current
+ - Turn a switch on or off
+ - <span class="highlight">Open and close a door or latch</span>
 
-The '||' operator in JavaScript signifies
- - <span class="highlight">'or'</span>
- - 'and'
- - 'if'
+The Boolean data type can have one of two values:  
+ - <span class="highlight">true or false</span>
+ - `this` or `that`
+ - `if` or `and`
 
  HCI focuses on
- - help desks
- - <span class="highlight">interfaces between humans and computers</span>
- - various types of sensors
+ - Help desks
+ - Various types of sensors
+ - <span class="highlight">Interfaces between humans and computers</span>
 
 ### More Resources/Materials
 
@@ -51,6 +51,10 @@ The full solution codebase can be found [in the micro:bit web site](https://make
 
 ### Assignment and Rubric
 
+> Your firefly shelter is able to sense light and temperature levels in an environment, but one thing it does not provide is nourishment, which was recommended by the Guide. Have you ever wanted to build a “smart” or “connected” feeder for your pet? Now’s your chance! If you can, build a real device that can open and close a pet feeding device based on a button press or on a motion sensor. If you don’t have access to real devices, sketch a paper prototype of how you would build a pet feeder with a servo arm to open a door and dispense food. 
+
+> Complete this assignment by either building a real device with a servo to feed a real-life pet and documenting it, a paper prototype of the ideal feeder (with its documentation), or a paper prototype of a specialized feeder for fireflies in various stages, also with a design document. Take into account the device’s accessibility, ergonomics, and learnability, and how easily your feeder can be accessed by its target audience. 
+
 Exemplary | Adequate | Needs Improvement 
 ---|---|---
-The student creates a creative prototype using the workshop that includes a design for hardware, software, and at least one other sensor | The student creates a prototype that lacks creativity or one of the required elements | The student creates only a basic prototype that lacks sophistication
+The student creates a pet feeder prototype (either using hardware or paper) that includes a design for hardware, software, and at least one other sensor | The student creates a prototype that lacks creativity, does not work well, or one of the required elements | The student creates only a basic prototype that lacks sophistication
