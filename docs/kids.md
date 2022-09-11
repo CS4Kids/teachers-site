@@ -84,7 +84,7 @@ contributors: false
       </article>
       <article>
         <div class="text">
-          <h3>10: The Rockhunt</h3>
+          <h3>10: Cleaning and Quantifying the Collection</h3>
           <p>Sort your data and learn its secrets</p>
           <button>Discover</button>
         </div>
@@ -100,6 +100,68 @@ contributors: false
         <div class="text">
           <h3>12: Hide Or Seek</h3>
           <p>What data should remain private and what public?</p>
+          <button>Discover</button>
+        </div>
+      </article>
+    </div>
+    <h2>The Petrified Forest</h2>
+    <div class="grid">
+      <article>
+        <div class="text">
+          <h3>13: The Petrified Forest</h3>
+          <p>xxx</p>
+          <button>Discover</button>
+        </div>
+      </article>
+      <article>
+        <div class="text">
+          <h3>14: The Butterfly Brigade</h3>
+          <p>xxx</p>
+          <button>Discover</button>
+        </div>
+      </article>
+      <article>
+        <div class="text">
+          <h3>15: Power of the Weak</h3>
+          <p>xxx</p>
+          <button>Discover</button>
+        </div>
+      </article>
+      <article>
+        <div class="text">
+          <h3>16: The Written Artifact</h3>
+          <p>xxx</p>
+          <button>Discover</button>
+        </div>
+      </article>
+    </div>
+  <h2>Legends of the Field Mice</h2>
+    <div class="grid">
+      <article>
+        <div class="text">
+          <h3>17: The Field Mice</h3>
+          <p>xxx</p>
+          <button>Discover</button>
+        </div>
+      </article>
+      <article>
+        <div class="text">
+          <h3>18: Lights, Sounds, Action</h3>
+          <p>xxx</p>
+          <button>Discover</button>
+        </div>
+      </article>
+      <article>
+        <div class="text">
+          <h3>19: Unlocking the Vault</h3>
+          <p>xxx</p>
+          <button>Discover</button>
+        </div>
+      </article>
+      <article>
+        <div class="text">
+          <h3>20: The Real World</h3>
+          <p>xxx</p>
           <button>Discover</button>
         </div>
       </article>

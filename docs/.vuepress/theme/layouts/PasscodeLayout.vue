@@ -65,3 +65,22 @@ export default {
   
 };
 </script>
+
+<style>
+  //passcode
+
+.passcode-input {
+  width: 100%;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background: #FFF;
+  margin: 10px 0 10px;
+  padding: 10px;
+  color: black;
+}
+.message {
+  color: red;
+}
+
+
+</style>
