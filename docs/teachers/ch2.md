@@ -1,6 +1,6 @@
 # Lesson Plan: Chapter 2
 ---
-### Connecting to CSTA Standards
+#### Connecting to CSTA Standards
 
 Grades | Concept | Subconcept | Standard Number | Practice
 ---|---|---|---|---
@@ -8,14 +8,14 @@ Grades | Concept | Subconcept | Standard Number | Practice
 
 ---
 
-### Recommend improvements to the design of computing devices, based on an analysis of how users interact with the devices.
+#### Recommend improvements to the design of computing devices, based on an analysis of how users interact with the devices.
 
 The study of human–computer interaction (HCI) can improve the design of devices, including both hardware  and software. Students should make recommendations for existing devices (e.g., a laptop, phone, or tablet) or  design their own components or interface (e.g., create their own controllers). Teachers can guide students to  consider usability through several lenses, including accessibility, ergonomics, and learnability. For example,  assistive devices provide capabilities such as scanning written information and converting it to speech.
 
-### Learning Outcomes/Goals
-### Differentiated Instruction
-### Transfer Learning
-### Vocabulary
+#### Learning Outcomes/Goals
+#### Differentiated Instruction
+#### Transfer Learning
+#### Vocabulary
 
 Conditional 
 
@@ -25,8 +25,8 @@ HCI
 
 Servo 
 
-### Assessment
-### Quiz Answers
+#### Assessment
+#### Quiz Answers
 
 A servo is used to 
  - Control current
@@ -43,13 +43,13 @@ The Boolean data type can have one of two values:
  - Various types of sensors
  - <span class="highlight">Interfaces between humans and computers</span>
 
-### More Resources/Materials
+#### More Resources/Materials
 
-### Solution Code: 
+#### Solution Code: 
 
 The full solution codebase can be found [in the micro:bit web site](https://makecode.microbit.org/_cxdAc3JHyUwp) and on [GitHub](https://github.com/CS4Kids/CS4Kids-Firefly-Refuge)
 
-### Assignment and Rubric: Feed Me!
+#### Assignment and Rubric: Feed Me!
 
 > Your firefly shelter is able to sense light and temperature levels in an environment, but one thing it does not provide is nourishment, which was recommended by the Guide. Have you ever wanted to build a “smart” or “connected” feeder for your pet? Now’s your chance! If you can, build a real device that can open and close a pet feeding device based on a button press or on a motion sensor. If you don’t have access to real devices, sketch a paper prototype of how you would build a pet feeder with a servo arm to open a door and dispense food. 
 
