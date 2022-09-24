@@ -34,7 +34,13 @@ desc
 
 #### Vocabulary
 
-- **item**: desc 
+* Data 
+* Dataset 
+* Hexadecimal 
+* High-level vs. low-level abstraction 
+* RGB 
+* Spreadsheet 
+* Table
 
 
 

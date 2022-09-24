@@ -34,7 +34,9 @@ desc
 
 #### Vocabulary
 
-- **item**: desc 
+* Cryptography 
+* Encryption 
+* Steganography 
 
 
 

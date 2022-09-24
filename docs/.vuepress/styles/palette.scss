@@ -200,16 +200,17 @@ h4 {
   background: var(--c-bg);
   border-radius: 5px;
   box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+  padding: 0 20px 20px;
 }
 .grid > article img {
   max-width: 100%;
 }
-.text {
-  padding: 0 20px 20px;
+.grid > article .links {
+  display: block;
+  padding-bottom: 5px;
 }
-.text > button {
-  width: 100%
-}
+
+
 #footer {
   display:none;
 }

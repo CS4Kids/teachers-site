@@ -14,6 +14,14 @@ Students should test and discuss the usability of various technology tools (e.g.
 ## Differentiated Instruction
 ## Transfer Learning
 ## Vocabulary
+
+* Accessibility 
+* ‘alt’ attribute 
+* ARIA 
+* Lighthouse 
+* Screen reader 
+* Semantic HTML 
+
 ## Assessment
 ## Quiz Answers
 

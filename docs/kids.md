@@ -14,7 +14,8 @@ contributors: false
           <h3>1: The Firefly Trapper</h3>
           <img class="homeImage" alt="firefly trapper simulation" :src="$withBase('./assets/ch1.png')"/>
           <p>Create a way to capture fireflies</p>
-          <a class="button" href="./assets/ch1-worksheet.pdf">Download Worksheet</a>
+          <a class="links" href="./assets/ch1-worksheet.pdf">Download Worksheet</a>
+          <a class="links" href="https://github.com/CS4Kids/CS4Kids-Firefly-Trapper">Source Code</a>
         </div>
       </article>
       <article>
@@ -22,7 +23,7 @@ contributors: false
          <h3>2: The Firefly Refuge</h3>
          <img class="homeImage" alt="firefly refuge simulation" :src="$withBase('./assets/ch2.png')"/>
           <p>Redesign the trap into a home</p>
-          <button>Discover</button>
+          <a class="links" href="https://github.com/CS4Kids/CS4Kids-Firefly-Refuge">Source Code</a>
         </div>
       </article>
       <article>
@@ -30,7 +31,7 @@ contributors: false
           <h3>3: The Fireflies' Message</h3>
           <img class="homeImage"  alt="firefly messenger simulation" :src="$withBase('./assets/ch3.png')"/>
           <p>Build a system that can communicate messages</p>
-          <button>Discover</button>
+          <a class="links" href="https://github.com/CS4Kids/CS4Kids-Firefly-Refuge-Messenger">Source Code</a>
         </div>
       </article>
       <article>

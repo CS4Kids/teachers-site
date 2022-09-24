@@ -14,6 +14,12 @@ Since a computing device may interact with interconnected devices within a syste
 #### Differentiated Instruction
 #### Transfer Learning
 #### Vocabulary
+
+* Debugging 
+* HTTP 
+* Software architecture 
+* Wi-Fi 
+
 #### Assessment
 #### Quiz Answers
 

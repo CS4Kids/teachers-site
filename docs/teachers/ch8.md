@@ -34,7 +34,10 @@ desc
 
 #### Vocabulary
 
-- **item**: desc 
+* Integration test  
+* Regression test 
+* System test 
+* Unit test 
 
 
 

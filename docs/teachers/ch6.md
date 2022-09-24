@@ -34,7 +34,10 @@ desc
 
 #### Vocabulary
 
-- **item**: desc 
+* Animation 
+* Disaster recovery 
+* Passwords 
+* Security 
 
 
 
