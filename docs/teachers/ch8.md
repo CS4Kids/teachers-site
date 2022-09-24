@@ -1,14 +1,14 @@
-# Lesson Plan: Chapter 6
+# Lesson Plan: Chapter 8
 ---
 #### Connecting to CSTA Standards
 
 Grades | Concept | Subconcept | Standard Number | Practice
 ---|---|---|---|---
-6-8 | Networks & the Internet | Cybersecurity | 2-NI-05 | Communicating About Computing: 7.2 |
+6-8 | Algorithms & Programming | Program Development | 2-AP-17 | Testing and Refining Computational Artifacts: 6.1 |
 
-#### Explain how physical and digital security measures protect electronic information.
+#### Systematically test and refine programs using a range of test cases.
 
-Information that is stored online is vulnerable to unwanted access. Examples of physical security measures to protect data include keeping passwords hidden, locking doors, making backup copies on external storage devices, and erasing a storage device before it is reused. Examples of digital security measures include secure router admin passwords, firewalls that limit access to private networks, and the use of a protocol such as HTTPS to ensure secure data transmission.
+Use cases and test cases are created and analyzed to better meet the needs of users and to evaluate whether programs function as intended. At this level, testing should become a deliberate process that is more iterative, systematic, and proactive than at lower levels. Students should begin to test programs by considering potential errors, such as what will happen if a user enters invalid input (e.g., negative numbers and 0 instead of positive numbers).
 
 ---
 
@@ -80,8 +80,3 @@ Exemplary | Adequate | Needs Improvement
 ---|---|---
 The student creates a creative prototype that includes a design for hardware, software, and at least one other sensor | The student creates a prototype that lacks creativity or one of the required elements | The student creates only a basic prototype that lacks sophistication
 
-
-
-> Final Project
-
-https://makecode.com/_RsoWUVcgHAi0

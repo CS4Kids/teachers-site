@@ -1,14 +1,14 @@
-# Lesson Plan: Chapter 6
+# Lesson Plan: Chapter 7
 ---
 #### Connecting to CSTA Standards
 
 Grades | Concept | Subconcept | Standard Number | Practice
 ---|---|---|---|---
-6-8 | Networks & the Internet | Cybersecurity | 2-NI-05 | Communicating About Computing: 7.2 |
+6-8 | Networks & the Internet | Cybersecurity | 2-NI-06 | Developing and Using Abstractions: 4.4 |
 
-#### Explain how physical and digital security measures protect electronic information.
+#### Apply multiple methods of encryption to model the secure transmission of information.
 
-Information that is stored online is vulnerable to unwanted access. Examples of physical security measures to protect data include keeping passwords hidden, locking doors, making backup copies on external storage devices, and erasing a storage device before it is reused. Examples of digital security measures include secure router admin passwords, firewalls that limit access to private networks, and the use of a protocol such as HTTPS to ensure secure data transmission.
+Encryption can be as simple as letter substitution or as complicated as modern methods used to secure networks and the Internet. Students should encode and decode messages using a variety of encryption methods, and they should understand the different levels of complexity used to hide or secure information. For example, students could secure messages using methods such as Caesar cyphers or steganography (i.e., hiding messages inside a picture or other data). They can also model more complicated methods, such as public key encryption, through unplugged activities.
 
 ---
 
@@ -80,8 +80,3 @@ Exemplary | Adequate | Needs Improvement
 ---|---|---
 The student creates a creative prototype that includes a design for hardware, software, and at least one other sensor | The student creates a prototype that lacks creativity or one of the required elements | The student creates only a basic prototype that lacks sophistication
 
-
-
-> Final Project
-
-https://makecode.com/_RsoWUVcgHAi0

@@ -4,7 +4,7 @@
 
 Grades | Concept | Subconcept | Standard Number | Practice
 ---|---|---|---|---
-6-8 | Computing Systems | Impacts of Computing | 2.IC.21 | ? |
+6-8 | Impacts of Computing | Culture | 2-IC-21 | Fostering an Inclusive Computing Culture: 1.2 |
 
 ### Discuss issues of bias and accessibility in the design of existing technologies. 
 

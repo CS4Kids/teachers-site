@@ -4,7 +4,7 @@
 
 Grades | Concept | Subconcept | Standard Number | Practice
 ---|---|---|---|---
-6-8 | Computing Systems | Hardware and Software | 2-CS-02 | Creating Computational Artifacts 5.1 |
+6-8 | Computing Systems | Hardware & Software | 2-CS-02 | Creating Computational Artifacts 5.1 |
 
 #### Design projects that combine hardware and software components to collect and exchange data.
 

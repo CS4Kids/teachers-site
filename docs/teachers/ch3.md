@@ -4,7 +4,7 @@
 
 Grades | Concept | Subconcept | Standard Number | Practice
 ---|---|---|---|---
-6-8 | Computing Systems | Hardware and Software | 2-CS-03 | Troubleshooting 6.2 |
+6-8 | Computing Systems | Troubleshooting| 2-CS-03 | Testing and Refining Computational Artifacts: 6.2 |
 
 #### Systematically identify and fix problems with computing devices and their components.
 

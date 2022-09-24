@@ -170,6 +170,9 @@ h2 {
   padding-bottom: 3rem;
   border: none;
 }
+h4 {
+  font-weight: bold;
+}
 .grid { 
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));

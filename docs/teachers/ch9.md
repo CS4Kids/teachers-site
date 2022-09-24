@@ -1,14 +1,14 @@
-# Lesson Plan: Chapter 6
+# Lesson Plan: Chapter 9
 ---
 #### Connecting to CSTA Standards
 
 Grades | Concept | Subconcept | Standard Number | Practice
 ---|---|---|---|---
-6-8 | Networks & the Internet | Cybersecurity | 2-NI-05 | Communicating About Computing: 7.2 |
+6-8 | Data & Analysis | Storage | 2-DA-07 | Developing and Using Abstractions: 4 |
 
-#### Explain how physical and digital security measures protect electronic information.
+#### Represent data using multiple encoding schemes.
 
-Information that is stored online is vulnerable to unwanted access. Examples of physical security measures to protect data include keeping passwords hidden, locking doors, making backup copies on external storage devices, and erasing a storage device before it is reused. Examples of digital security measures include secure router admin passwords, firewalls that limit access to private networks, and the use of a protocol such as HTTPS to ensure secure data transmission.
+Data representations occur at multiple levels of abstraction, from the physical storage of bits to the arrangement of information into organized formats (e.g., tables). Students should represent the same data in multiple ways. For example, students could represent the same color using binary, RGB values, hex codes (low-level representations), as well as forms understandable by people, including words, symbols, and digital displays of the color (high-level representations).
 
 ---
 
@@ -80,8 +80,3 @@ Exemplary | Adequate | Needs Improvement
 ---|---|---
 The student creates a creative prototype that includes a design for hardware, software, and at least one other sensor | The student creates a prototype that lacks creativity or one of the required elements | The student creates only a basic prototype that lacks sophistication
 
-
-
-> Final Project
-
-https://makecode.com/_RsoWUVcgHAi0

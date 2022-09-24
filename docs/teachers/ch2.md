@@ -4,7 +4,7 @@
 
 Grades | Concept | Subconcept | Standard Number | Practice
 ---|---|---|---|---
-6-8 | Computing Systems | Hardware and Software | 2-CS-01 | Devices 3.3 |
+6-8 | Computing Systems | Devices | 2-CS-01 | Recognizing and Defining Computational Problems: 3.3 |
 
 ---
 
