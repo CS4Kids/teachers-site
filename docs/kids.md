@@ -1,7 +1,6 @@
 ---
 navbar: true
-sidebar: false
-layout: KidsLayout
+sidenav: false
 lastUpdated: true
 contributors: false
 ---

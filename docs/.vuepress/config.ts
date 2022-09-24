@@ -82,10 +82,6 @@ export default defineUserConfig({
               
             ],
           },
-        ],
-        
-        '/': [
-         
         ]
       },
       navbar: [
