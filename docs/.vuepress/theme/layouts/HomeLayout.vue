@@ -2,14 +2,7 @@
 <template> 
 <!--particles from https://codepen.io/Mertl/details/GexapP -->
   <Particles/>
-
-  <ParentLayout>
-   <template #navbar>
-      <div class="page-bar">
-        <h3>Coming Soon: A New Textbook</h3>
-      </div>
-    </template> 
-   </ParentLayout>
+  <ParentLayout/>
 </template>
  
 <script>

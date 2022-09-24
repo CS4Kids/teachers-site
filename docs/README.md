@@ -1,9 +1,9 @@
 ---
-navbar: false
+navbar: true
 sidebar: false
 lastUpdated: false
 contributors: false
-layout: ComingSoonLayout
+layout: HomeLayout
 ---
 
 <h1 align="center" class="splashLg">Computer Science for Kids</h1>

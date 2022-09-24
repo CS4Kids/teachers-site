@@ -5,6 +5,8 @@
     
     <div class="container">
 
+      <h1>Contact Us</h1>
+
     <div v-if="submitted">
       <p>Thank you for your email, I will get back to you as soon as I can.</p>
     </div>
@@ -86,9 +88,7 @@
     
     </template>     
     
-    <template #page-bottom>
-      <footer class="footer">&copy; Jen Looper 2022</footer>
-    </template> 
+   
   
   </ParentLayout>
 </template>
