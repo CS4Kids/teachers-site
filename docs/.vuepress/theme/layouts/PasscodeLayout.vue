@@ -67,8 +67,6 @@ export default {
 </script>
 
 <style>
-  //passcode
-
 .passcode-input {
   width: 100%;
   border: 1px solid #ccc;

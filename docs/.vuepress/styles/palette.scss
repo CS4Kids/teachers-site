@@ -1,5 +1,5 @@
-@import url('https://fonts.googleapis.com/css?family=Gilda+Display');
 /*light mode*/
+
 :root {
     --font-family: 'Fredoka', sans-serif;
     --c-bg: #EDF2F4;
@@ -12,8 +12,17 @@
     --content-width: 100%;
     --c-bg-arrow: var(--c-text-accent);
     --c-brand-light: var(--c-text);
-
     --bookAngle: 45deg;
+
+    //blue svg bg
+
+    .navbar {
+      background-color:transparent;
+      height: 5rem;
+      border-bottom: none;
+      background-image: url("data:image/svg+xml,%3Csvg width='100%25' height='100%25' id='svg' viewBox='0 0 1440 400' xmlns='http://www.w3.org/2000/svg' class='transition duration-300 ease-in-out delay-150'%3E%3Cpath d='M 0 400 C 0 400 0 100 0 100 C 203.0666666666666 78.80000000000001 406.1333333333332 57.60000000000001 560 63 C 713.8666666666668 68.39999999999999 818.5333333333335 100.39999999999999 957 111 C 1095.4666666666665 121.60000000000001 1267.7333333333331 110.80000000000001 1440 100 C 1440 100 1440 400 1440 400 Z' stroke='none' stroke-width='0' fill='%232B2D4233' class='transition-all duration-300 ease-in-out delay-150 path-0' transform='rotate(-180 720 200)'%3E%3C/path%3E%3Cpath d='M 0 400 C 0 400 0 200 0 200 C 160.40000000000003 212.26666666666665 320.80000000000007 224.53333333333333 496 218 C 671.1999999999999 211.46666666666667 861.2 186.13333333333333 1021 180 C 1180.8 173.86666666666667 1310.4 186.93333333333334 1440 200 C 1440 200 1440 400 1440 400 Z' stroke='none' stroke-width='0' fill='%232B2D4288' class='transition-all duration-300 ease-in-out delay-150 path-1' transform='rotate(-180 720 200)'%3E%3C/path%3E%3Cpath d='M 0 400 C 0 400 0 300 0 300 C 190.66666666666669 281.06666666666666 381.33333333333337 262.1333333333333 533 271 C 684.6666666666666 279.8666666666667 797.3333333333333 316.53333333333336 942 326 C 1086.6666666666667 335.46666666666664 1263.3333333333335 317.73333333333335 1440 300 C 1440 300 1440 400 1440 400 Z' stroke='none' stroke-width='0' fill='%232B2D42ff' class='transition-all duration-300 ease-in-out delay-150 path-2' transform='rotate(-180 720 200)'%3E%3C/path%3E%3C/svg%3E");
+    }
+
     .navbar, .site-name, .toggle-dark-button, a:hover {
         color: var(--c-bg);
     }
@@ -57,12 +66,25 @@ html.dark {
   --c-bg-sidebar: var(--c-bg);
   --c-border: #3e4157;
   --c-brand-light: var(--c-text);
+
+  //red svg bg
+  .navbar {
+    background-color:transparent;
+    height: 5rem;
+    border-bottom: none;
+    background-image: url("data:image/svg+xml,%3Csvg width='100%25' height='100%25' id='svg' viewBox='0 0 1440 400' xmlns='http://www.w3.org/2000/svg' class='transition duration-300 ease-in-out delay-150'%3E%3Cpath d='M 0 400 C 0 400 0 100 0 100 C 203.0666666666666 78.80000000000001 406.1333333333332 57.60000000000001 560 63 C 713.8666666666668 68.39999999999999 818.5333333333335 100.39999999999999 957 111 C 1095.4666666666665 121.60000000000001 1267.7333333333331 110.80000000000001 1440 100 C 1440 100 1440 400 1440 400 Z' stroke='none' stroke-width='0' fill='%23d9042966' class='transition-all duration-300 ease-in-out delay-150 path-0' transform='rotate(-180 720 200)'%3E%3C/path%3E%3Cpath d='M 0 400 C 0 400 0 200 0 200 C 160.40000000000003 212.26666666666665 320.80000000000007 224.53333333333333 496 218 C 671.1999999999999 211.46666666666667 861.2 186.13333333333333 1021 180 C 1180.8 173.86666666666667 1310.4 186.93333333333334 1440 200 C 1440 200 1440 400 1440 400 Z' stroke='none' stroke-width='0' fill='%23d9042988' class='transition-all duration-300 ease-in-out delay-150 path-1' transform='rotate(-180 720 200)'%3E%3C/path%3E%3Cpath d='M 0 400 C 0 400 0 300 0 300 C 190.66666666666669 281.06666666666666 381.33333333333337 262.1333333333333 533 271 C 684.6666666666666 279.8666666666667 797.3333333333333 316.53333333333336 942 326 C 1086.6666666666667 335.46666666666664 1263.3333333333335 317.73333333333335 1440 300 C 1440 300 1440 400 1440 400 Z' stroke='none' stroke-width='0' fill='%23d90429ff' class='transition-all duration-300 ease-in-out delay-150 path-2' transform='rotate(-180 720 200)'%3E%3C/path%3E%3C/svg%3E");
+
+    
+    }
+  
   .navbar, .site-name, .toggle-dark-button, a:hover {
       color: var(--c-text);
   }
   .navbar-item a:hover {
       color: var(--c-text-accent);
   }
+
+
  
   .page-bar {
     color: var(--c-text);
@@ -79,7 +101,7 @@ html.dark {
 }
 
 
-//push the page footer to the bottom
+/*push the page footer to the bottom*/
 .page {
   padding-bottom: 0px;
 }
@@ -164,7 +186,8 @@ input, textarea {
     border-radius: 4px;
     background-color: var(--c-brand);
   }
-  /*grid for cards*/
+  
+/*grid for cards*/
 
 h2 {
   padding-bottom: 3rem;

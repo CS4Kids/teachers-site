@@ -1,15 +1,30 @@
-<template>
-<div class="error">404</div>
-<br /><br />
-<span class="info">Sorry, are you lost?</span>
+<template> 
+ <ParentLayout/>
+  <div class="error"></div>
+  <br /><br />
+  <span class="info">Sorry, are you lost?</span>
 </template>
 
+<script>
+import ParentLayout from '@vuepress/theme-default/lib/client/layouts/Layout.vue'
+export default { 
+  components: {
+    ParentLayout
+  },
+}
+</script>
+
+
+
 <style>
-    //error page
+
+.theme-default-content {
+  display:none;
+}
 
 .error {
   text-align: center;
-  font-family: 'Gilda Display', serif;
+  font-family: 'Fredoka', serif;
   font-size: 95px;
   font-style: italic;
   text-align: center;
