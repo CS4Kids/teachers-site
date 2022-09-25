@@ -11,7 +11,7 @@ layout: HomeLayout
 
 <!-- flippy book from https://www.hackathonsurvivalguide.com/ as inspiration -->
 
-<div class="book">
+<!--<div class="book">
     <div class="gap"></div>
         <div class="pages">
           <div class="book-page"></div>
@@ -37,7 +37,7 @@ layout: HomeLayout
         </div>
       </div>
   </div>
-         
+   -->      
 
    
 

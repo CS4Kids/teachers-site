@@ -2,13 +2,23 @@
 <template> 
 <!--particles from https://codepen.io/Mertl/details/GexapP -->
   <Particles/>
-  <ParentLayout/>
+  <ParentLayout>
+    <template #page-bottom>
+      <div class="footer">&copy; Jen Looper {{ now }}</div>
+    </template>
+  </ParentLayout>
 </template>
  
 <script>
 import ParentLayout from '@vuepress/theme-default/lib/client/layouts/Layout.vue'
 import Particles from '../components/Particles.vue';
 export default { 
+  computed: {
+    now () {
+      let date = new Date().getFullYear();
+      return date
+    }
+  },
   components: {
     ParentLayout,
     Particles,
@@ -18,7 +28,7 @@ export default {
 </script>
 
 <style>
-h3 {
+/*h3 {
   position: relative;
   top: 20px;
 }
@@ -1140,5 +1150,5 @@ h3 {
   border-radius: 0 2px 2px 0;
   box-shadow: -10px 0 40px 10px #252525;
 }
-
+*/
 </style>
