@@ -1,7 +1,7 @@
 import { defineUserConfig } from 'vuepress'
 import { cs4kidsTheme } from './theme'
 import { path } from '@vuepress/utils'
-
+//require('dotenv').config();
 
 
 export default defineUserConfig({
@@ -27,6 +27,7 @@ export default defineUserConfig({
           
         ], 
       ],*/
+     
       theme: cs4kidsTheme({
       lastUpdated: true,
       sidebar: {
