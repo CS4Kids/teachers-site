@@ -3,6 +3,7 @@ navbar: true
 sidenav: true
 lastUpdated: true
 contributors: false
+layout: AuthLayout
 ---
 
 # Welcome, Teachers!

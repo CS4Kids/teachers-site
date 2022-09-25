@@ -1,4 +1,5 @@
 <template>
+  
   <div class="main-content">
     <div v-if="user">
       <p align="center">
@@ -34,7 +35,7 @@ export default {
   },
   components: {
     LoginButton,
-    LogoutButton
+    LogoutButton,
   },  
   async mounted(){
     this.auth0client = await auth.createClient();
