@@ -8,7 +8,7 @@ export default defineUserConfig({
     base: "/",
     head: [
       ["link", { rel: "icon", href: "/favicon.ico" }],
-      ["script", {src : "https://cdn.auth0.com/js/auth0-spa-js/1.13/auth0-spa-js.production.js"}],
+      //["script", {src : "https://cdn.auth0.com/js/auth0-spa-js/1.13/auth0-spa-js.production.js"}],
       ['link', { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css2?family=Dokdo&family=Fredoka:wght@400&display=swap' }],
     ],
     title: "Computer Science for Kids",
@@ -31,7 +31,7 @@ export default defineUserConfig({
       theme: cs4kidsTheme({
       lastUpdated: true,
       sidebar: {
-        '/teachers/': [
+        '/lessons/': [
           {
             children: [
               {
@@ -102,11 +102,11 @@ export default defineUserConfig({
         },      
         {
           text: 'For Teachers',
-          link: '/teachers/',
+          link: '/lessons/',
         },
         {
           text: 'Quests',
-          link: '/kids/',
+          link: '/quests/',
         },
         {
           text: 'Forum',
