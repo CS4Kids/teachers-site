@@ -1,6 +1,8 @@
 
 <template>
-  <ParentLayout>
+  <ParentLayout class="container">
+    <template #page>
+    </template>
     <template #page-bottom>
       <div class="footer">&copy; Jen Looper {{ now }}</div>
     </template>

@@ -6,6 +6,35 @@
     <template #page>
       <h1 class="splashLg">Computer Science for Kids</h1>
       <p align="center" class="splash">a storytelling approach</p>
+
+      <!-- flippy book from https://www.hackathonsurvivalguide.com/ as inspiration -->
+
+<div class="book">
+    <div class="gap"></div>
+        <div class="pages">
+          <div class="book-page"></div>
+          <div class="book-page"></div>
+          <div class="book-page"></div>
+          <div class="book-page"></div>
+          <div class="book-page"></div>
+          <div class="book-page"></div>
+      </div>
+      <div class="flips">
+        <div class="flip flip1">
+          <div class="flip flip2">
+            <div class="flip flip3">
+              <div class="flip flip4">
+                <div class="flip flip5">
+                  <div class="flip flip6">
+                    <div class="flip flip7"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+  </div>
     </template>
     <template #page-bottom>
       <div class="footer">&copy; Jen Looper {{ now }}</div>
@@ -32,7 +61,7 @@ export default {
 </script>
 
 <style>
-/*h3 {
+h3 {
   position: relative;
   top: 20px;
 }
@@ -1154,5 +1183,5 @@ export default {
   border-radius: 0 2px 2px 0;
   box-shadow: -10px 0 40px 10px #252525;
 }
-*/
+
 </style>
