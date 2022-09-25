@@ -5,7 +5,6 @@ async function createClient() {
     domain: config.domain,
     client_id: config.clientId
   });
-
   return auth0Client;
 }
 

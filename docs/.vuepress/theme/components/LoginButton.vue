@@ -9,7 +9,6 @@ export default {
     methods : {
         async login () {
             await auth.loginWithPopup(this.client);
-
             this.$emit('login-complete');
         }
     }

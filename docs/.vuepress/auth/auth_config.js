@@ -1,6 +1,6 @@
 const config = {
-    domain: "process.env.VUE_APP_DOMAIN",
-    clientId: "process.env.VUE_APP_CLIENTID",
+    domain: import.meta.env.VITE_DOMAIN,
+    clientId: import.meta.env.VITE_CLIENTID,
   };
   
   export default config;
