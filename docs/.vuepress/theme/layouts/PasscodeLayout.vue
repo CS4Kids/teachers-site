@@ -1,5 +1,5 @@
 <template>
-  <ParentLayout class="container">
+  <ParentLayout class="container form-container">
     <template #page>
     
     <h1>Passcode Test</h1>
