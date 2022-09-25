@@ -1,5 +1,5 @@
 <template> 
- <ParentLayout/>
+ <ParentLayout class="err"/>
   <div class="error"></div>
   <br /><br />
   <span class="info">Sorry, are you lost?</span>
@@ -18,7 +18,7 @@ export default {
 
 <style>
 
-.theme-default-content {
+.err .theme-default-content {
   display:none;
 }
 
