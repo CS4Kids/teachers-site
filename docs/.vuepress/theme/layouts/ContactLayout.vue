@@ -3,7 +3,7 @@
     
     <template #page>
     
-    <div class="container">
+    <div class="container form-container">
 
       <h1>Contact Us</h1>
 

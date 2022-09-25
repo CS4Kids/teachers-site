@@ -6,8 +6,6 @@ contributors: false
 layout: HomeLayout
 ---
 
-<h1 align="center" class="splashLg">Computer Science for Kids</h1>
-<p align="center" class="splash">a storytelling approach</p>
 
 <!-- flippy book from https://www.hackathonsurvivalguide.com/ as inspiration -->
 

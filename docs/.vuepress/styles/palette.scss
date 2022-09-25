@@ -131,7 +131,7 @@ p, th, td, li {
 /*homepage*/
 .splashLg {
   text-align: center;
-  font-size: 5rem !important;
+  font-size: 4rem !important;
 }
 .splash {
     text-align: center;
@@ -146,11 +146,14 @@ input, textarea {
   color: black;
 }
 .container {
-    max-width: 400px;
     padding-top: 100px;
     width: 100%;
     margin: 0 auto;
     position: relative;
+  }
+
+  .form-container {
+    max-width:400px;
   }
   
   #contact input[type="text"],
