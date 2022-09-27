@@ -46,7 +46,7 @@ Building on the work done in the prior chapter around building a firefly shelter
 
 Formative | Summative
 ---|---
-Research the ways that engineers build on their ideas by desiging, getting feedback, and then redesigning their projects and programs. | Write a summary of the effort to redesign the trap into a refuge. Discuss how the previous design was less inclusive than the subsequent redesign and explain how, going forward, new designs can be improved by better understanding users' needs.
+Research the ways that engineers build on their ideas by designing, getting feedback, and then redesigning their projects and programs. | Write a summary of the effort to redesign the trap into a refuge. Discuss how the previous design was less inclusive than the subsequent redesign and explain how, going forward, new designs can be improved by better understanding users' needs.
 
 #### Quiz Answers
 
