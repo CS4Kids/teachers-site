@@ -40,7 +40,7 @@ Troubleshooting is a typical activity in all areas of human interfacing with dev
 
 #### Assessment
 
-Students are tasked with understanding how building software is an iterative process that requires access to user feedback and debugging
+Students are tasked with understanding how building software is an iterative process that requires access to user feedback and debugging.
 
 Formative | Summative
 ---|---
