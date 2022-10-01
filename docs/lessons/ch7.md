@@ -14,7 +14,7 @@ Encryption can be as simple as letter substitution or as complicated as modern m
 
 #### Learning Outcomes/Goals
 
-desc
+One of the most entertaining aspects of childhood - sending secret messages - is explored in this chapter, in depth from a technical standpoint.
 
 ---
 
@@ -38,8 +38,6 @@ desc
 * Encryption 
 * Steganography 
 
-
-
 ---
 
 #### Assessment
@@ -54,9 +52,27 @@ Research how decisions are made by engineers to build hardware and software solu
 
 #### Quiz Answers
 
-Q
- - a
- - <span class="highlight">true b</span>
+Steganography allows you to hide a message in an audio or image file. 
+
+a.	<span class="highlight">True</span>  
+
+b.	False 
+
+Symmetric encryption is a method of encrypting data using:  
+
+a.	A public key  
+
+b.	An NFT  
+
+c.	<span class="highlight">A shared secret key</span> 
+
+Asymmetric encryption is a method of encrypting data using: 
+
+a.	<span class="highlight">Two keys</span>  
+
+b.	One private key  
+
+c.	One shared key 
 
 
 
@@ -70,15 +86,21 @@ Q
 
 #### Solution Code
 
-The full solution codebase can be found ...
+The decoded ants' message is "The moss is in the cave at 42.361145 latitude and -–71.057083 longitude” and the shift is 4+.
 
 ---
 
-#### Assignment and Rubric: Let's Go Outside
+#### Assignment and Rubric: Let's Encrypt
 
-> copy of assessment from book
+In this chapter, you learned about different methods of encryption used to protect data. Practice your knowledge by converting a message using an encryption technique of your choice, and challenging others to decipher it. Research and try:  
+
+- A Caesar cipher
+
+- A Vigenère cipher
+
+- An encryption technique of your choice
 
 Exemplary | Adequate | Needs Improvement 
 ---|---|---
-The student creates a creative prototype that includes a design for hardware, software, and at least one other sensor | The student creates a prototype that lacks creativity or one of the required elements | The student creates only a basic prototype that lacks sophistication
+The student creates an encrypted message and partners with a peer to try to decrypt it, noting the necessity of understanding the type of encryption used and the key needed, if brute force decryption proves fruitless | The student only creates an encrypted message but can explain the encryption type they used and the key needed to decrypt it | The student simply creates the encrypted message.
 

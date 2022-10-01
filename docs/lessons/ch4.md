@@ -54,21 +54,27 @@ Research the various ways that web sites can be made more accessible, performing
 
 Which one of these is an example of Semantic HTML?  
 
-- `<div>`  
-- <span class="highlight">`<header>`</span>
-- `<div role="button">` 
+a. `<div>`  
+
+b. <span class="highlight">`<header>`</span>
+
+c. `<div role="button">` 
 
 ARIA stands for: 
 
-- Additive Rich Internet Applications  
-- <span class="highlight">Assistive Rich Internet Applications</span> 
-- Assistive Ready Internet Applications 
+a. Additive Rich Internet Applications
+
+b. <span class="highlight">Assistive Rich Internet Applications</span> 
+
+c. Assistive Ready Internet Applications 
 
 Accessibility encompasses:  
 
-- Color contrast, motion awareness, and readability  
-- Alt tags, Semantic HTML, and well-written links  
-- <span class="highlight">Both the above</span> 
+a. Color contrast, motion awareness, and readability 
+
+b. Alt tags, Semantic HTML, and well-written links  
+
+c. <span class="highlight">Both the above</span> 
 
 ## More Resources/Materials
 

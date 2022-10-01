@@ -51,19 +51,28 @@ Research the ways that engineers build on their ideas by designing, getting feed
 #### Quiz Answers
 
 A servo is used to 
- - Control current
- - Turn a switch on or off
- - <span class="highlight">Open and close a door or latch</span>
+
+a. Control current
+
+b. Turn a switch on or off
+
+c. <span class="highlight">Open and close a door or latch</span>
 
 The Boolean data type can have one of two values:  
- - <span class="highlight">true or false</span>
- - `this` or `that`
- - `if` or `and`
+
+a. <span class="highlight">true or false</span>
+
+b. `this` or `that`
+
+c. `if` or `and`
 
  HCI focuses on
- - Help desks
- - Various types of sensors
- - <span class="highlight">Interfaces between humans and computers</span>
+
+a. Help desks
+
+b. Various types of sensors
+
+c. <span class="highlight">Interfaces between humans and computers</span>
 
 #### More Resources/Materials
 

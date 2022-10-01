@@ -49,18 +49,26 @@ Research the ways that engineers access feedback and debug their systems. Sketch
 #### Quiz Answers
 
 Micro:bit devices need an extra layer of hardware to connect to Wi-Fi.
-- <span class="highlight">True</span>
-- False
+
+a. <span class="highlight">True</span>
+
+b. False
 
 To send messages between only some devices, use:
-- A wire
-- <span class="highlight">A gated group</span>
-- An encoded signal
+
+a. A wire
+
+b. <span class="highlight">A gated group</span>
+
+c. An encoded signal
 
 To discover and fix code problems and errors, use:
-- A manual
-- <span class="highlight">Debugging tools</span>
-- A radio signal
+
+a. A manual
+
+b. <span class="highlight">Debugging tools</span>
+
+c. A radio signal
 
 #### More Resources/Materials
 

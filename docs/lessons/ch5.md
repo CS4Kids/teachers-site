@@ -58,25 +58,25 @@ Research a few important protocols, how they evolved, what they were designed to
 
 A tilemap is used to create a::  
 
-- A wall  
+a. A wall  
 
-- A hedge  
+b. A hedge  
 
-- <span class="highlight">Both Both of these</a> 
+c. <span class="highlight">Both Both of these</a> 
 
 The Internet is set up in a way to allow fallbacks in case of error or dropped connections. 
 
-- <span class="highlight">True</a>
+a. <span class="highlight">True</a>
 
-- False 
+b. False 
 
 TCP/IP is:  
 
-- A kind of server  
+a. A kind of server  
 
-- A kind of web site 
+b. A kind of web site 
 
-- <span class="highlight">A set of communication protocols</a>
+c. <span class="highlight">A set of communication protocols</a>
 
 ---
 

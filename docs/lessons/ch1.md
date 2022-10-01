@@ -69,18 +69,26 @@ Research how decisions are made by engineers to build hardware and software solu
 #### Quiz Answers
 
 Micro:Bit devices must be run on actual hardware
- - True
- - <span class="highlight">False</span>
+
+a. True
+
+b. <span class="highlight">False</span>
 
  The base color of the LED light on your Micro:Bit is
- - <span class="highlight">Red</span>
- - Blue
- - White
+
+a. <span class="highlight">Red</span>
+
+b. Blue
+
+c. White
 
  Conditions in blocks allow your code to 
-  - Run faster 
-  - Help you create lists
-  - <span class="highlight">Help you make decisions</span>
+
+a. Run faster 
+
+b. Help you create lists
+
+c. <span class="highlight">Help you make decisions</span>
 
 ---
 
