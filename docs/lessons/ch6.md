@@ -74,7 +74,7 @@ c.	<span class="highlight">Both of these</span>
 
 Which of the following are features of secure systems?
 
-a.	<span class="highlight">Firewalls</a> 
+a.	<span class="highlight">Firewalls</span> 
 
 b.	Clear text passwords  
 

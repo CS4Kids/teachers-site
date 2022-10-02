@@ -62,11 +62,11 @@ a. A wall
 
 b. A hedge  
 
-c. <span class="highlight">Both Both of these</a> 
+c. <span class="highlight">Both Both of these</span> 
 
 The Internet is set up in a way to allow fallbacks in case of error or dropped connections. 
 
-a. <span class="highlight">True</a>
+a. <span class="highlight">True</span>
 
 b. False 
 
@@ -76,7 +76,7 @@ a. A kind of server
 
 b. A kind of web site 
 
-c. <span class="highlight">A set of communication protocols</a>
+c. <span class="highlight">A set of communication protocols</span>
 
 ---
 
