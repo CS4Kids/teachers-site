@@ -14,7 +14,9 @@ Encryption can be as simple as letter substitution or as complicated as modern m
 
 #### Learning Outcomes/Goals
 
-One of the most entertaining aspects of childhood - sending secret messages - is explored in this chapter, in depth from a technical standpoint.
+One of the most entertaining aspects of childhood - sending secret messages - is explored in this chapter, in depth, from a technical standpoint. While the storyline is all about a secret language that ants use to transmit messages about locations of the special moss that they curate, secret codes and the need to encrypt and decrypt them securely has been a pertinent topic since ancient days. Learning about the various ways that messages can be encrypted and decrypted, following the metaphor of the ants' secret codes, will allow students to better understand how secrets are kept safe from prying eyes on the internet. 
+
+Students will learn about cryptography, in particular the use of the two most basic types of encryption, the Caesar cipher and the Vigenère cipher. Other ciphers are studied as well, and students learn about the need for keys to help decript the messages. By using various ways to try to decrypt the ants' secret message, first using a brute force technique of educated guesses, then trying frequency analysis. 
 
 ---
 
@@ -22,31 +24,33 @@ One of the most entertaining aspects of childhood - sending secret messages - is
 
 Lower level students | Higher level students
 ---|---
-Can complete the project recipe in the emulator and explain how they would enhance it | Can try the project on a real device and enhance it with a motion sensor
+Students should be able to understand the basics of the Caesar and Vigenère ciphers and how to crack them, perhaps using Cryptii.com as a tool to decipher them. | Students can study more challenging methods of cryptography, exploring modern methods and how they apply to the current state of the art.
 
 ---
 
 #### Transfer Learning
 
-desc
+Students can turn to history to explore how various messages have been encrypted and decrypted. The famous 'code crackers' of Bletchley Park, where Alan Turing worked during WWII, are celebrated at the National Museum of Computing's [web site](https://bletchleypark.org.uk). Learn how Julius Caesar, Giovan Battista Bellaso (the Vigenère cipher was his invention, and it was misattributed to Blaise de Vigenère in the 19th century), and others created their ciphers, and how they were cracked later. Is there such a things as an indecipherable ciper in today's world?
 
 ---
 
 #### Vocabulary
 
-* Cryptography 
-* Encryption 
-* Steganography 
+- **Cryptography**: From the Greek words for the study of secret writing, cryptography is the study of how to encrypt and decrypt secret messages by using various techniques spanning the realms of information technology and computer science.
+
+- **Encryption**: The process of encoding messages from plaintext to 'ciphertext', its encrypted version.
+
+- **Steganography**: A technique whereby a message can be cconcealed in another message, image, or other object
 
 ---
 
 #### Assessment
 
-desc
+Students should be able to describe a given cipher and show how it can be deciphered by the use of keys. They should understand the difference between public and private keys and how they work together.
 
 Formative | Summative
 ---|---
-Research how decisions are made by engineers to build hardware and software solutions appropriate for the task at hand and for the environment where they will be embedded. Sketch out a design for an optimal trap for fireflies. | Write a summary of the trap's goals and outcome, and outline three ways that the trap would be designed to withstand outdoor conditions.
+Research a cipher and write an essay of its use, its history, and how it can be deciphered, paying attention to its historical context and how it drew on prior history of cryptography. | Write a summary of how a given cipher can be cracked by use of various tools such as public or private keys
 
 ---
 
@@ -74,19 +78,23 @@ b.	One private key
 
 c.	One shared key 
 
-
-
 ---
 
 #### More Resources/Materials
 
-- list
+- [All about cryptographic keys](https://www.cloudflare.com/learning/ssl/what-is-a-cryptographic-key/)
+
+- [Symmetric keys](https://phemex.com/academy/what-is-symmetric-key-encryption)
+
+- [Algorithms used in cryptography](https://docs.aws.amazon.com/crypto/latest/userguide/concepts-algorithms.html)
+
+- [Explore various ways to encrypt and decrypt messages using this tool](https://criptii.com)
 
 ---
 
 #### Solution Code
 
-The decoded ants' message is "The moss is in the cave at 42.361145 latitude and -–71.057083 longitude” and the shift is 4+.
+The decoded ants' message is "The moss is in the cave at 42.361145 latitude and -–71.057083 longitude" and the shift is 4+. You can check this using a Caesar cipher with a shift of 4+ on Cryptii.com.
 
 ---
 
