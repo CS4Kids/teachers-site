@@ -98,9 +98,9 @@ The full solution codebase can be found on [GitHub](https://github.com/CS4Kids/C
 
 #### Assignment and Rubric: Draw the Map
 
-In this chapter, you learned about protocols and how they help the process of transmitting data across networks and the Internet. Protocols define how messages are transmitted, something like how you defined the best path for your sunbeam to travel to arrive at the moss. Now it’s time to apply your knowledge to the real world. Imagine that a message, stored in some server in the cloud, has to travel from that server to your inbox. 
+> In this chapter, you learned about protocols and how they help the process of transmitting data across networks and the Internet. Protocols define how messages are transmitted, something like how you defined the best path for your sunbeam to travel to arrive at the moss. Now it’s time to apply your knowledge to the real world. Imagine that a message, stored in some server in the cloud, has to travel from that server to your inbox. 
 
-Draw a map of the best, secure path for that message to take to arrive into your inbox, intact. Note that the message could be a large batch of text, an image, or a video. The message could also be coming from a server, and you want to receive it on your phone. Draw a map of a network to visualize your message’s route. Don’t forget to note the ways that messages can be corrupted or lost.  
+> Draw a map of the best, secure path for that message to take to arrive into your inbox, intact. Note that the message could be a large batch of text, an image, or a video. The message could also be coming from a server, and you want to receive it on your phone. Draw a map of a network to visualize your message’s route. Don’t forget to note the ways that messages can be corrupted or lost.  
 
 Exemplary | Adequate | Needs Improvement 
 ---|---|---

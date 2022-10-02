@@ -102,9 +102,9 @@ The full solution codebase can be found on [GitHub](https://github.com/CS4Kids/C
 
 #### Assignment and Rubric: Research a Secure Site
 
-In the real world, securing a site that is high-value like a bank or wallet is a race between the professionals who keep the site secure versus the hackers who are trying to break into the bank. Choose a website that has the ability to request user credentials such as a login form, sign-in form, and password reset form. 
+> In the real world, securing a site that is high-value like a bank or wallet is a race between the professionals who keep the site secure versus the hackers who are trying to break into the bank. Choose a website that has the ability to request user credentials such as a login form, sign-in form, and password reset form. 
 
-Explore its security mechanisms, including the way the site is protected against hackers on the frontend, according to what you can see from looking at the construction of the forms and using browser developer tools. Then, make some guesses about how the site is protected on the backend, using such things as firewalls, secure handling of sensitive user data, and physical backups. Research if (and how!) this site has ever been hacked (an Internet search can often turn up interesting information). 
+> Explore its security mechanisms, including the way the site is protected against hackers on the frontend, according to what you can see from looking at the construction of the forms and using browser developer tools. Then, make some guesses about how the site is protected on the backend, using such things as firewalls, secure handling of sensitive user data, and physical backups. Research if (and how!) this site has ever been hacked (an Internet search can often turn up interesting information). 
 
 Exemplary | Adequate | Needs Improvement 
 ---|---|---

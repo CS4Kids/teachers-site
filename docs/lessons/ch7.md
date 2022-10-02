@@ -100,7 +100,7 @@ The decoded ants' message is "The moss is in the cave at 42.361145 latitude and 
 
 #### Assignment and Rubric: Let's Encrypt
 
-In this chapter, you learned about different methods of encryption used to protect data. Practice your knowledge by converting a message using an encryption technique of your choice, and challenging others to decipher it. Research and try:  
+> In this chapter, you learned about different methods of encryption used to protect data. Practice your knowledge by converting a message using an encryption technique of your choice, and challenging others to decipher it. Research and try:  
 
 - A Caesar cipher
 

@@ -14,7 +14,9 @@ Use cases and test cases are created and analyzed to better meet the needs of us
 
 #### Learning Outcomes/Goals
 
-desc
+In this chapter, students learn about the important mandate to test software to discover bugs, fix them, and improve the quality of the product. The storyline talks about how the various parts of the moss-protection strategy seem to have fit together into a full system that could probably be tested so as to ensure that it continues to function as expected and keep the moss safe.
+
+Students discover the various types of testing, including unit tests, regression testing, integration testing, and a full system test. They are encouraged to look at a real software test that checks a form to check whether a field is filled in. This software can be found on [GitHub](https://github.com/CS4Kids/Sample-Test).
 
 ---
 
@@ -22,7 +24,7 @@ desc
 
 Lower level students | Higher level students
 ---|---
-Can complete the project recipe in the emulator and explain how they would enhance it | Can try the project on a real device and enhance it with a motion sensor
+x | y
 
 ---
 
@@ -39,11 +41,9 @@ desc
 * System test 
 * Unit test 
 
-
-
 ---
 
-#### Assessment
+#### Assessment: Time to Test
 
 desc
 
@@ -55,17 +55,35 @@ Research how decisions are made by engineers to build hardware and software solu
 
 #### Quiz Answers
 
-Q
- - a
- - <span class="highlight">true b</span>
+One Which one of of these is a testing framework: ? 
 
+a.	Playful 
 
+b.	Playpretty 
+
+c.	<span class="highlight">Playwright</span>
+
+TDD stands for:  
+
+a.	Taco-driven development 
+
+b.	<span class="highlight">Test-driven development</span>
+
+c.	Training-driven development
+
+A test can uncover faults in coding logic:  
+
+a. 	<span class="highlight">True</span> 
+
+b. 	False 
 
 ---
 
 #### More Resources/Materials
 
-- list
+- Testing on YouTube
+
+- Playwright
 
 ---
 
@@ -75,11 +93,11 @@ The full solution codebase can be found ...
 
 ---
 
-#### Assignment and Rubric: Let's Go Outside
+#### Assignment and Rubric: Time to Test
 
-> copy of assessment from book
+> Now that you have practiced designing a test suite for your Secure Moss prototype, create a five-part test suite outline for a system in real life. Find a web site that you can test. Think about the elements on the site that would benefit from having a solid test behind them. An example would be a login form on Fidelity.com, which has several fields and a button to log in. Even a simple form could have many tests to check for the integrity of the form. Use the attached worksheet on our web site to build out a suite for one element of a public-facing web site. 
 
 Exemplary | Adequate | Needs Improvement 
 ---|---|---
-The student creates a creative prototype that includes a design for hardware, software, and at least one other sensor | The student creates a prototype that lacks creativity or one of the required elements | The student creates only a basic prototype that lacks sophistication
+The student creates a five part test suite with detailed instructions on the elements to test, and how to handle their various states | The student creates a minimal test plan | The student fails to show the minimal plan with its various states outlined
 

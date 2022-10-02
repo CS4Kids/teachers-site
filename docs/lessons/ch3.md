@@ -86,9 +86,9 @@ The full solution codebase can be found [in the micro:bit web site](https://make
 
 #### Assignment and Rubric: How'd They Do This?
 
-Think about a piece of connected hardware or software program that exists in your home or school and try to backward-engineer the thought process that went into its development. Examples are a smart thermostat, a connected refrigerator, or even a fictional Internet-connected toaster that you imagine might exist. 
+> Think about a piece of connected hardware or software program that exists in your home or school and try to backward-engineer the thought process that went into its development. Examples are a smart thermostat, a connected refrigerator, or even a fictional Internet-connected toaster that you imagine might exist. 
 
-Construct a list to outline the development and testing processes needed to ensure that the device runs smoothly and that errors are handled. Start by describing what this program is designed to do, and then build a list or diagram showing the steps involved in the development process. Include the way that each step of the development process might have been tested to verify that it works. 
+> Construct a list to outline the development and testing processes needed to ensure that the device runs smoothly and that errors are handled. Start by describing what this program is designed to do, and then build a list or diagram showing the steps involved in the development process. Include the way that each step of the development process might have been tested to verify that it works. 
 
  Exemplary | Adequate | Needs Improvement 
 ---|---|---
