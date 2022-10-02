@@ -84,7 +84,7 @@ c.	Hard-coded passwords
 
 #### More Resources/Materials
 
--[W3 Schools cybersecurity chart](https://www.w3schools.com/cybersecurity/index.php)
+- [W3 Schools cybersecurity chart](https://www.w3schools.com/cybersecurity/index.php)
 
 - [A visual guide to Authentication](https://roadmap.sh/guides/basic-authentication)
 
