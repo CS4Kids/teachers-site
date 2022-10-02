@@ -24,32 +24,35 @@ Students discover the various types of testing, including unit tests, regression
 
 Lower level students | Higher level students
 ---|---
-x | y
+Students should be able to construct a fully-documented testing plan  | More advanced students can write a real test using Playwright
 
 ---
 
 #### Transfer Learning
 
-desc
+Students can explore various aspects of [software testing](https://www.youtube.com/c/QAMadness) in this YouTube channel.
 
 ---
 
 #### Vocabulary
 
-* Integration test  
-* Regression test 
-* System test 
-* Unit test 
+- **Integration test**: Designed to test a larger group of components, such as an entire authentication strategy
+
+- **Regression test**: Designed to catch bugs that appear as software changes, ensuring the quality of the software remains high over its evolution
+
+- **System test**: Designed to test an entire system
+
+- **Unit test**: Designed to test a single component of an application such as a login form
 
 ---
 
-#### Assessment: Time to Test
+#### Assessment
 
-desc
+Students should be able to write an entire testing strategy around a test and design a test suite to expose its weak points.
 
 Formative | Summative
 ---|---
-Research how decisions are made by engineers to build hardware and software solutions appropriate for the task at hand and for the environment where they will be embedded. Sketch out a design for an optimal trap for fireflies. | Write a summary of the trap's goals and outcome, and outline three ways that the trap would be designed to withstand outdoor conditions.
+Research how the various elements of a test suite are written | Write a summary of how the test suite designed in the lesson can be created and maintained
 
 ---
 
@@ -81,15 +84,21 @@ b. 	False
 
 #### More Resources/Materials
 
-- Testing on YouTube
+- [Software Testing Explained on YouTube](https://www.youtube.com/watch?v=oLc9gVM8FBM)
 
-- Playwright
+- [Playwright](https://playwright.dev/)
+
+- [Creating a test suite on Microsoft Azure](https://learn.microsoft.com/azure/devops/test/create-a-test-plan?view=azure-devops)
+
+- [Automation testing on Code Academy](https://www.codecademy.com/resources/blog/what-is-automation-testing/)
+
+- [A free trial for automated testing](https://smartbear.com/ppc/testcomplete/web-testing/?msclkid=3332095bcfe01c7f8f426a61c31b1692&gclsrc=ds)
 
 ---
 
 #### Solution Code
 
-The full solution codebase can be found ...
+The software to be tested and its test are found [on GitHub](https://github.com/CS4Kids/Sample-Test)
 
 ---
 
