@@ -14,7 +14,7 @@ Data representations occur at multiple levels of abstraction, from the physical 
 
 #### Learning Outcomes/Goals
 
-desc
+In this chapter, students start to work with data. In this case, the objective is to start sorting the stones tumbled around in the forest stream so as to start categorizing them, building an inventory. By working with the various data describing the stones, the student is encouraged to think about the many ways that an object or data point can be represeented. A rock, for example, can have a describable texture and color, but color itself can be described in many ways. You can show how color is represented in both low-level and high-level ways, describing the use case for each.
 
 ---
 
@@ -22,35 +22,41 @@ desc
 
 Lower level students | Higher level students
 ---|---
-Can complete the project recipe in the emulator and explain how they would enhance it | Can try the project on a real device and enhance it with a motion sensor
+Can create a sketch of an inventory sample set and convert it to a spreadsheet online using Google Sheets or Excel online, building graphs and charts | Can take a more complicated dataset and perform charting and graphing against it, enhancing it to show low and high level representations of various data
 
 ---
 
 #### Transfer Learning
 
-desc
+Data wrangling is the first task of any Data Scientist. Visit [kaggle.com](https://kaggle.com) and look at the various datasets available to the public. Download one and perform the same tasks from this lesson on this new dataset. What can you learn?
 
 ---
 
 #### Vocabulary
 
-* Data 
-* Dataset 
-* Hexadecimal 
-* High-level vs. low-level abstraction 
-* RGB 
-* Spreadsheet 
-* Table
+- **Data**: A collection of values that represent information.
+
+- **Dataset**: A collection of data (see above).
+
+- **Hexadecimal**: A numeral system that represents numbers using 16 as its base, such that the values 1-16 are represented as 0 to 9 and A-F. 
+
+- **High-level vs. low-level abstraction**: Generalizing information according to a high- or low-level context.
+
+- **RGB**: A color model where red, blue, and green are combined to form various shades.
+
+- **Spreadsheet**: Computer software designed to organize data in tabular format.
+
+- **Table**: Flat files with rows and columns of data represented.
 
 ---
 
 #### Assessment
 
-desc
+Students can be assessed on their grasp of managing spreadsheets
 
 Formative | Summative
 ---|---
-Research how decisions are made by engineers to build hardware and software solutions appropriate for the task at hand and for the environment where they will be embedded. Sketch out a design for an optimal trap for fireflies. | Write a summary of the trap's goals and outcome, and outline three ways that the trap would be designed to withstand outdoor conditions.
+Research how spreadsheets are used in business applications or to wrangle other types of data. | Write a summary of the different ways that spreadsheets can be used to represent different aspects of data.
 
 ---
 
@@ -92,15 +98,15 @@ c. 	<span class="highlight">Organizing data in a table format</span>
 
 #### Solution Code
 
-The full solution codebase can be found ...
+A sample dataset and spreadsheet can be found [here](https://docs.google.com/spreadsheets/d/109-W4dDIzDeqZuxB9TrumgV6XbmZK0PLd3sf4LmTZqM/edit?usp=sharing)
 
 ---
 
 #### Assignment and Rubric: Representing Data
 
-> Data can be represented in many different ways. Geodes, for example, come in many shapes and forms, with different types of crystals inside. Colors can be represented by RGB or HEX, and sizes can be represented by millimeters or centimeters. Give five examples of a thing that can be represented in different ways. Use the downloadable worksheet to organize your work. Be sure to include both a low-level and a high-level representation of a given value, such as colors. 
+> Data can be represented in many different ways. Geodes, for example, come in many shapes and forms, with different types of crystals inside. Colors can be represented by RGB or HEX, and sizes can be represented by millimeters or centimeters. Give five examples of a thing that can be represented in different ways. Use the [downloadable worksheet](https://cs4kids.club/ch9-worksheet.pdf) to organize your work. Be sure to include both a low-level and a high-level representation of a given value, such as colors. 
 
 Exemplary | Adequate | Needs Improvement 
 ---|---|---
-The student creates a creative prototype that includes a design for hardware, software, and at least one other sensor | The student creates a prototype that lacks creativity or one of the required elements | The student creates only a basic prototype that lacks sophistication
+The student writes a report giving five examples of a thing that can be represented in different ways, both low and high level, using the worksheet | The student partially completes the work, showing only four elements | The student turns in an incomplete worksheet, missing a deeper analysis of low and high level representations of the objects
 
