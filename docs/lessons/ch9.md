@@ -42,8 +42,6 @@ desc
 * Spreadsheet 
 * Table
 
-
-
 ---
 
 #### Assessment
@@ -58,17 +56,37 @@ Research how decisions are made by engineers to build hardware and software solu
 
 #### Quiz Answers
 
-Q
- - a
- - <span class="highlight">true b</span>
+The following hexadecimal color - #FFFFFF represents:  
 
+a.	Black  
 
+b.	<span class="highlight">White</span> 
+
+c.	Red 
+
+A database often includes tabular data.  
+
+a.	<span class="highlight">True</span>
+
+b.	False 
+
+Spreadsheets are most useful for ___.  
+
+a.	Visualizing data  
+
+b.	Querying data 
+
+c. 	<span class="highlight">Organizing data in a table format</span> 
 
 ---
 
 #### More Resources/Materials
 
-- list
+- [https://color-hex.com](https://color-hex.com) and [https://colorhexa.com](https://colorhexa.com)
+
+- [Google Sheets](https://sheets.google.com) or [Excel online](https://office.live.com/)
+
+- [Online converter](https://www.rapidtables.com/convert/number/base-converter.html)
 
 ---
 
@@ -78,9 +96,9 @@ The full solution codebase can be found ...
 
 ---
 
-#### Assignment and Rubric: Let's Go Outside
+#### Assignment and Rubric: Representing Data
 
-> copy of assessment from book
+> Data can be represented in many different ways. Geodes, for example, come in many shapes and forms, with different types of crystals inside. Colors can be represented by RGB or HEX, and sizes can be represented by millimeters or centimeters. Give five examples of a thing that can be represented in different ways. Use the downloadable worksheet to organize your work. Be sure to include both a low-level and a high-level representation of a given value, such as colors. 
 
 Exemplary | Adequate | Needs Improvement 
 ---|---|---
