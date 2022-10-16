@@ -88,7 +88,7 @@ An [infographic](https://webaim.org/resources/designers/) on web accessibility f
 
 #### Solution Code: 
 
-The full solution codebase can be found [in the micro:bit web site](https://makecode.microbit.org/_dLvEq2DwMAFM) and on [GitHub](https://github.com/CS4Kids/CS4Kids-Accessible-Refuge)
+The full solution codebase can be found [in the micro:bit web site](https://makecode.microbit.org/_Ar1LpRJaMid8) and on [GitHub](https://github.com/CS4Kids/CS4Kids-Accessible-Refuge)
 
 ## Assignment and Rubric: Usable or Not?
 
