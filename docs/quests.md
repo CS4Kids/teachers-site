@@ -41,6 +41,7 @@ In this section you'll find source code, worksheets, and other useful items for 
           <h3>4: A Home For All</h3>
           <img class="homeImage"  alt="accessible simulation" :src="$withBase('./assets/ch4.png')"/>
           <p>Build a system that is suitable for new populations</p>
+          <a class="links" href="./assets/ch4-worksheet.pdf">Download Worksheet</a>
           <a class="links" href="https://github.com/CS4Kids/CS4Kids-Accessible-Refuge">Source Code</a>
         </div>
       </article>
