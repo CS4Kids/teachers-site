@@ -7,6 +7,8 @@ contributors: false
 
 # Welcome, Explorers!
 
+In this section you'll find source code, worksheets, and other useful items for each chapter of the book.
+
 <h2>The Missing Fireflies</h2>
       <div class="grid">
       <article>
