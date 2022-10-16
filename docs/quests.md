@@ -39,8 +39,9 @@ In this section you'll find source code, worksheets, and other useful items for 
       <article>
         <div class="text">
           <h3>4: A Home For All</h3>
+          <img class="homeImage"  alt="firefly messenger simulation" :src="$withBase('./assets/ch3.png')"/>
           <p>Build a system that is suitable for new populations</p>
-          <button>Discover</button>
+          <a class="links" href="https://github.com/CS4Kids/CS4Kids-Accessible-Refuge">Source Code</a>
         </div>
       </article>
       </div>
