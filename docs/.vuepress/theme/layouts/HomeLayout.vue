@@ -7,9 +7,15 @@
       <h1 class="splashLg">Computer Science for Kids</h1>
       <p align="center" class="splash">a storytelling approach</p>
 
+      <p align="center">
+        <img class="coverImg" alt="the mysterious Guide" :src="$withBase('./assets/art/cover.png')"/>
+      </p>
+   
       <!-- flippy book from https://www.hackathonsurvivalguide.com/ as inspiration -->
 
-<div class="book">
+
+    <!--
+      <div class="book">
     <div class="gap"></div>
         <div class="pages">
           <div class="book-page"></div>
@@ -34,7 +40,7 @@
           </div>
         </div>
       </div>
-  </div>
+  </div>-->
     </template>
     <template #page-bottom>
       <div class="footer">&copy; Jen Looper {{ now }}</div>
@@ -61,6 +67,9 @@ export default {
 </script>
 
 <style>
+
+
+
 h3 {
   position: relative;
   top: 20px;
@@ -78,6 +87,11 @@ h3 {
   width: 1px;
   height: 1px;
 }
+
+.coverImg {
+  width: 100vh;
+}
+
 @-webkit-keyframes preLoad {
   0% {
     background-image: url(./example-pages/1.png);
