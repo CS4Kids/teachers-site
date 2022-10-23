@@ -67,8 +67,8 @@ In this section you'll find source code, worksheets, and other useful items for 
       <article>
         <div class="text">
           <h3>7: The Whisper Network</h3>
+          <img class="homeImage"  alt="Caesar cipher" :src="$withBase('./assets/ch7.png')"/>
           <p>Encode and decode encrypted messages</p>
-          <button>Discover</button>
         </div>
       </article>
       <article>
