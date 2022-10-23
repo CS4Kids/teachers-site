@@ -89,7 +89,7 @@ h3 {
 }
 
 .coverImg {
-  width: 100vh;
+  width: 80vw;
 }
 
 @-webkit-keyframes preLoad {
