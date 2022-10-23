@@ -74,8 +74,10 @@ In this section you'll find source code, worksheets, and other useful items for 
       <article>
         <div class="text">
           <h3>8: A Well-Tested Solution</h3>
+           <img class="homeImage"  alt="Passcode testing" :src="$withBase('./assets/ch8.png')"/>
           <p>Test your system</p>
-          <button>Discover</button>
+          <a class="links" href="https://github.com/CS4Kids/Sample-Test">Sample 
+          Test</a>
         </div>
       </article>
     </div>
