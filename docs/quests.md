@@ -51,15 +51,17 @@ In this section you'll find source code, worksheets, and other useful items for 
       <article>
         <div class="text">
           <h3>5: Goblin's Gold</h3>
+          <img class="homeImage"  alt="game" :src="$withBase('./assets/ch5.png')"/>
           <p>Protect this rare species from thieves!</p>
-          <button>Discover</button>
+          <a class="links" href="https://arcade.makecode.com/S83643-98625-32423-18143">Source Code</a>
         </div>
       </article>
       <article>
         <div class="text">
           <h3>6: Securing the Moss</h3>
+          <img class="homeImage"  alt="secure enclosure" :src="$withBase('./assets/ch6.png')"/>
           <p>Making a secure environment to protect the moss</p>
-          <button>Discover</button>
+          <a class="links" href="https://makecode.com/_RsoWUVcgHAi0">Source Code</a>
         </div>
       </article>
       <article>
