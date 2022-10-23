@@ -21,3 +21,7 @@ The CSTA outlines Practices common for the industry:
 - P5. Creating Computational Artifacts
 - P6. Testing and Refining Computational Artifacts 
 - P7. Communicating About Computing
+
+---
+
+Illustrations by Mirla Montaño. The fox concept was created by Allegra Hu
