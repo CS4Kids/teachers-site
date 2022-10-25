@@ -117,6 +117,7 @@ In this section you'll find source code, worksheets, and other useful items for 
        <div class="text">
         <div class="grid-body">
             <h3>9: Searching for Geodes</h3>
+            <img class="homeImage"  alt="spreadsheet" :src="$withBase('./assets/ch9.png')"/>
           <p>Discover ways to quantify a dataset of rocks</p>
           </div>
           <div class="footer">
@@ -128,10 +129,12 @@ In this section you'll find source code, worksheets, and other useful items for 
        <div class="text">
         <div class="grid-body">
            <h3>10: Cleaning and Quantifying the Collection</h3>
+            <img class="homeImage"  alt="Kaggle" :src="$withBase('./assets/ch10.png')"/>
           <p>Sort your data and learn its secrets</p>
           </div>
           <div class="footer">
-             <a class="links" href="">Coming Soon</a>
+             <a class="links" href="https://www.kaggle.com/datasets/jenlooper/polar-rocks">Stone Dataset</a>
+             <a class="links" href="https://www.kaggle.com/code/jenlooper/rock-analysis">Notebook</a>
           </div>
         </div>   
       </article>
@@ -139,10 +142,11 @@ In this section you'll find source code, worksheets, and other useful items for 
        <div class="text">
         <div class="grid-body">
             <h3>11: The Stone Library</h3>
+            <img class="homeImage"  alt="SQLFiddle" :src="$withBase('./assets/ch11.png')"/>
           <p>Build a library for your stone collection</p>
           </div>
           <div class="footer">
-             <a class="links" href="">Coming Soon</a>
+             <a class="links" href="http://sqlfiddle.com/#!5/4532a/31/0">SQL Fiddle</a>
           </div> 
         </div>   
       </article>
@@ -150,11 +154,9 @@ In this section you'll find source code, worksheets, and other useful items for 
        <div class="text">
         <div class="grid-body">
            <h3>12: Hide Or Seek</h3>
+           <img class="homeImage"  alt="phishing email" :src="$withBase('./assets/ch12.png')"/>
           <p>What data should remain private and what public?</p>
           </div>
-          <div class="footer">
-             <a class="links" href="">Coming Soon</a>
-          </div> 
         </div>   
       </article>
     </div>
@@ -164,10 +166,11 @@ In this section you'll find source code, worksheets, and other useful items for 
        <div class="text">
         <div class="grid-body">
           <h3>13: The Petrified Forest</h3>
-          <p>coming soon</p>
+            <img class="homeImage"  alt="A-Frame workspace" :src="$withBase('./assets/ch13.png')"/>
+          <p>Build a virtual world, using assets with attribution</p>
           </div>
           <div class="footer">
-             <a class="links" href="">Coming Soon</a>
+             <a class="links" href="https://glitch.com/edit/#!/cs4kids-a-frame">Glitch workspace</a>
           </div> 
         </div>   
       </article>
@@ -175,10 +178,11 @@ In this section you'll find source code, worksheets, and other useful items for 
        <div class="text">
         <div class="grid-body">
           <h3>14: The Butterfly Brigade</h3>
-          <p>coming soon</p>
+          <img class="homeImage"  alt="A-Frame workspace" :src="$withBase('./assets/ch14.png')"/>
+          <p>Enhance the 3D world with repeated assets, refactoring your code</p>
           </div>
           <div class="footer">
-             <a class="links" href="">Coming Soon</a>
+              <a class="links" href="https://glitch.com/edit/#!/cs4kids-aframe-2">Glitch workspace</a>
           </div> 
         </div>   
       </article>
@@ -186,10 +190,11 @@ In this section you'll find source code, worksheets, and other useful items for 
        <div class="text">
         <div class="grid-body">
           <h3>15: Power of the Weak</h3>
-          <p>coming soon</p>
+          <img class="homeImage"  alt="A-Frame workspace" :src="$withBase('./assets/ch15.png')"/>
+          <p>Design the interaction between the characters of the world</p>
           </div>
           <div class="footer">
-             <a class="links" href="">Coming Soon</a>
+             <a class="links" href="https://glitch.com/edit/#!/cs4kids-aframe-3">Glitch workspace</a>
           </div> 
         </div>   
       </article>
@@ -197,10 +202,11 @@ In this section you'll find source code, worksheets, and other useful items for 
        <div class="text">
         <div class="grid-body">
           <h3>16: The Written Artifact</h3>
-          <p>coming soon</p>
+          <img class="homeImage"  alt="README file in a glitch workspace" :src="$withBase('./assets/ch16.png')"/>
+          <p>Document your world</p>
           </div>
           <div class="footer">
-             <a class="links" href="">Coming Soon</a>
+             <a class="links" href="https://glitch.com/edit/#!/cs4kids-aframe-3?path=README.md%3A1%3A0">README.md file</a>
           </div> 
         </div>   
       </article>
