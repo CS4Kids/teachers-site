@@ -13,6 +13,7 @@
     --content-width: 100%;
     --c-bg-arrow: var(--c-text-accent);
     --c-brand-light: var(--c-text);
+    --c-bg-footer: #A0E4F1;
     --bookAngle: 45deg;
 
     //blue svg bg
@@ -43,6 +44,10 @@
       color: var(--c-text);
     }
 
+    .grid-body {
+      min-height: 450px;
+    }
+
     .grid > article {
       border-radius: 4px;
       z-index: 10;
@@ -68,6 +73,7 @@ html.dark {
   --c-brand: #47daf3;
   --c-border: #0c4c7e;
   --c-brand-light: var(--c-text);
+  --c-bg-footer: #093a60;
 
   //dark blue svg bg
   .navbar, .page-bar {
@@ -108,6 +114,8 @@ html.dark {
 .footer {
   text-align: center;
   padding: 10px;
+  height: 40px;
+  background-color: var(--c-bg-footer)
 }
 .page-meta {
   padding-top: 10rem;

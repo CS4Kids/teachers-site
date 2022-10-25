@@ -72,7 +72,6 @@ export default {
 
 h3 {
   position: relative;
-  top: 20px;
 }
 
 @media screen and (max-width: 1170px) {

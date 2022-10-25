@@ -1058,11 +1058,6 @@
   dependencies:
     "path-type" "^4.0.0"
 
-"dotenv@^16.0.2":
-  "integrity" "sha512-JvpYKUmzQhYoIFgK2MOnF3bciIZoItIIoryihy0rIA+H4Jy0FmgyKYAHCTN98P5ybGSJcIFbh6QKeJdtZd1qhA=="
-  "resolved" "https://registry.npmjs.org/dotenv/-/dotenv-16.0.2.tgz"
-  "version" "16.0.2"
-
 "electron-to-chromium@^1.4.251":
   "integrity" "sha512-fVXliNUGJ7XUVJSAasPseBbVgJIeyw5M1xIkgXdTSRjlmCqBbiSTsEdLOCJS31Fc8B7CaloQ/BFAg8By3ODLdg=="
   "resolved" "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.4.261.tgz"
