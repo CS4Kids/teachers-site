@@ -171,6 +171,7 @@ In this section you'll find source code, worksheets, and other useful items for 
           </div>
           <div class="footer">
              <a class="links" href="https://glitch.com/edit/#!/cs4kids-a-frame">Glitch workspace</a>
+              <a class="links" href="https://github.com/CS4Kids/sketchfab-models">Sketchfab Models</a>
           </div> 
         </div>   
       </article>
@@ -183,6 +184,7 @@ In this section you'll find source code, worksheets, and other useful items for 
           </div>
           <div class="footer">
               <a class="links" href="https://glitch.com/edit/#!/cs4kids-aframe-2">Glitch workspace</a>
+               <a class="links" href="https://github.com/CS4Kids/graphic-assets">Graphic Assets</a>
           </div> 
         </div>   
       </article>
@@ -214,22 +216,17 @@ In this section you'll find source code, worksheets, and other useful items for 
   <h2>Legends of the Field Mice</h2>
     <div class="grid">
       <article>
-        <div class="text">
-          <h3>17: The Field Mice</h3>
-          <p>xxx</p>
-        </div>
-      </article>
-      <article>
-        <div class="text">
-          <h3>18: Lights, Sounds, Action</h3>
-          <p>xxx</p>
-        </div>
-      </article>
-      <article>
-        <div class="text">
-          <h3>19: Unlocking the Vault</h3>
-          <p>xxx</p>
-        </div>
+       <div class="text">
+        <div class="grid-body">
+          <h3>17-19: Legends of the Field Mice</h3>
+          <img class="homeImage"  alt="Twinery" :src="$withBase('./assets/ch17.png')"/>
+          <p>Build a storyline all about a mysterious underground realm and the secret it is hiding.</p>
+          </div>
+             <a class="links" href="https://glitch.com/edit/#!/cs4kids-aframe-3?path=README.md%3A1%3A0">The Complete Legend in Glitch</a>
+             <a class="links" href="https://github.com/CS4Kids/graphic-assets">Graphic Assets</a>
+             <a class="links" href="https://fir-shell-ambulance.glitch.me/">The Story</a>
+             <a class="links" href="https://twinery.org">Twinery</a>
+        </div>   
       </article>
       <article>
         <div class="text">
