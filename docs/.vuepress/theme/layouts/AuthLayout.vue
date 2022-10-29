@@ -3,7 +3,7 @@
     <template #page-top>  
         <div v-if="user" class="teacher-page">         
           <h1>
-            Welcome {{user.given_name}} {{user.family_name}}! Access <a href="/ch1">Lesson Plans</a><LogoutButton :client="auth0client" />
+            Welcome {{user.given_name}} {{user.family_name}}! Access <a href="https://cs4kids.club/lessons/ch1">Lesson Plans</a> <LogoutButton :client="auth0client" />
           </h1> 
         </div>
         <div class="teacher-page" v-else>
