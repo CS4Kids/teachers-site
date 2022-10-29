@@ -1,20 +1,16 @@
 <template>
   <ParentLayout class="container">
-    <template #page-top> {{user}}     
+    <template #page-top>  
         <div v-if="user" class="teacher-page">         
           <h1>
             Welcome {{user.given_name}} {{user.family_name}}! <LogoutButton :client="auth0client" />
           </h1> 
-          <Content />
         </div>
         <div class="teacher-page" v-else>
           <h1>
             You are currently not logged in. <LoginButton :client="auth0client" @login-complete="getUser()" />
           </h1>
         </div>
-    </template>
-    <template #page-bottom>
-      <div class="footer">&copy; Jen Looper {{ now }}</div>
     </template>
   </ParentLayout>
 </template>
@@ -43,17 +39,28 @@ export default {
     LogoutButton,
     ParentLayout
   },  
+
   async mounted(){
     this.auth0client = await auth.createClient();
     this.user = await this.auth0client.getUser();
   },
+
   methods : {
     async login () {
       await auth.loginWithPopup(this.auth0client);
     },
     async getUser(){
       this.user = await this.auth0client.getUser();
+    },
+    redirect(){
+      if (this.user){
+      window.location = "http://localhost:8080/lessons/";
     }
+    else {
+      window.location = "http://localhost:8080/login/";
+    }
+    }
+    
   }
 }
 </script>
