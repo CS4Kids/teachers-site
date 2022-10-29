@@ -10,7 +10,7 @@ async function createClient() {
 
 async function loginWithPopup(client, options) {
   try {
-    await client.loginWithPopup(options).then(() => window.location = "http://localhost:8080/lessons/ch1");
+    await client.loginWithPopup(options).then(() => window.location = "http://cs4kids.club/lessons/ch1");
   } catch (e) {
     // eslint-disable-next-line
     console.error(e);
@@ -18,7 +18,7 @@ async function loginWithPopup(client, options) {
 }
 
 function logout(client) {
-  return client.logout().then(() => window.location = "http://localhost:8080/logout/");
+  return client.logout().then(() => window.location = "http://cs4kids.club/logout/");
 }
 
 const auth = {
