@@ -11,6 +11,7 @@
   "license": "MIT",
   "dependencies": {
     "@vuepress/plugin-docsearch": "^2.0.0-beta.36",
+    "@netlify/esbuild-linux-64": "0.14.39",
     "vuepress": "2.0.0-beta.49"
   }
 }
