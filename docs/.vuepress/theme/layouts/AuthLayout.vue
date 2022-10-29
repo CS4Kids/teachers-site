@@ -1,6 +1,6 @@
 <template>
   <ParentLayout class="container">
-    <template #page-top>      
+    <template #page-top> {{user}}     
         <div v-if="user" class="teacher-page">         
           <h1>
             Welcome {{user.given_name}} {{user.family_name}}! <LogoutButton :client="auth0client" />
