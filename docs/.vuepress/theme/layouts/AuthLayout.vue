@@ -3,7 +3,7 @@
     <template #page-top>  
         <div v-if="user" class="teacher-page">         
           <h1>
-            Welcome {{user.given_name}} {{user.family_name}}! <LogoutButton :client="auth0client" />
+            Welcome {{user.given_name}} {{user.family_name}}! Access [Lesson Plans](https://cs4kids.com/lessons/ch1)<LogoutButton :client="auth0client" />
           </h1> 
         </div>
         <div class="teacher-page" v-else>
@@ -52,14 +52,7 @@ export default {
     async getUser(){
       this.user = await this.auth0client.getUser();
     },
-    redirect(){
-      if (this.user){
-      window.location = "http://localhost:8080/lessons/";
-    }
-    else {
-      window.location = "http://localhost:8080/login/";
-    }
-    }
+    
     
   }
 }
