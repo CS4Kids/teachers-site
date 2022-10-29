@@ -1802,6 +1802,11 @@
   "resolved" "https://registry.npmjs.org/util-deprecate/-/util-deprecate-1.0.2.tgz"
   "version" "1.0.2"
 
+"v-dialogs@^2.2.0":
+  "integrity" "sha512-1fxNzG2VPRtesYatEniX7M4jPDIX3/FmfSXzxrg2VGA9mFHTZk5m+Vzd+frbmDRwVQmQ4canqrOO2mKndBz2Nw=="
+  "resolved" "https://registry.npmjs.org/v-dialogs/-/v-dialogs-2.2.0.tgz"
+  "version" "2.2.0"
+
 "vite@^2.5.10", "vite@~2.9.14":
   "integrity" "sha512-fzMt2jK4vQ3yK56te3Kqpkaeq9DkcZfBbzHwYpobasvgYmP2SoAr6Aic05CsB4CzCZbsDv4sujX3pkEGhLabVQ=="
   "resolved" "https://registry.npmjs.org/vite/-/vite-2.9.15.tgz"
@@ -1826,7 +1831,7 @@
   dependencies:
     "@vue/devtools-api" "^6.1.4"
 
-"vue@^2.6.0 || ^3.2.0", "vue@^3.0.0-0 || ^2.6.0", "vue@^3.2.0", "vue@^3.2.25", "vue@^3.2.36", "vue@^3.2.37", "vue@3.2.39":
+"vue@^2.6.0 || ^3.2.0", "vue@^3.0.0-0 || ^2.6.0", "vue@^3.2.0", "vue@^3.2.25", "vue@^3.2.36", "vue@^3.2.37", "vue@>2.6.11", "vue@3.2.39":
   "integrity" "sha512-tRkguhRTw9NmIPXhzk21YFBqXHT2t+6C6wPOgQ50fcFVWnPdetmRqbmySRHznrYjX2E47u0cGlKGcxKZJ38R/g=="
   "resolved" "https://registry.npmjs.org/vue/-/vue-3.2.39.tgz"
   "version" "3.2.39"

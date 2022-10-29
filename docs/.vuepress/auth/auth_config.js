@@ -1,7 +1,6 @@
 const config = {
-    domain: import.meta.env.VITE_DOMAIN,
-    clientId: import.meta.env.VITE_CLIENTID,
-  };
-  
-  export default config;
-  
+  domain: "dev-nb2h3--m.us.auth0.com",
+  clientId: "2k9etD5oYLlND67vi5Zco0xiKWFWKEqF",
+};
+
+export default config;

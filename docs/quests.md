@@ -1,6 +1,6 @@
 ---
 navbar: true
-sidenav: false
+sidebar: false
 lastUpdated: true
 contributors: false
 ---
