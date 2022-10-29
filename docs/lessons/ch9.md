@@ -1,3 +1,11 @@
+---
+navbar: true
+sidenav: true
+lastUpdated: true
+contributors: false
+layout: AuthLayout
+---
+
 # Lesson Plan: Chapter 9
 ---
 #### Connecting to CSTA Standards

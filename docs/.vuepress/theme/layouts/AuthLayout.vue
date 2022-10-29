@@ -1,11 +1,10 @@
 <template>
   <ParentLayout class="container">
-    <template #page >      
+    <template #page-top>      
         <div v-if="user" class="teacher-page">         
           <h1>
             Welcome {{user.given_name}} {{user.family_name}}! <LogoutButton :client="auth0client" />
-          </h1>
-          
+          </h1> 
           <Content />
         </div>
         <div class="teacher-page" v-else>
@@ -13,9 +12,10 @@
             You are currently not logged in. <LoginButton :client="auth0client" @login-complete="getUser()" />
           </h1>
         </div>
-    
     </template>
-    
+    <template #page-bottom>
+      <div class="footer">&copy; Jen Looper {{ now }}</div>
+    </template>
   </ParentLayout>
 </template>
 

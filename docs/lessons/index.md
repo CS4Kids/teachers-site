@@ -1,6 +1,6 @@
 ---
 navbar: true
-sidebar: true
+sidenav: true
 lastUpdated: true
 contributors: false
 layout: AuthLayout
