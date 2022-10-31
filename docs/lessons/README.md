@@ -1,10 +1,12 @@
 ---
 navbar: true
-sidebar: false
+sidenav: true
 lastUpdated: true
 contributors: false
 layout: AuthLayout
 ---
+
+# Welcome, Teachers!
 
 In this section, you'll find lesson plans for all the chapters in the book. Included are:
 
