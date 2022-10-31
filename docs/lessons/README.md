@@ -32,7 +32,8 @@ Identifier | Standard | Chapter
 2-AP-14 | Create procedures with parameters to organize code and make it easier to reuse. | 18 
 2-AP-15 | Seek and incorporate feedback from team members and users to refine a solution that meets user needs. | 19 
 2-AP-16 | Incorporate existing code, media, and libraries into original programs, and give attribution. | 13 
-2-AP-17 | Systematically test and refine programs using a range of test cases. | 8 | 2-AP-18 | Distribute tasks and maintain a project timeline when collaboratively developing computational artifacts. | 17, 18 
+2-AP-17 | Systematically test and refine programs using a range of test cases. | 8 
+2-AP-18 | Distribute tasks and maintain a project timeline when collaboratively developing computational artifacts. | 17, 18 
 2-AP-19 | Document programs in order to make them easier to follow, test, and debug. | 16 
 2-IC-20 | Compare tradeoffs associated with computing technologies that affect people's everyday activities and career options. | 20 
 2-IC-21 | Discuss issues of bias and accessibility in the design of existing technologies. | 4 
