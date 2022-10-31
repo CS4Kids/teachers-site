@@ -1,14 +1,12 @@
 import { defineUserConfig } from 'vuepress'
 import { cs4kidsTheme } from './theme'
 import { path } from '@vuepress/utils'
-//require('dotenv').config();
 
 
 export default defineUserConfig({
     base: "/",
     head: [
       ["link", { rel: "icon", href: "/favicon.ico" }],
-      ["script", {src : "https://cdn.auth0.com/js/auth0-spa-js/1.13/auth0-spa-js.production.js"}],
       ['link', { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css2?family=Fredoka:wght@400&display=swap' }],
     ],
     title: "CS4Kids",
