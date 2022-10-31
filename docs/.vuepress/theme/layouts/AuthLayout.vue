@@ -1,7 +1,8 @@
 <template>
   <ParentLayout class="container">
-    <template #page>  
-      <form id="app" @submit="checkForm" method="post">
+    <template #page-top>  
+      <div class="form-container">
+        <form id="app" @submit="checkForm" method="post">
         <p v-if="messages.length">
           <ul>
             <li class="message" v-for="message in messages">{{ message }}</li>
@@ -9,15 +10,16 @@
         </p>
 
         <p>
-          <label for="name">Passcode: </label>
+          <label for="name">To access this area, please use a passcode:</label>
           <input class="passcode-input" maxlength="10" type="password" name="queryPasscode" id="queryPasscode" v-model="queryPasscode">
         </p>
 
         <p>
-          <input type="submit" value="Submit">  
+          <input type="submit" class="button" value="Submit">  
         </p>
 
         </form>
+      </div>
     </template>
   </ParentLayout>
 </template>
@@ -72,10 +74,10 @@ export default {
 </script>
 
 <style>
+
 .teacher-page {
   padding: 2rem;
 }
-
 .passcode-input {
   width: 100%;
   border: 1px solid #ccc;
