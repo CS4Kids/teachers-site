@@ -100,7 +100,7 @@ export default defineUserConfig({
         },      
         {
           text: 'For Teachers',
-          link: '/lessons/',
+          link: '/login/',
         },
         {
           text: 'Quests',

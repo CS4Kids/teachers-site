@@ -4,3 +4,5 @@ lastUpdated: true
 contributors: false
 layout: AuthLayout
 ---
+
+# Welcome, Teachers!

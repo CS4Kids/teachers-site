@@ -1,25 +1,21 @@
 <template>
-  <ParentLayout class="container">
-    <template #page-top>  
-      <div class="form-container">
-        <form id="app" @submit="checkForm" method="post">
+  <ParentLayout class="container form-container">
+    <template #page>  
+     <Content/>
+     <form id="app" @submit="checkForm" method="post">
         <p v-if="messages.length">
           <ul>
             <li class="message" v-for="message in messages">{{ message }}</li>
           </ul>
         </p>
-
         <p>
           <label for="name">To access this area, please use a passcode:</label>
-          <input class="passcode-input" maxlength="10" type="password" name="queryPasscode" id="queryPasscode" v-model="queryPasscode">
+          <input class="passcode-input" maxlength="10" type="password" name="queryTeacherPasscode" id="queryTeacherPasscode" v-model="queryTeacherPasscode">
         </p>
-
         <p>
           <input type="submit" class="button" value="Submit">  
         </p>
-
-        </form>
-      </div>
+        </form>   
     </template>
   </ParentLayout>
 </template>
@@ -46,7 +42,10 @@ export default {
   },  
 
   async mounted(){
-    
+    const user = localStorage.getItem("logged-in");
+    if (user) {
+      window.location = "/lessons/"
+    }
   },
 
   methods : {
@@ -61,23 +60,12 @@ export default {
         this.messages.push(response);
       }
     },
-    async login () {
-      //enter passcode
-    },
-    async getUser(){
-      //check local storage for auth
-    },
-    
-    
   }
 }
 </script>
 
 <style>
 
-.teacher-page {
-  padding: 2rem;
-}
 .passcode-input {
   width: 100%;
   border: 1px solid #ccc;

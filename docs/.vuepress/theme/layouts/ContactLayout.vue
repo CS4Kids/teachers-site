@@ -77,6 +77,7 @@
         <div>
           <button
             type="submit"
+            class="button"
             :disabled="!valid"
           >
             Submit
