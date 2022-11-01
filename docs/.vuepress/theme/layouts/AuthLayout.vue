@@ -41,7 +41,7 @@ export default {
     ParentLayout
   },  
 
-  async mounted(){
+  async created(){
     const user = localStorage.getItem("logged-in");
     if (user) {
       window.location = "/lessons/"
