@@ -52,13 +52,20 @@ export default {
     async checkForm(e) {
       e.preventDefault();
       this.messages = [];
+      localStorage.setItem("logged-in", false);
       if(this.queryTeacherPasscode === '') {
         this.messages.push("Please enter a passcode");
       } else {
         const res = await fetch(apiUrl+encodeURIComponent(this.queryTeacherPasscode))
-        console.log(res);
         let response = await res.text();
         this.messages.push(response);
+        if (this.messages[0] == "Passcode correct!"){
+          localStorage.setItem("logged-in", true);
+          window.location = "/lessons/"
+        }
+        else {
+          localStorage.setItem("logged-in", false);
+        }
       }
     },
   }

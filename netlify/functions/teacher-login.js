@@ -8,13 +8,11 @@ exports.handler = async (event, context) => {
         statusCode: 200,
        body: "Passcode correct!",
       };
-      localStorage.setItem("logged-in", true);
     }   
     else {
       return { 
         statusCode: 200,
         body: "Passcode invalid",
       }
-      localStorage.setItem("logged-in", false);
       }
     }
