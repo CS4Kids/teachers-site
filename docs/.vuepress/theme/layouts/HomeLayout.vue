@@ -42,10 +42,8 @@
       </div>
   </div>-->
     </template>
-    <template #page-bottom>
-      <div class="footer">&copy; Jen Looper {{ now }}</div>
-    </template>
   </ParentLayout>
+  <div class="footer">Jen Looper &copy; {{now}}</div>
 </template>
  
 <script>

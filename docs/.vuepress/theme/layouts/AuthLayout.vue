@@ -18,6 +18,7 @@
         </form>   
     </template>
   </ParentLayout>
+  <div class="footer">Jen Looper &copy; {{now}}</div>
 </template>
 
 <script>
@@ -73,6 +74,10 @@ export default {
 </script>
 
 <style>
+
+#app {
+  min-height: 80vh;
+}
 
 .passcode-input {
   width: 100%;

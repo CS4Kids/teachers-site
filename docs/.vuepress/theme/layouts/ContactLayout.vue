@@ -89,9 +89,11 @@
     
     </template>     
     
-   
   
   </ParentLayout>
+
+  <div class="footer">Jen Looper &copy; {{now}}</div>
+
 </template>
 
 
@@ -120,6 +122,12 @@ export default {
         (v) => !!v || "This field is required",
       ],
     };
+  },
+  computed: {
+    now () {
+      let date = new Date().getFullYear();
+      return date
+    }
   },
   methods: {
     encode(data) {
