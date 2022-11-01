@@ -44,7 +44,7 @@ export default {
   async created(){
     const user = localStorage.getItem("logged-in");
     if (user) {
-      window.location = "/lessons/"
+      //window.location = "/lessons/"
     }
   },
 
