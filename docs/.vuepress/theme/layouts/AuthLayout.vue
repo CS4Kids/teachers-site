@@ -56,6 +56,7 @@ export default {
         this.messages.push("Please enter a passcode");
       } else {
         const res = await fetch(apiUrl+encodeURIComponent(this.queryTeacherPasscode))
+        console.log(res);
         let response = await res.text();
         this.messages.push(response);
       }
