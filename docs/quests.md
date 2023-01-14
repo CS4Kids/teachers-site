@@ -231,8 +231,7 @@ In this section you'll find source code, worksheets, and other useful items for 
       <article>
         <div class="text">
           <h3>20: The Real World</h3>
-          <p>xxx</p>
+          <p>Let your imagination run wild and explore the ways you can make your world a better place using the tools you tried in this book. Share your work in the Forum!</p>
         </div>
       </article>
     </div>
-

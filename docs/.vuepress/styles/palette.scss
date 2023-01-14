@@ -13,7 +13,7 @@
     --content-width: 100%;
     --c-bg-arrow: var(--c-text-accent);
     --c-brand-light: var(--c-text);
-    --c-bg-footer: #A0E4F1;
+    //--c-bg-footer: #A0E4F1;
     --bookAngle: 45deg;
 
     //blue svg bg
@@ -73,7 +73,7 @@ html.dark {
   --c-brand: #47daf3;
   --c-border: #0c4c7e;
   --c-brand-light: var(--c-text);
-  --c-bg-footer: #093a60;
+  //--c-bg-footer: #093a60;
 
   //dark blue svg bg
   .navbar, .page-bar {
@@ -109,7 +109,7 @@ html.dark {
 /*push the page footer to the bottom*/
 .page {
   padding-bottom: 0px;
-  padding-top: 0px;
+  padding-top: 50px;
 }
 .footer {
   text-align: center;
@@ -216,20 +216,19 @@ h4 {
 }
 .grid { 
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
   grid-gap: 10px;
   align-items: stretch; 
 }
 
-
 .grid > article img {
   max-width: 100%;
 }
+
 .grid > article .links {
   display: block;
   padding-bottom: 5px;
 }
-
 
 #footer {
   display:none;

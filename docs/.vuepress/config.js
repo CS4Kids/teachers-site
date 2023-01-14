@@ -1,32 +1,18 @@
 import { defineUserConfig } from 'vuepress'
-import { cs4kidsTheme } from './theme'
-import { path } from '@vuepress/utils'
+import { defaultTheme } from '@vuepress/theme-default'
 
+const mode = process.env.NODE_ENV || 'development';
 
 export default defineUserConfig({
-    base: "/",
-    head: [
-      ["link", { rel: "icon", href: "/favicon.ico" }],
-      ['link', { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css2?family=Fredoka:wght@400&display=swap' }],
-    ],
-    title: "CS4Kids",
-    description:
-      "Computer Science for Kids, lesson plans",
-      
-    templateBuild: path.resolve(__dirname, './buildTemplate/build.html'),
-    /*plugins: [
-        [
-          '@vuepress/docsearch',
-          {
-            apiKey: '31059fbf1460d9eb3d374ba01171251d',
-            indexName: 'netlify_987e0ee0-53f6-4341-8a60-a41a45490b77_main_all',
-            appId: 'XA3NW25D4I'
-          },
-          
-        ], 
-      ],*/
-     
-      theme: cs4kidsTheme({
+  base: "/",
+  head: [
+    ["link", { rel: "icon", href: "/favicon.ico" }],
+    ['link', { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css2?family=Fredoka:wght@400&display=swap' }],
+  ],
+  title: "CS4Kids",
+  description:
+    "Computer Science for Kids, lesson plans",
+    theme: defaultTheme({
       lastUpdated: true,
       sidebar: {
         '/lessons/': [
@@ -100,7 +86,7 @@ export default defineUserConfig({
         },      
         {
           text: 'For Teachers',
-          link: '/login/',
+          link: '/lessons/',
         },
         {
           text: 'Quests',
@@ -122,5 +108,4 @@ export default defineUserConfig({
     },
       )
   });
-  
   
