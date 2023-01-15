@@ -12,6 +12,7 @@ export default defineClientConfig({
       let isAuthenticated = false;
       //this is a browser api so wrap the whole thing in non-SSR catch
       if (!__VUEPRESS_SSR__) {
+        localStorage.setItem('vuepress-color-scheme', 'dark');
         const auth = localStorage.getItem("logged-in");
       if (auth == 'false'){
         isAuthenticated = false;
