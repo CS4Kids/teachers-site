@@ -41,14 +41,6 @@ export default {
   components: {
     ParentLayout
   },  
-
-  async created(){
-    const user = localStorage.getItem("logged-in");
-    if (user) {
-      //window.location = "/lessons/"
-    }
-  },
-
   methods : {
     async checkForm(e) {
       e.preventDefault();

@@ -3,14 +3,16 @@ import HomeLayout from './layouts/HomeLayout.vue'
 import ContactLayout from './layouts/ContactLayout.vue'
 import AuthLayout from './layouts/AuthLayout.vue'
 
-
+  
 export default defineClientConfig({
     layouts: {
       HomeLayout,ContactLayout,AuthLayout
     },
     enhance({ router }) {
-      let auth = localStorage.getItem("logged-in");
       let isAuthenticated = false;
+      //this is a browser api so wrap the whole thing in non-SSR catch
+      if (!__VUEPRESS_SSR__) {
+        const auth = localStorage.getItem("logged-in");
       if (auth == 'false'){
         isAuthenticated = false;
       }
@@ -25,6 +27,7 @@ export default defineClientConfig({
           return { path: '/login/' }
           }
         })
+      }
     },
   })
 
