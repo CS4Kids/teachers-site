@@ -2,11 +2,11 @@ import { defineClientConfig } from '@vuepress/client'
 import HomeLayout from './layouts/HomeLayout.vue'
 import ContactLayout from './layouts/ContactLayout.vue'
 import AuthLayout from './layouts/AuthLayout.vue'
-
+import PasscodeLayout from './layouts/PasscodeLayout.vue'
   
 export default defineClientConfig({
     layouts: {
-      HomeLayout,ContactLayout,AuthLayout
+      HomeLayout,ContactLayout,AuthLayout,PasscodeLayout
     },
     enhance({ router }) {
       let isAuthenticated = false;
