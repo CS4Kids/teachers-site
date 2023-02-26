@@ -14,6 +14,7 @@ export default defineClientConfig({
       if (!__VUEPRESS_SSR__) {
         localStorage.setItem('vuepress-color-scheme', 'dark');
         const auth = localStorage.getItem("logged-in");
+        console.log('localstorage says', auth)
       if (auth == 'false'){
         isAuthenticated = false;
       }
