@@ -7,13 +7,12 @@ export default defineUserConfig({
   base: "/",
   head: [
     ["link", { rel: "icon", href: "/favicon.ico" }],
-    ['link', { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css2?family=Fredoka:wght@400&display=swap' }],
   ],
-  title: "CS4Kids",
   description:
     "Computer Science for Kids, lesson plans",
     theme: defaultTheme({
       lastUpdated: true,
+      logo: '/assets/art/fox.png',
       sidebar: {
         '/lessons/': [
           {

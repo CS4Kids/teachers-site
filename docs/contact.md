@@ -5,5 +5,3 @@ contributors: false
 layout: ContactLayout
 ---
 
-# Contact Us
-

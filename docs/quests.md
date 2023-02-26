@@ -5,15 +5,14 @@ lastUpdated: true
 contributors: false
 ---
 
-# Welcome, Explorers!
-
-In this section you'll find source code, worksheets, and other useful items for each chapter of the book.
-
+<div class="container">
+<h1>Welcome, Explorers!</h1>
+<p>In this section you'll find source code, worksheets, and other useful items for each chapter of the book.</p>
 <h2>The Missing Fireflies</h2>
-      <div class="grid">
+      <div class="grid-cards">
       <article>
         <div class="text">
-          <div class="grid-body">
+          <div class="grid-cards">
             <h3>1: The Firefly Trapper</h3>
             <img class="homeImage" alt="firefly trapper simulation" :src="$withBase('./assets/ch1.png')"/>
             <p>Create a way to capture fireflies</p>
@@ -26,7 +25,7 @@ In this section you'll find source code, worksheets, and other useful items for 
       </article>
       <article>
         <div class="text">
-        <div class="grid-body">
+        <div class="grid-cards">
           <h3>2: The Firefly Refuge</h3>
           <img class="homeImage" alt="firefly refuge simulation" :src="$withBase('./assets/ch2.png')"/>
             <p>Redesign the trap into a home</p>
@@ -38,7 +37,7 @@ In this section you'll find source code, worksheets, and other useful items for 
       </article>
       <article>
         <div class="text">
-          <div class="grid-body">
+          <div class="grid-cards">
             <h3>3: The Fireflies' Message</h3>
             <img class="homeImage"  alt="firefly messenger simulation" :src="$withBase('./assets/ch3.png')"/>
             <p>Build a system that can communicate messages</p>
@@ -50,7 +49,7 @@ In this section you'll find source code, worksheets, and other useful items for 
       </article>
       <article>
         <div class="text">
-          <div class="grid-body">
+          <div class="grid-cards">
             <h3>4: A Home For All</h3>
             <img class="homeImage"  alt="accessible simulation" :src="$withBase('./assets/ch4.png')"/>
             <p>Build a system that is suitable for new populations</p>
@@ -63,10 +62,10 @@ In this section you'll find source code, worksheets, and other useful items for 
       </article>
       </div>
       <h2>The Glowing Moss</h2>
-      <div class="grid">
+      <div class="grid-cards">
       <article>
         <div class="text">
-          <div class="grid-body">
+          <div class="grid-cards">
             <h3>5: Goblin's Gold</h3>
             <img class="homeImage"  alt="game" :src="$withBase('./assets/ch5.png')"/>
             <p>Protect this rare species from thieves!</p>
@@ -78,7 +77,7 @@ In this section you'll find source code, worksheets, and other useful items for 
       </article>
       <article>
         <div class="text">
-          <div class="grid-body">
+          <div class="grid-cards">
             <h3>6: Securing the Moss</h3>
             <img class="homeImage"  alt="secure enclosure" :src="$withBase('./assets/ch6.png')"/>
             <p>Making a secure environment to protect the moss</p>
@@ -97,7 +96,7 @@ In this section you'll find source code, worksheets, and other useful items for 
       </article>
       <article>
         <div class="text">
-        <div class="grid-body">
+        <div class="grid-cards">
             <h3>8: A Well-Tested Solution</h3>
             <img class="homeImage"  alt="Passcode testing" :src="$withBase('./assets/ch8.png')"/>
             <p>Test your system</p>
@@ -112,10 +111,10 @@ In this section you'll find source code, worksheets, and other useful items for 
       </article>
     </div>
     <h2>Geode Quest</h2>
-    <div class="grid">
+    <div class="grid-cards">
       <article>
        <div class="text">
-        <div class="grid-body">
+        <div class="grid-cards">
             <h3>9: Searching for Geodes</h3>
             <img class="homeImage"  alt="spreadsheet" :src="$withBase('./assets/ch9.png')"/>
           <p>Discover ways to quantify a dataset of rocks</p>
@@ -127,7 +126,7 @@ In this section you'll find source code, worksheets, and other useful items for 
       </article>
       <article>
        <div class="text">
-        <div class="grid-body">
+        <div class="grid-cards">
            <h3>10: Cleaning and Quantifying the Collection</h3>
             <img class="homeImage"  alt="Kaggle" :src="$withBase('./assets/ch10.png')"/>
           <p>Sort your data and learn its secrets</p>
@@ -140,7 +139,7 @@ In this section you'll find source code, worksheets, and other useful items for 
       </article>
       <article>
        <div class="text">
-        <div class="grid-body">
+        <div class="grid-cards">
             <h3>11: The Stone Library</h3>
             <img class="homeImage"  alt="SQLFiddle" :src="$withBase('./assets/ch11.png')"/>
           <p>Build a library for your stone collection</p>
@@ -152,7 +151,7 @@ In this section you'll find source code, worksheets, and other useful items for 
       </article>
       <article>
        <div class="text">
-        <div class="grid-body">
+        <div class="grid-cards">
            <h3>12: Hide Or Seek</h3>
            <img class="homeImage"  alt="phishing email" :src="$withBase('./assets/ch12.png')"/>
           <p>What data should remain private and what public?</p>
@@ -161,10 +160,10 @@ In this section you'll find source code, worksheets, and other useful items for 
       </article>
     </div>
     <h2>The Petrified Forest</h2>
-    <div class="grid">
+    <div class="grid-cards">
       <article>
        <div class="text">
-        <div class="grid-body">
+        <div class="grid-cards">
           <h3>13: The Petrified Forest</h3>
             <img class="homeImage"  alt="A-Frame workspace" :src="$withBase('./assets/ch13.png')"/>
           <p>Build a virtual world, using assets with attribution</p>
@@ -177,7 +176,7 @@ In this section you'll find source code, worksheets, and other useful items for 
       </article>
       <article>
        <div class="text">
-        <div class="grid-body">
+        <div class="grid-cards">
           <h3>14: The Butterfly Brigade</h3>
           <img class="homeImage"  alt="A-Frame workspace" :src="$withBase('./assets/ch14.png')"/>
           <p>Enhance the 3D world with repeated assets, refactoring your code</p>
@@ -190,7 +189,7 @@ In this section you'll find source code, worksheets, and other useful items for 
       </article>
       <article>
        <div class="text">
-        <div class="grid-body">
+        <div class="grid-cards">
           <h3>15: Power of the Weak</h3>
           <img class="homeImage"  alt="A-Frame workspace" :src="$withBase('./assets/ch15.png')"/>
           <p>Design the interaction between the characters of the world</p>
@@ -202,7 +201,7 @@ In this section you'll find source code, worksheets, and other useful items for 
       </article>
        <article>
        <div class="text">
-        <div class="grid-body">
+        <div class="grid-cards">
           <h3>16: The Written Artifact</h3>
           <img class="homeImage"  alt="README file in a glitch workspace" :src="$withBase('./assets/ch16.png')"/>
           <p>Document your world</p>
@@ -214,10 +213,10 @@ In this section you'll find source code, worksheets, and other useful items for 
       </article>
     </div>
   <h2>Legends of the Field Mice</h2>
-    <div class="grid">
+    <div class="grid-cards">
       <article>
        <div class="text">
-        <div class="grid-body">
+        <div class="grid-cards">
           <h3>17-19: Legends of the Field Mice</h3>
           <img class="homeImage"  alt="Twinery" :src="$withBase('./assets/ch17.png')"/>
           <p>Build a storyline all about a mysterious underground realm and the secret it is hiding.</p>
@@ -235,3 +234,4 @@ In this section you'll find source code, worksheets, and other useful items for 
         </div>
       </article>
     </div>
+</div>
