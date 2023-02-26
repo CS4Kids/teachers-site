@@ -65,7 +65,7 @@ export default {
     async checkForm(e) {
       e.preventDefault();
       this.messages = [];
-      localStorage.setItem("logged-in", false);
+      localStorage.setItem("logged-in", 'false');
       if (this.queryTeacherPasscode === "") {
         this.messages.push("Please enter a passcode");
       } else {
@@ -75,10 +75,10 @@ export default {
         let response = await res.text();
         this.messages.push(response);
         if (this.messages[0] == "Passcode correct!") {
-          localStorage.setItem("logged-in", true);
+          localStorage.setItem("logged-in", 'true');
           window.location = "/lessons/";
         } else {
-          localStorage.setItem("logged-in", false);
+          localStorage.setItem("logged-in", 'false');
         }
       }
     },
