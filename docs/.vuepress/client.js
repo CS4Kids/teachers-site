@@ -17,8 +17,7 @@ export default defineClientConfig({
       router.beforeEach((to) => {
 
         const auth = localStorage.getItem("logged-in");
-        console.log('localstorage says', auth)
-          if (auth == 'false'){
+          if (auth == 'false' || auth == null){
             isAuthenticated = false;
           }
           else {
