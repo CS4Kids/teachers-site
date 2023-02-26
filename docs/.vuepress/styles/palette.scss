@@ -11,10 +11,10 @@
 
 @font-face {
   font-family: 'Dosis-Regular';
-  src:url('./assets/fonts/Dosis-Regular.ttf.woff') format('woff'),
-      url('./assets/fonts/Dosis-Regular.ttf.svg#Dosis-Regular') format('svg'),
-      url('./assets/fonts/Dosis-Regular.ttf.eot'),
-      url('./assets/fonts/Dosis-Regular.ttf.eot?#iefix') format('embedded-opentype'); 
+  src:url('/assets/fonts/Dosis-Regular.ttf.woff') format('woff'),
+      url('/assets/fonts/Dosis-Regular.ttf.svg#Dosis-Regular') format('svg'),
+      url('/assets/fonts/Dosis-Regular.ttf.eot'),
+      url('/assets/fonts/Dosis-Regular.ttf.eot?#iefix') format('embedded-opentype'); 
   font-weight: normal;
   font-style: normal;
 }
