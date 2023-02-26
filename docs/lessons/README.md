@@ -5,6 +5,8 @@ lastUpdated: true
 contributors: false
 ---
 
+<div class="body">
+
 # Welcome, Teachers!
 
 In this section, you'll find lesson plans for all the chapters in the book. Included are:
@@ -42,3 +44,4 @@ Identifier | Standard | Chapter
 2-IC-23 | Describe tradeoffs between allowing information to be public and keeping information private and secure. | 12 
 
 
+</div>

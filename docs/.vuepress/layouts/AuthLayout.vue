@@ -16,7 +16,7 @@
           </ul>
         </p>
         <p>
-          <label for="name">To access this area, please use a passcode:</label>
+          <label for="name">To access this area, please use a passcode. Use the Contact Us form to request the passcode if you are using this textbook in your classes.</label>
           <input class="passcode-input" maxlength="10" type="password" name="queryTeacherPasscode" id="queryTeacherPasscode" v-model="queryTeacherPasscode">
         </p>
         <p>

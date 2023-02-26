@@ -24,7 +24,6 @@ export default defineClientConfig({
             isAuthenticated = true;
           }
         let gated = (to.fullPath.indexOf('lessons') != -1);
-        console.log(gated,isAuthenticated)
         //if we're in a lessons area and we're not authenticated, go to login page
         if (gated && !isAuthenticated){
           return { path: '/login/' }
