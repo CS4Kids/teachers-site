@@ -13,15 +13,17 @@ export default defineClientConfig({
       //this is a browser api so wrap the whole thing in non-SSR catch
       if (!__VUEPRESS_SSR__) {
         localStorage.setItem('vuepress-color-scheme', 'dark');
+        
+      router.beforeEach((to) => {
+
         const auth = localStorage.getItem("logged-in");
         console.log('localstorage says', auth)
-      if (auth == 'false'){
-        isAuthenticated = false;
-      }
-      else {
-        isAuthenticated = true;
-      }
-      router.beforeEach((to) => {
+          if (auth == 'false'){
+            isAuthenticated = false;
+          }
+          else {
+            isAuthenticated = true;
+          }
         let gated = (to.fullPath.indexOf('lessons') != -1);
         console.log(gated,isAuthenticated)
         //if we're in a lessons area and we're not authenticated, go to login page
