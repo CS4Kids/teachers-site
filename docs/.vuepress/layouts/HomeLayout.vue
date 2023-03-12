@@ -8,10 +8,8 @@ const year = computed(() => new Date().getFullYear());
 <template>
   <!-- particles from https://codepen.io/Mertl/details/GexapP -->
   <Particles />
-  <ParentLayout class="container">
+  <ParentLayout>
     <template #page>
-      <h1 class="splashLg">Computer Science for Kids</h1>
-      <p align="center" class="splash">a storytelling approach</p>
       <Content class="body"/>
     </template>
   </ParentLayout>

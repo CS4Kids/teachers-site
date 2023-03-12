@@ -3,7 +3,7 @@
   <ParentLayout class="container">
     <template #page>
       
-      <div class="body">
+    <div class="body">
      <h1>Welcome, Teachers!</h1>
      <div class="body grid-body">
       <article>
@@ -92,7 +92,7 @@ export default {
 }
 
 .passcode-input {
-  width: 100%;
+  width:80%;
   border: 1px solid #ccc;
   border-radius: 4px;
   background: #fff;

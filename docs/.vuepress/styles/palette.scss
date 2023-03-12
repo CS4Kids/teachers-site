@@ -34,8 +34,8 @@
     --content-width: 100%;
     --c-bg-arrow: var(--c-text-accent);
     --c-brand-light: var(--c-text);
-    --navbar-height: 8rem;
-    --navbar-padding: 2rem;
+    --navbar-height: 7rem;
+    --navbar-padding: 1.5rem;
 
     //blue svg bg
 
@@ -93,8 +93,8 @@ html.dark {
   --c-brand: #47daf3;
   --c-border: #0c4c7e;
   --c-brand-light: var(--c-text);
-  --navbar-height: 8rem;
-  --navbar-padding: 2rem;
+  --navbar-height: 7rem;
+  --navbar-padding: 1.5rem;
 
   //dark blue svg bg
   .navbar, .page-bar {
@@ -206,7 +206,7 @@ input, textarea {
   #contact input[type="text"],
   #contact input[type="email"],
   #contact textarea {
-    width: 100%;
+    width: 80%;
     border: 1px solid #ccc;
     border-radius: 4px;
     background: #FFF;
@@ -216,7 +216,7 @@ input, textarea {
   
   #contact textarea {
     height: 100px;
-    max-width: 100%;
+    max-width: 80%;
     resize: none;
   }
   

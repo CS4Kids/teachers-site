@@ -5,7 +5,9 @@ lastUpdated: false
 contributors: false
 layout: HomeLayout
 ---
-
+<div class="container">
+<h1 class="splashLg">Computer Science for Kids</h1>
+<p class="splash">a storytelling approach</p>
 <div class="grid-body">
     <article>
       <div class="text">
@@ -19,12 +21,12 @@ layout: HomeLayout
       <article>
         <div class="text">
           <div class="grid-body">
-           <img
-                class=""
+           <p align="center"><img
                 alt="A petrified grove"
                 :src="$withBase('./assets/art/book-cover.png')"
-              />
+              /></p>
           </div>
         </div>
       </article>
+</div>
 </div>

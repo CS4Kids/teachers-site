@@ -67,7 +67,7 @@
   
   <style>
   .passcode-input {
-    width: 100%;
+    width: 80%;
     border: 1px solid #ccc;
     border-radius: 4px;
     background: #FFF;
