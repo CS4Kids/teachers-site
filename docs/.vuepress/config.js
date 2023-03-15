@@ -97,7 +97,7 @@ export default defineUserConfig({
         },
         {
           text: 'Textbook',
-          link: 'https://amazon.com',
+          link: 'https://www.amazon.com/Computer-Science-Kids-Storytelling-Approach/dp/1119912512',
         },
         
       ],

@@ -177,7 +177,7 @@ p, th, td, li {
 /*homepage*/
 .splashLg {
   text-align: center;
-  font-size: 4rem !important;
+  font-size: 3rem !important;
 }
 .splash {
     text-align: center;
@@ -192,9 +192,7 @@ input, textarea {
   color: black;
 }
 .container {
-    padding-top: 100px;
-    width: 100%;
-    margin: 0 auto;
+    padding: 100px 10px;
     position: relative;
   }
 
@@ -259,7 +257,7 @@ h4 {
 /*cards for body*/
 .grid-body { 
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(500px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(50ch, 1fr));
   grid-gap: 10px;
   align-items: stretch; 
 }
@@ -285,12 +283,4 @@ h4 {
 
 main a {
   text-decoration: underline;
-}
-
-.coverImg {
-  max-width: 100%
-}
-
-.body {
-  margin: 30px
 }
