@@ -1,9 +1,9 @@
 
 <template>
-  <ParentLayout class="container">
+  <ParentLayout>
     <template #page>
       
-      <div class="body">
+      <div class="container">
         <h1>Contact Us</h1>
         <div v-if="submitted">
         <p>
@@ -15,9 +15,11 @@
           Thank you for your email, I will get back to you as soon as I can.
         </p>
       </div>
-      <div class="body grid-body">
-        <article>
-          <div class="text">
+      
+  <div class="grid-body">
+    <article>
+      <div class="text">
+        <div class="grid-body">
             <div class="grid-body form-container">
               <form
                 id="contact"
@@ -91,6 +93,7 @@
                 </div>
               </form>
             </div>
+          </div>
           </div>
         </article>
         <article>

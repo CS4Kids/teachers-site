@@ -64,9 +64,7 @@
       color: var(--c-text);
     }
 
-    .grid-body {
-      min-height: 450px;
-    }
+   
 
     .grid-cards > article {
       border-radius: 4px;
@@ -192,13 +190,19 @@ input, textarea {
   color: black;
 }
 .container {
-    padding: 100px 10px;
+    padding: 150px 30px;
+    width: 100%;
+    margin: 0 auto;
     position: relative;
   }
 
   .form-container {
     padding-bottom: 10px;
     max-width: 400px;
+  }
+
+  .container-text-page {
+    margin-top: 100px;
   }
   
   #contact input[type="text"],
@@ -256,10 +260,12 @@ h4 {
 
 /*cards for body*/
 .grid-body { 
+  min-height: 450px;
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(50ch, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(500px, 1fr));
   grid-gap: 10px;
   align-items: stretch; 
+  
 }
 
 .grid-body > article img {
@@ -283,4 +289,11 @@ h4 {
 
 main a {
   text-decoration: underline;
+}
+.centered {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 100vh;
+  align-items: center;
+  justify-content: center;
 }

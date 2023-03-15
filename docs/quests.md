@@ -5,7 +5,7 @@ lastUpdated: true
 contributors: false
 ---
 
-<div class="container">
+<div class="container-text-page">
 <h1>Welcome, Explorers!</h1>
 <p>In this section you'll find source code, worksheets, and other useful items for each chapter of the book.</p>
 <h2>The Missing Fireflies</h2>

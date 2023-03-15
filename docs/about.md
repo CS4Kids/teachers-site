@@ -4,7 +4,7 @@ lastUpdated: true
 contributors: false
 ---
 
-<div class="container">
+<div class="container-text-page">
 <h1>About This Textbook</h1>
 <div class="grid-body">
     <article>
