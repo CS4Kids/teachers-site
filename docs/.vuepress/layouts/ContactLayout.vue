@@ -2,26 +2,16 @@
 <template>
   <ParentLayout>
     <template #page>
-      
-      <div class="container">
-        <h1>Contact Us</h1>
+      <main class="home">
+        <h1 id="main-title">Contact Us</h1>
         <div v-if="submitted">
-        <p>
-          Thank you for your email, I will get back to you as soon as I can.
-        </p>
-      </div>
-      <div v-if="submitted">
-        <p>
-          Thank you for your email, I will get back to you as soon as I can.
-        </p>
-      </div>
-      
-  <div class="grid-body">
-    <article>
-      <div class="text">
-        <div class="grid-body">
-            <div class="grid-body form-container">
-              <form
+          <p>
+            Thank you for your email, I will get back to you as soon as I can.
+          </p>
+        </div>
+        <div class="features">
+          <div class="feature">
+            <form
                 id="contact"
                 @submit.prevent="handleSubmit"
                 netlify
@@ -92,28 +82,19 @@
                   </button>
                 </div>
               </form>
-            </div>
           </div>
-          </div>
-        </article>
-        <article>
-          <div class="text">
-            <div class="grid-body">
-              <img
-                alt="discovering a geode"
-                src="/assets/art/geode.png"
+          <div class="feature hero">
+            <img
+                alt="Finding Geodes"
+                :src="$withBase('./assets/art/geode.png')"
               />
-            </div>
           </div>
-        </article>
-      </div>
-      </div>
-    </template>
+        </div>     
+      </main>
+      <div class="footer content-footer">Copyright © {{year}} Jen Looper </div> 
+   </template>
   </ParentLayout>
-  <div class="footer">Jen Looper &copy; {{ now }}</div>
-
 </template>
-
 <script>
 import ParentLayout from "@vuepress/theme-default/lib/client/layouts/Layout.vue";
 
@@ -121,6 +102,12 @@ export default {
   name: "ContactLayout",
   components: {
     ParentLayout,
+  },
+  computed: {
+    year() {
+      let year = new Date().getFullYear();
+      return year;
+    },
   },
   data() {
     return {
@@ -138,12 +125,6 @@ export default {
         (v) => !!v || "This field is required",
       ],
     };
-  },
-  computed: {
-    now() {
-      let date = new Date().getFullYear();
-      return date;
-    },
   },
   methods: {
     encode(data) {

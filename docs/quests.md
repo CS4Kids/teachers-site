@@ -235,3 +235,4 @@ contributors: false
       </article>
     </div>
 </div>
+<div class="footer content-footer">Copyright © 2023 Jen Looper </div> 

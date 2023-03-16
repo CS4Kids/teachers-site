@@ -1,3 +1,7 @@
+// responsive breakpoints
+$MQNarrow: 959px !default;
+$MQMobile: 719px !default;
+$MQMobileNarrow: 419px !default;
 
 @font-face {
   font-family: 'Boomer-Tantrum';
@@ -172,15 +176,7 @@ p, th, td, li {
 
 
 
-/*homepage*/
-.splashLg {
-  text-align: center;
-  font-size: 3rem !important;
-}
-.splash {
-    text-align: center;
-    font-size: 2rem !important;
-}
+/*homepg*/
 .page-bar {
   text-align: center;
 }
@@ -258,19 +254,6 @@ h4 {
   padding-bottom: 5px;
 }
 
-/*cards for body*/
-.grid-body { 
-  min-height: 450px;
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(500px, 1fr));
-  grid-gap: 10px;
-  align-items: stretch; 
-  
-}
-
-.grid-body > article img {
-  max-width: 100%;
-}
 
 
 
@@ -290,10 +273,84 @@ h4 {
 main a {
   text-decoration: underline;
 }
-.centered {
-  display: grid;
-  grid-template-columns: 1fr;
-  grid-template-rows: 100vh;
-  align-items: center;
-  justify-content: center;
+
+/*layout overrides*/
+
+.home {
+  padding: var(--navbar-height) 2rem 0;
+}
+
+.home .feature {
+  flex-grow: 1;
+  flex-basis: 45%;
+  max-width: 45%;
+}
+
+.home .features {
+    border-top: none;
+    padding: 0; 
+    margin-top: 0;
+}
+
+.home .feature p {
+  color: var(--c-text);
+}
+
+.home .hero img {
+  max-width: 100%;
+  max-height: 600px;
+  display: block;
+  margin: 3rem auto 1.5rem;
+}
+
+@media (max-width: $MQMobile) {
+  .home {
+    .features {
+      flex-direction: column;
+    }
+
+    .feature {
+      max-width: 100%;
+      padding: 0 2.5rem;
+    }
+  }
+}
+
+@media (max-width: $MQMobileNarrow) {
+  .home {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+
+    .hero {
+      img {
+        max-height: 210px;
+        margin: 2rem auto 1.2rem;
+      }
+
+      h1 {
+        font-size: 2rem;
+      }
+
+      h1,
+      .description,
+      .actions {
+        margin: 1.2rem auto;
+      }
+
+      .description {
+        font-size: 1.2rem;
+      }
+
+      .action-button {
+        font-size: 1rem;
+        padding: 0.6rem 1.2rem;
+      }
+    }
+
+    .feature {
+      h2 {
+        font-size: 1.25rem;
+      }
+    }
+  }
 }

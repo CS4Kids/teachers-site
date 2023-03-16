@@ -1,15 +1,11 @@
-
 <template>
-  <ParentLayout class="container">
+  <ParentLayout>
     <template #page>
-      
-    <div class="body">
-     <h1>Welcome, Teachers!</h1>
-     <div class="body grid-body">
-      <article>
-        <div class="text">
-            <div class="grid-body form-container">
-      <form id="app" @submit="checkForm" method="post">
+      <main class="home">
+        <h1 id="main-title">Welcome, Teachers!</h1>
+        <div class="features">
+          <div class="feature">
+            <form id="app" @submit="checkForm" method="post">
         <p v-if="messages.length">
           <ul>
             <li class="message" v-for="message in messages">{{ message }}</li>
@@ -22,23 +18,19 @@
         <p>
           <input type="submit" class="button" value="Submit">  
         </p>
-        </form> </div></div>
-        </article>
-        <article>
-          <div class="text">
-            <div class="grid-body">
-              <img
-                alt="discovering a geode"
-                src="/assets/art/moss.png"
-              />
-            </div>
+        </form> 
           </div>
-        </article>
-     </div>
-        </div>  
-    </template>
+          <div class="feature hero">
+            <img
+                alt="Glowing Moss"
+                :src="$withBase('./assets/art/moss.png')"
+              />
+          </div>
+        </div>     
+      </main>
+      <div class="footer content-footer">Copyright © {{year}} Jen Looper </div> 
+   </template>
   </ParentLayout>
-  <div class="footer">Jen Looper &copy; {{now}}</div>
 </template>
 
 <script>
@@ -53,9 +45,9 @@ export default {
     };
   },
   computed: {
-    now() {
-      let date = new Date().getFullYear();
-      return date;
+    year() {
+      let year = new Date().getFullYear();
+      return year;
     },
   },
   components: {
