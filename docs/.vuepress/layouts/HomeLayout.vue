@@ -37,7 +37,7 @@ const year = computed(() => new Date().getFullYear());
               activities to supplement the book.
             </p>
           </div>
-          <div class="feature">
+          <div class="feature hero">
             <img
                 alt="A petrified grove"
                 :src="$withBase('./assets/art/book-cover.png')"
