@@ -3,10 +3,11 @@ import HomeLayout from './layouts/HomeLayout.vue'
 import ContactLayout from './layouts/ContactLayout.vue'
 import AuthLayout from './layouts/AuthLayout.vue'
 import PasscodeLayout from './layouts/PasscodeLayout.vue'
+import PrintableLayout from './layouts/PrintableLayout.vue'
   
 export default defineClientConfig({
     layouts: {
-      HomeLayout,ContactLayout,AuthLayout,PasscodeLayout
+      HomeLayout,ContactLayout,AuthLayout,PasscodeLayout,PrintableLayout
     },
     enhance({ router }) {
       let isAuthenticated = false;
