@@ -56,7 +56,7 @@ const year = computed(() => new Date().getFullYear());
           <div class="feature">
             <p>This website offers additional
               lesson plans, sample code, downloadable worksheets, and other
-              activities to supplement the book. Teachers, use the Contact form to 
+              activities to supplement the book. Teachers, use the <a href="/contact">Contact form</a> to 
               request a free password for lesson plans and resources.
             </p>
           </div>

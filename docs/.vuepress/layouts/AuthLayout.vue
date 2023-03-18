@@ -23,7 +23,7 @@
           <div class="feature hero">
             <img
                 alt="Glowing Moss"
-                :src="$withBase('./assets/art/moss.png')"
+                :src="$withBase('./assets/art/moss-sm.png')"
               />
           </div>
         </div>     

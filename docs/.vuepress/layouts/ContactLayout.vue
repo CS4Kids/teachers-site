@@ -86,7 +86,7 @@
           <div class="feature hero">
             <img
                 alt="Finding Geodes"
-                :src="$withBase('./assets/art/geode.png')"
+                :src="$withBase('./assets/art/moss-sm.png')"
               />
           </div>
         </div>     
