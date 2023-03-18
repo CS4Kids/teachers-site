@@ -2,7 +2,7 @@
   <ParentLayout>
     <template #page>
       <main class="home">
-        <h1 id="main-title">Welcome, Teachers!</h1>
+        <h1 id="main-title" class="inner-title">Welcome, Teachers!</h1>
         <div class="features">
           <div class="feature">
             <form id="app" @submit="checkForm" method="post">

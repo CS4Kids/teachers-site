@@ -3,9 +3,8 @@ sidebar: false
 lastUpdated: false
 contributors: false
 ---
-
 <main class="home">
-    <h1 class="main-title">About This Book</h1>
+    <h1 class="page-inner-title">About This Book</h1>
         <div class="features">
           <div class="feature">
              <p>This book is based on standards built by the Computer Science Teachers Association (2017): CSTA K-12 Computer Science Standards, Revised 2017. Retrieved from <a href="http://www.csteachers.org/standards">http://www.csteachers.org/standards</a>.</p>
@@ -29,5 +28,3 @@ contributors: false
         <p>Illustrations by Mirla Montaño. The fox concept was created by Allegra Hu</p>
       </main>
             <div class="footer content-footer">Copyright © 2023 Jen Looper </div> 
-
-

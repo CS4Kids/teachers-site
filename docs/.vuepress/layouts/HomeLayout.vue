@@ -22,28 +22,52 @@ const year = computed(() => new Date().getFullYear());
               Venture into a world that needs your help! Follow the mysterious
               Guide into the forest and help restore what was stolen, repair
               what was damaged, and solve mysteries that have puzzled its
-              denizens for years.</p>
-              <p>Computer Science For Kids, a textbook
+              denizens for years. Computer Science For Kids, a new textbook
               published by Wiley, presents to teachers and students a novel
-              approach to Computer Science topics - the art of the storyteller.
-              By means of narrative and hands-on project building, the student
+              approach to Computer Science topics using the art of the storyteller.</p>
+          </div>
+          <div class="feature hero">
+            <img
+                alt="A petrified grove"
+                :src="$withBase('./assets/art/book-comp.png')"
+              />
+          </div>
+        </div>   
+        
+        <div class="features">
+          <div class="feature hero">
+            <img
+                alt="A petrified grove"
+                :src="$withBase('./assets/art/geode-sm.png')"
+              />
+          </div>
+          <div class="feature">
+           <p>By means of narrative and hands-on project building, the student
               can learn basic concepts of Computer Science aligned to grades
               6-8. Perfect for classroom work, home schooling, or
               extracurricular clubs, this modular textbook leads students,
               project-by-project, into visualizing themselves as computer
               scientists.</p>
-              <p>This website offers additional
+          </div>
+          
+        </div>   
+
+        <div class="features">
+          <div class="feature">
+            <p>This website offers additional
               lesson plans, sample code, downloadable worksheets, and other
-              activities to supplement the book.
+              activities to supplement the book. Teachers, use the Contact form to 
+              request a free password for lesson plans and resources.
             </p>
           </div>
           <div class="feature hero">
             <img
                 alt="A petrified grove"
-                :src="$withBase('./assets/art/book-cover.png')"
+                :src="$withBase('./assets/art/forest-sm.png')"
               />
           </div>
-        </div>     
+        </div>   
+
       </main>
       <div class="footer content-footer">Copyright © {{year}} Jen Looper </div> 
     </template>

@@ -3,7 +3,7 @@
   <ParentLayout>
     <template #page>
       <main class="home">
-        <h1 id="main-title">Contact Us</h1>
+        <h1 id="main-title" class="inner-title">Contact Us</h1>
         <div v-if="submitted">
           <p>
             Thank you for your email, I will get back to you as soon as I can.
