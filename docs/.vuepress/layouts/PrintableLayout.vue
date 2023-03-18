@@ -4,10 +4,10 @@
         <div class="page">
             <div class="theme-default-content"> 
                 <main class="home">
-                    <Content/>
                     <button class="button" @click="generatePDF()">Save as PDF</button>
+                    <Content/>
                     <p>*tip: prior to saving as a PDF, select the 'light' mode at the top using the 'sun' icon.</p>
-                </main>
+                    </main>
             </div>
         </div>
     </template>
@@ -45,10 +45,4 @@
   }
 }
   </script>
-  <style>
-    button {
-        margin-top: 1em;
-        margin-bottom: 0px;
-    }
-  </style>
   

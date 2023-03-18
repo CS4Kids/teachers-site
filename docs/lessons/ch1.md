@@ -7,7 +7,7 @@ layout: PrintableLayout
 ---
 
 <div class="home">
-<h1 class="page-inner-title">Lesson Plan: Chapter 1</h1>
+<h1 class="page-title">Lesson Plan: Chapter 1</h1>
 
 ## Connecting to CSTA Standards
 
