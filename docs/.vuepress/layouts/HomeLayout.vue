@@ -13,7 +13,7 @@ const year = computed(() => new Date().getFullYear());
       <Content />
       <main class="home">
         <header class="hero">
-          <h1 id="main-title">Computer Science for Kids</h1>
+          <h1 id="main-title" class="inner-title">Computer Science for Kids</h1>
           <h2>A Storytelling Approach</h2>
         </header>
         <div class="features">

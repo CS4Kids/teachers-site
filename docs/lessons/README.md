@@ -5,9 +5,9 @@ lastUpdated: true
 contributors: false
 ---
 
-<div class="body">
+<div class="home">
 
-# Welcome, Teachers!
+<h1 class="page-inner-title">Welcome, Teachers!</h1>
 
 In this section, you'll find lesson plans for all the chapters in the book. Included are:
 
