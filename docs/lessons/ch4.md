@@ -5,8 +5,9 @@ lastUpdated: true
 contributors: false
 ---
 
-# Lesson Plan: Chapter 4
----
+<div class="home">
+<h1 class="page-inner-title">Lesson Plan: Chapter 4</h1>
+
 ## Connecting to CSTA Standards
 
 Grades | Concept | Subconcept | Standard Number | Practice
@@ -38,15 +39,10 @@ Study your school or town's web site and discover whether it is accessible. Wher
 ## Vocabulary
 
 - **Accessibility**: Defined as "The design of products, services, and environments for usability by disabled people" in wikipedia.
-
 - **‘alt’ attribute**: Alternate text that is shown by screen readers and shown as a description of an element is not able to be rendered.
-
 - **ARIA**: Accessible Rich Internet Applications, a specificiation published by W3C (the World Wide Web Consortium). It specifies how to make web assets more accessible.
-
 - **Lighthouse**: A tool built by Google that assesses a site's accessibility, performance, and more.
-
 - **Screen reader**: A hardware device designed to help people with vision impediments visualize web pages by reading them out, element by element. 
-
 - **Semantic HTML**: HTML elements that are descriptive of their function, such as `<article>` or `<header>`.
 
 ## Assessment
@@ -93,7 +89,7 @@ Assistive technology, including [screen readers](https://www.afb.org/blindness-a
 
 An [infographic](https://webaim.org/resources/designers/) on web accessibility for designers
 
-#### Solution Code: 
+## Solution Code: 
 
 The full solution codebase can be found [in the micro:bit web site](https://makecode.microbit.org/_Ar1LpRJaMid8) and on [GitHub](https://github.com/CS4Kids/CS4Kids-Accessible-Refuge)
 
@@ -104,3 +100,4 @@ The full solution codebase can be found [in the micro:bit web site](https://make
 Exemplary | Adequate | Needs Improvement 
 ---|---|---
 The student describes the targeted app and builds a report with screenshots paired with an analysis, based on the worksheet's rubric. | The student neglects to add screenshots | The student neglects to provide a complete analysis of the prolem and proposed solution.
+</div>
