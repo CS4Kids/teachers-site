@@ -19,6 +19,12 @@ Grades | Concept | Subconcept | Standard Number | Practice
 
 Since a computing device may interact with interconnected devices within a system, problems may not be due to the specific computing device itself but to devices connected to it. Just as pilots use checklists to  troubleshoot problems with aircraft systems, students should use a similar, structured process to troubleshoot  problems with computing systems and ensure that potential solutions are not overlooked. Examples of  troubleshooting strategies include following a troubleshooting flow diagram, making changes to software to  see if hardware will work, checking connections and settings, and swapping in working components.
 
+## Connecting to NGS Standards
+
+Grades | Standard Number | Concept | Practice
+---|---|---|---
+6-8 | MS-ETS1-2 | Engineering Design | Evaluate competing design solutions using a systematic process to determine how well they meet the criteria and constraints of the problem | Evaluate competing design solutions based on jointly developed and agreed-upon design criteria
+
 ## Learning Outcomes/Goals
 
 In this chapter, students explore a way to gather feedback from the users of their device - in this case, various types of fireflies. In the project recipe, they explore a typical software process of trying an approach, watching it fail, and rebuilding it based on the results of debugging. 

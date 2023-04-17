@@ -15,11 +15,15 @@ Grades | Concept | Subconcept | Standard Number | Practice
 ---|---|---|---|---
 6-8 | Computing Systems | Devices | 2-CS-01 | Recognizing and Defining Computational Problems: 3.3 |
 
----
-
 ## Recommend improvements to the design of computing devices, based on an analysis of how users interact with the devices.
 
 The study of human–computer interaction (HCI) can improve the design of devices, including both hardware  and software. Students should make recommendations for existing devices (e.g., a laptop, phone, or tablet) or  design their own components or interface (e.g., create their own controllers). Teachers can guide students to  consider usability through several lenses, including accessibility, ergonomics, and learnability. For example,  assistive devices provide capabilities such as scanning written information and converting it to speech.
+
+## Connecting to NGS Standards
+
+Grades | Standard Number | Concept | Practice
+---|---|---|---
+6-8 | MS-LS2-5 | Engaging in Argument from Evidence | Evaluate competing design solutions for maintaining biodiversity and ecosystem services...Examples of design solution constraints could include scientific, economic, and social considerations | Evaluate competing design solutions based on jointly developed and agreed-upon design criteria
 
 ## Learning Outcomes/Goals
 

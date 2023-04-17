@@ -10,9 +10,11 @@ layout: PrintableLayout
 
 <h1 class="page-inner-title">Welcome, Teachers!</h1>
 
-In this section, you'll find lesson plans for all the chapters in the book. Included are:
+In this section, you'll find lesson plans for all the chapters in the book. The lessons and the book chapters are aligned to [CSTA](https://csteachers.org/page/about-csta-s-k-12-nbsp-standards) standards, [Next Gen Science standards](https://www.nextgenscience.org/), and Common Core standards.
 
-The relevant CSTA Standard to which the chapter is aligned, Learning Outcomes/Goals, Differentiated Instruction, Transfer Learning, Vocabulary, Assessment with Formative and Summative reviews, Quiz Answers, More Resources/Materials, Solution Code, an Assignment and Rubric
+Included are:
+
+The relevant standard to which the chapter is aligned, Learning Outcomes/Goals, Differentiated Instruction, Transfer Learning, Vocabulary, Assessment with Formative and Summative reviews, Quiz Answers, More Resources/Materials, Solution Code, an Assignment and Rubric
 
 ---
 
@@ -43,6 +45,17 @@ Identifier | Standard | Chapter
 2-IC-21 | Discuss issues of bias and accessibility in the design of existing technologies. | 4 
 2-IC-22 | Collaborate with many contributors through strategies such as crowdsourcing or surveys when creating a computational artifact. | 17 
 2-IC-23 | Describe tradeoffs between allowing information to be public and keeping information private and secure. | 12 
+
+---
+
+## Chapters with Corresponding Next Gen Science Standards
+
+Identifier | Standard | Standard Description | Chapter
+---|---|---|---|
+[MS-LS2-5](https://www.nextgenscience.org/pe/ms-ls2-5-ecosystems-interactions-energy-and-dynamics) | Ecosystems: Interactions, Energy, and Dynamics | Evaluate competing design solutions for maintaining biodiversity and ecosystem services | 2
+[MS-ETS1-2](https://www.nextgenscience.org/pe/ms-ets1-2-engineering-design) | Engineering Design | Evaluate competing design solutions using a systematic process to determine how well they meet the criteria and constraints of the problem | 3
+[MS-ETS1-3](https://www.nextgenscience.org/pe/ms-ets1-3-engineering-design) | Engineering Design | Analyze data from tests to determine similarities and differences among several design solutions to identify the best characteristics of each that can be combined into a new solution to better meet the criteria for success | 8
+[MS-ETS1-4](https://www.nextgenscience.org/pe/ms-ets1-4-engineering-design) | Engineering Design | Develop a model to generate data for iterative testing and modification of a proposed object, tool, or process such that an optimal design can be achieved | 11
 
 
 </div>

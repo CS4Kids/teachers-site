@@ -19,6 +19,12 @@ Grades | Concept | Subconcept | Standard Number | Practice
 
 Use cases and test cases are created and analyzed to better meet the needs of users and to evaluate whether programs function as intended. At this level, testing should become a deliberate process that is more iterative, systematic, and proactive than at lower levels. Students should begin to test programs by considering potential errors, such as what will happen if a user enters invalid input (e.g., negative numbers and 0 instead of positive numbers).
 
+## Connecting to NGS Standards
+
+Grades | Standard Number | Concept | Practice
+---|---|---|---
+6-8 | MS-ETS1-3 | Engineering Design | Analyze data from tests to determine similarities and differences among several design solutions to identify the best characteristics of each that can be combined into a new solution to better meet the criteria for success | Analyze and interpret data to determine similarities and differences in findings | 
+
 ---
 
 ## Learning Outcomes/Goals
