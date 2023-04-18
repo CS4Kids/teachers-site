@@ -1,6 +1,6 @@
 ---
 navbar: true
-sidenav: false
+sidenav: true
 lastUpdated: true
 contributors: false
 ---
@@ -9,6 +9,6 @@ contributors: false
 
 <h1 class="page-inner-title">Articles</h1>
 
-<p>4/2023: "<a href="https://www.nytimes.com/2023/04/17/opinion/mosquitoes-lawns-pesticides.html">‘Why Do You Still Have Lightning Bugs? Ours Are All Gone.’</a>"</p>
+4/2023: [Why Do You Still Have Lightning Bugs? Ours Are All Gone](https://www.nytimes.com/2023/04/17/opinion/mosquitoes-lawns-pesticides.html)
 
 </div>

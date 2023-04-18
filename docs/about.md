@@ -9,7 +9,7 @@ contributors: false
           <div class="feature">
              <p>This book is based on standards built by the Computer Science Teachers Association (2017): CSTA K-12 Computer Science Standards, Revised 2017. Retrieved from <a href="http://www.csteachers.org/standards">http://www.csteachers.org/standards</a>.</p>
             <p>The K–12 Computer Science Framework, led by the Association for Computing Machinery, Code.org, Computer Science Teachers Association, Cyber Innovation Center, and National Math and Science Initiative in partnership with states and districts, informed the development of this work. View the framework at <a href="http://k12cs.org">http://k12cs.org</a>.</p>
-            <p>Several chapters are also aligned to <a href="https://www.nextgenscience.org/">Next Generation Science Standards</a> for Grades 6-8.
+            <p>Several chapters are also aligned to <a href="https://www.nextgenscience.org/">Next Generation Science Standards</a> for Grades 6-8.</p>
           </div>
           <div class="feature hero">
             <img class="" alt="A petrified grove" :src="$withBase('./assets/art/mice-sm.png')"/>
