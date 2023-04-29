@@ -7,6 +7,11 @@ export default defineUserConfig({
   base: "/",
   head: [["link", { rel: "icon", href: "/favicon.ico" }]],
   description: "Computer Science for Kids, lesson plans",
+  plugins: [
+    googleAnalyticsPlugin({
+      id: 'G-PGH1KKWJTG',
+    }),
+  ],
   theme: defaultTheme({
     lastUpdated: true,
     logo: "/assets/art/fox.png",
