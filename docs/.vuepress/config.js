@@ -1,5 +1,6 @@
 import { defineUserConfig } from "vuepress";
 import { defaultTheme } from "@vuepress/theme-default";
+import { googleAnalyticsPlugin } from '@vuepress/plugin-google-analytics'
 
 const mode = process.env.NODE_ENV || "development";
 
