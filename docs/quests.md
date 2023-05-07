@@ -7,7 +7,7 @@ contributors: false
 
 <div class="home">
 <h1 class="page-inner-title">Welcome, Explorers!</h1>
-<p>In this section you'll find source code, worksheets, and other useful items for each chapter of the book. You can also download a free coloring book <a href="./assets/art/coloring-pages-cs4kids.pdf">here</a></p>
+<p>In this section you'll find source code, worksheets, and other useful items for each chapter of the book. You can also download a free coloring book <a target="_blank" href="./assets/art/coloring-pages-cs4kids.pdf">here</a></p>
 <h2>The Missing Fireflies</h2>
       <div class="grid-cards">
       <article>
