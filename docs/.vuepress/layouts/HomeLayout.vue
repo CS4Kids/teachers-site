@@ -25,7 +25,6 @@ const year = computed(() => new Date().getFullYear());
               denizens for years. Computer Science For Kids, a new textbook
               published by Wiley, presents to teachers and students a novel
               approach to Computer Science topics using the art of the storyteller.</p>
-              <p>Discover a <a target="_blank" href="./assets/sample/c07.pdf">Sample Chapter here</a></p>
           </div>
           <div class="feature hero">
             <img
@@ -60,6 +59,8 @@ const year = computed(() => new Date().getFullYear());
               activities to supplement the book. Teachers, use the <a href="/contact">Contact form</a> to 
               request a free password for lesson plans and resources.
             </p>
+            <p>Discover a <a target="_blank" href="./assets/sample/c07.pdf">Sample Chapter</a></p>
+
           </div>
           <div class="feature hero">
             <img
