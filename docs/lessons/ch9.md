@@ -105,7 +105,7 @@ A sample dataset and spreadsheet can be found [here](https://docs.google.com/spr
 
 ## Assignment and Rubric: Representing Data
 
-> Data can be represented in many different ways. Geodes, for example, come in many shapes and forms, with different types of crystals inside. Colors can be represented by RGB or HEX, and sizes can be represented by millimeters or centimeters. Give five examples of a thing that can be represented in different ways. Use the [downloadable worksheet](./assets/ch9-worksheet.pdf) to organize your work. Be sure to include both a low-level and a high-level representation of a given value, such as colors. 
+> Data can be represented in many different ways. Geodes, for example, come in many shapes and forms, with different types of crystals inside. Colors can be represented by RGB or HEX, and sizes can be represented by millimeters or centimeters. Give five examples of a thing that can be represented in different ways. Use the [downloadable worksheet](../assets/ch9-worksheet.pdf) to organize your work. Be sure to include both a low-level and a high-level representation of a given value, such as colors. 
 
 Exemplary | Adequate | Needs Improvement 
 ---|---|---

@@ -70,7 +70,7 @@ Research how the various elements of a test suite are written | Write a summary 
 
 ## Quiz Answers
 
-One Which one of of these is a testing framework: ? 
+Which one of of these is a testing framework:
 
 a.	Playful 
 
