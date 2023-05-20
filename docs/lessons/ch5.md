@@ -23,7 +23,7 @@ Protocols are rules that define how messages between computers are sent. They de
 
 ## Learning Outcomes/Goals
 
-In this chapter, students explore the concepts behind how information is passed around the internet between local computers and servers either on-premesis or in the Cloud. To securely transmit data in an error-free state, protocols have been developed and are used systematically to ensure that data is securely passed from start to end. To encourage creative thought around this somewhat abstract topic, we use a metaphor of a beam of light that must find its way, quickly and fully-powered, from the sun to a patch of moss that needs the light to be able to survive. Students will build a simple game in MakeCode arcade, an online tool to build retro games, to visualize the process.
+In this chapter, students explore the concepts behind how information is passed around the internet between local computers and servers either on-premises or in the Cloud. To securely transmit data in an error-free state, protocols have been developed and are used systematically to ensure that data is securely passed from start to end. To encourage creative thought around this somewhat abstract topic, we use a metaphor of a beam of light that must find its way, quickly and fully-powered, from the sun to a patch of moss that needs the light to be able to survive. Students will build a simple game in MakeCode arcade, an online tool to build retro games, to visualize the process.
 
 ---
 

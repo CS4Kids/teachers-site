@@ -25,7 +25,7 @@ Encryption can be as simple as letter substitution or as complicated as modern m
 
 One of the most entertaining aspects of childhood - sending secret messages - is explored in this chapter, in depth, from a technical standpoint. While the storyline is all about a secret language that ants use to transmit messages about locations of the special moss that they curate, secret codes and the need to encrypt and decrypt them securely has been a pertinent topic since ancient days. Learning about the various ways that messages can be encrypted and decrypted, following the metaphor of the ants' secret codes, will allow students to better understand how secrets are kept safe from prying eyes on the internet. 
 
-Students will learn about cryptography, in particular the use of the two most basic types of encryption, the Caesar cipher and the Vigenère cipher. Other ciphers are studied as well, and students learn about the need for keys to help decript the messages. By using various ways to try to decrypt the ants' secret message, first using a brute force technique of educated guesses, then trying frequency analysis. 
+Students will learn about cryptography, in particular the use of the two most basic types of encryption, the Caesar cipher and the Vigenère cipher. Other ciphers are studied as well, and students learn about the need for keys to help decrypt the messages. By using various ways to try to decrypt the ants' secret message, first using a brute force technique of educated guesses, then trying frequency analysis. 
 
 ---
 
