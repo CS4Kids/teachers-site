@@ -96,7 +96,7 @@ The full solution codebase can be found [in the micro:bit web site](https://make
 
 ## Assignment and Rubric: Usable or Not?
 
-> Pick a mobile app or website that you enjoy using and build out an analysis of how usable it is, using [this worksheet](https://www.cs4kids.club/assets/ch4-worksheet.pdf). If it’s not accessible, how can you improve it? What could be enhanced to make it more accessible to other people? Then, dig deeper by considering the design thinking that went into the development of one part of the app or website. For example, if the app includes facial recognition or a fingerprint scan to log in, how do you think that technology was developed to ensure that everybody can log in? How was the design tested? How could it be improved? 
+> Pick a mobile app or website that you enjoy using and build out an analysis of how usable it is, using [this worksheet](./assets/ch4-worksheet.pdf). If it’s not accessible, how can you improve it? What could be enhanced to make it more accessible to other people? Then, dig deeper by considering the design thinking that went into the development of one part of the app or website. For example, if the app includes facial recognition or a fingerprint scan to log in, how do you think that technology was developed to ensure that everybody can log in? How was the design tested? How could it be improved? 
 
 Exemplary | Adequate | Needs Improvement 
 ---|---|---
