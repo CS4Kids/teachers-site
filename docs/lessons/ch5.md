@@ -62,13 +62,13 @@ Research a few important protocols, how they evolved, what they were designed to
 
 ## Quiz Answers
 
-A tilemap is used to create a::  
+A tilemap is used to create a:
 
 a. A wall  
 
 b. A hedge  
 
-c. <span class="highlight">Both Both of these</span> 
+c. <span class="highlight">Both of these</span> 
 
 The Internet is set up in a way to allow fallbacks in case of error or dropped connections. 
 
