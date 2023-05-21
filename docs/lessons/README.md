@@ -12,6 +12,8 @@ layout: PrintableLayout
 
 In this section, you'll find lesson plans for all the chapters in the book. The lessons and the book chapters are aligned to [CSTA](https://csteachers.org/page/about-csta-s-k-12-nbsp-standards) standards, [Next Gen Science standards](https://www.nextgenscience.org/), and Common Core standards.
 
+This course is available for import into your preferred LMS such as Canvas or Blackboard using <a href="./assets/cs4kids.imscc" target="_blank">this Common Cartridge file</a>
+
 Included are:
 
 The relevant standard to which the chapter is aligned, Learning Outcomes/Goals, Differentiated Instruction, Transfer Learning, Vocabulary, Assessment with Formative and Summative reviews, Quiz Answers, More Resources/Materials, Solution Code, an Assignment and Rubric
