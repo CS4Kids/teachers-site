@@ -12,7 +12,7 @@ layout: PrintableLayout
 
 In this section, you'll find lesson plans for all the chapters in the book. The lessons and the book chapters are aligned to [CSTA](https://csteachers.org/page/about-csta-s-k-12-nbsp-standards) standards, [Next Gen Science standards](https://www.nextgenscience.org/), and Common Core standards.
 
-This course is available for import into your preferred LMS such as Canvas or Blackboard using <a href="./assets/cs4kids.imscc" target="_blank">this Common Cartridge file</a>
+This course is available for import into your preferred LMS such as Canvas or Blackboard using <a href="../assets/cs4kids.imscc" target="_blank">this Common Cartridge file</a>. It's also a course on <a href="https://canvas.instructure.com/courses/6915850">Canvas</a>.
 
 Included are:
 
