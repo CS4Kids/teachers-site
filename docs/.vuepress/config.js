@@ -91,7 +91,6 @@ export default defineUserConfig({
         text: "Contact",
         link: "/contact/"
       },
-      // NavbarGroup
       {
         text: "About",
         link: "/about/"
@@ -105,8 +104,8 @@ export default defineUserConfig({
         link: "/quests/"
       },
       {
-        text: "Articles",
-        link: "/blog/"
+        text: "LMS",
+        link: "https://lor.instructure.com/resources/6a103bb1d6934794a3663e9493f48db3"
       },
       {
         text: "Forum",
