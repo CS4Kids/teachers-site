@@ -5,7 +5,7 @@ lastUpdated: true
 contributors: false
 ---
 
-<div class="home">
+<main class="home">
 <h1 class="page-inner-title">Welcome, Explorers!</h1>
 <p>In this section you'll find source code, worksheets, and other useful items for each chapter of the book. You can also download a free coloring book <a target="_blank" href="./assets/art/coloring-pages-cs4kids.pdf">here</a></p>
 <h2>The Missing Fireflies</h2>
@@ -234,5 +234,5 @@ contributors: false
         </div>
       </article>
     </div>
-</div>
+</main>
 <div class="footer content-footer">Copyright © 2023 Jen Looper </div> 
